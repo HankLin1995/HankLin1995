@@ -22,10 +22,20 @@
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="Hank&#39;s Blog">
-<meta property="og:url" content="https://www.hanksvba.com/archives/2024/04/index.html">
+<meta property="og:url" content="https://www.hanksvba.com/archives/2024/04/">
 <meta property="og:site_name" content="Hank&#39;s Blog">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:author" content="Hank Lin">
+<meta property="article:tag" content="Excel">
+<meta property="article:tag" content="ExcelVBA">
+<meta property="article:tag" content="AutoCAD">
+<meta property="article:tag" content="AutoCADVBA">
+<meta property="article:tag" content="GoogleAppScript">
+<meta property="article:tag" content="GAS">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="監造日報表">
+<meta property="article:tag" content="施工日誌">
+<meta property="article:tag" content="施工照片">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="https://www.hanksvba.com/archives/2024/04/">
@@ -181,7 +191,7 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/hello-world/" itemprop="url">
+          <a class="post-title-link" href="/test" itemprop="url">
             <span itemprop="name">Hello World</span>
           </a>
       </div>
@@ -254,7 +264,7 @@
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="Hank Lin"
-      src="/images/android-chrome-512x512.png">
+      src="/images/avatar_custom.png">
   <p class="site-author-name" itemprop="name">Hank Lin</p>
   <div class="site-description" itemprop="description"></div>
 </div>
@@ -354,30 +364,81 @@
 setInterval("createtime()",250);
 </script>
         
-<div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-user"></i>
-      </span>
-      <span class="site-uv" title="訪客總數">
-        <span id="busuanzi_value_site_uv"></span>
-      </span>
-    </span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item" id="busuanzi_container_site_pv" display="none";">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-eye"></i>
-      </span>
-      <span class="site-pv" title="總瀏覽次數">
-        <span id="busuanzi_value_site_pv"></span>
-      </span>
-    </span>
-</div>
 
 
 
 
+  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
+  <script>
+    firebase.initializeApp({
+      apiKey   : 'AIzaSyBb_bqgt21PXZBeQeUckiw9jsMOao0zObc',
+      projectId: 'hexo-821cc'
+    });
+
+    function getCount(doc, increaseCount) {
+      // IncreaseCount will be false when not in article page
+      return doc.get().then(d => {
+        var count = 0;
+        if (!d.exists) { // Has no data, initialize count
+          if (increaseCount) {
+            doc.set({
+              count: 1
+            });
+            count = 1;
+          }
+        } else { // Has data
+          count = d.data().count;
+          if (increaseCount) {
+            // If first view this article
+            doc.set({ // Increase count
+              count: count + 1
+            });
+            count++;
+          }
+        }
+
+        return count;
+      });
+    }
+
+    function appendCountTo(el) {
+      return count => {
+        el.innerText = count;
+      }
+    }
+  </script>
+  <script>
+    (function() {
+      var db = firebase.firestore();
+      var articles = db.collection('articles');
+
+      if (CONFIG.page.isPost) { // Is article page
+        var title = document.querySelector('.post-title').innerText.trim();
+        var doc = articles.doc(title);
+        var increaseCount = CONFIG.hostname === location.hostname;
+        if (localStorage.getItem(title)) {
+          increaseCount = false;
+        } else {
+          // Mark as visited
+          localStorage.setItem(title, true);
+        }
+        getCount(doc, increaseCount).then(appendCountTo(document.querySelector('.firestore-visitors-count')));
+      } else if (CONFIG.page.isHome) { // Is index page
+        var promises = [...document.querySelectorAll('.post-title')].map(element => {
+          var title = element.innerText.trim();
+          var doc = articles.doc(title);
+          return getCount(doc);
+        });
+        Promise.all(promises).then(counts => {
+          var metas = document.querySelectorAll('.firestore-visitors-count');
+          counts.forEach((val, idx) => {
+            appendCountTo(metas[idx])(val);
+          });
+        });
+      }
+    })();
+  </script>
 
 
 
@@ -423,6 +484,17 @@ setInterval("createtime()",250);
   
 
   
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://hanklin-1.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
 
 </body>
 </html>
