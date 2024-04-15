@@ -27,12 +27,14 @@
 <meta property="og:site_name" content="Hank&#39;s Blog">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://hackmd.io/_uploads/ryRtQXo3p.png">
 <meta property="article:published_time" content="2024-04-13T01:20:00.000Z">
 <meta property="article:modified_time" content="2024-04-13T01:21:00.000Z">
 <meta property="article:author" content="Hank Lin">
 <meta property="article:tag" content="Android">
 <meta property="article:tag" content="RecyclerView">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://hackmd.io/_uploads/ryRtQXo3p.png">
 
 <link rel="canonical" href="https://www.hanksvba.com/test/">
 
@@ -206,13 +208,6 @@
             </span>
 
           
-            <span class="post-meta-item" title="閱讀次數">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-users"></i>
-              </span>
-              <span class="post-meta-item-text">閱讀次數：</span>
-              <span class="firestore-visitors-count"></span>
-            </span>
 
         </div>
       </header>
@@ -238,31 +233,19 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h2 id="Quick-Start-1"><a href="#Quick-Start-1" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post-1"><a href="#Create-a-new-post-1" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p><a target="_blank" rel="noopener" href="https://notify-bot.line.me/doc/en/">官方參考文件</a></p>
+<p>:::info<br>感謝 Boris的範本供參考學習使用<br>:::</p>
+<hr>
+<h2 id="先行設定內容"><a href="#先行設定內容" class="headerlink" title="先行設定內容"></a>先行設定內容</h2><p><a target="_blank" rel="noopener" href="https://notify-bot.line.me/my/services/edit?clientId=6mwlihaSwTeOXn1hoammcu">LINE Notify 個人頁面設定</a></p>
+<p><img src="https://hackmd.io/_uploads/ryRtQXo3p.png" alt="image"></p>
+<hr>
+<h2 id="學習重點"><a href="#學習重點" class="headerlink" title="學習重點"></a>學習重點</h2><h3 id="利用Oauth取得code"><a href="#利用Oauth取得code" class="headerlink" title="利用Oauth取得code"></a>利用Oauth取得code</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">https</span>:<span class="comment">//notify-bot.line.me/oauth/authorize?response_type=code&amp;client_id=&lt;?= clientID ?&gt;&amp;redirect_uri=&lt;?= callBackURL ?&gt;&amp;scope=notify&amp;state=Boris@https://www.youtube.com/borispcp&#x27;, &#x27;_blank&#x27;</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server-1"><a href="#Run-server-1" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>:::success<br>Response:<br>A code for acquiring access tokens<br>:::</p>
+<h3 id="防止CSRF攻擊，採用state"><a href="#防止CSRF攻擊，採用state" class="headerlink" title="防止CSRF攻擊，採用state"></a>防止CSRF攻擊，採用state</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> state = param.<span class="property">state</span>;</span><br><span class="line"><span class="keyword">if</span> (state == <span class="string">&quot;Boris@https://www.youtube.com/borispcp&quot;</span>) &#123;</span><br><span class="line">  </span><br><span class="line">  <span class="comment">//根據回傳資料來取得訂閱者的 Line Notify Token</span></span><br><span class="line">  <span class="keyword">var</span> options =</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="string">&quot;method&quot;</span> : <span class="string">&quot;post&quot;</span>,</span><br><span class="line">    <span class="string">&quot;payload&quot;</span> : </span><br><span class="line">    &#123;</span><br><span class="line">      <span class="string">&quot;grant_type&quot;</span> : <span class="string">&quot;authorization_code&quot;</span>,</span><br><span class="line">      <span class="string">&quot;redirect_uri&quot;</span> : callBackURL,</span><br><span class="line">      <span class="string">&quot;client_id&quot;</span> : clientID,</span><br><span class="line">      <span class="string">&quot;client_secret&quot;</span> : clientSecret,</span><br><span class="line">      <span class="string">&quot;code&quot;</span> : param.<span class="property">code</span>, </span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;;</span><br><span class="line">  </span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">var</span> result = <span class="title class_">JSON</span>.<span class="title function_">parse</span>(<span class="title class_">UrlFetchApp</span>.<span class="title function_">fetch</span>(<span class="string">&quot;https://notify-bot.line.me/oauth/token&quot;</span>, options));</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files-1"><a href="#Generate-static-files-1" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites-1"><a href="#Deploy-to-remote-sites-1" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h2 id="Quick-Start-2"><a href="#Quick-Start-2" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post-2"><a href="#Create-a-new-post-2" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server-2"><a href="#Run-server-2" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files-2"><a href="#Generate-static-files-2" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites-2"><a href="#Deploy-to-remote-sites-2" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+<p>:::success<br>Response:<br>access_token<br>:::</p>
+<h3 id="對使用者發送訊息"><a href="#對使用者發送訊息" class="headerlink" title="對使用者發送訊息"></a>對使用者發送訊息</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> options =</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;method&quot;</span>  : <span class="string">&quot;post&quot;</span>,</span><br><span class="line">  <span class="string">&quot;muteHttpExceptions&quot;</span> : <span class="literal">true</span>,</span><br><span class="line">  <span class="string">&quot;payload&quot;</span> : &#123;<span class="string">&quot;message&quot;</span> : welcomeMessage&#125;,</span><br><span class="line">  <span class="string">&quot;headers&quot;</span> : &#123;<span class="string">&quot;Authorization&quot;</span> : <span class="string">&quot;Bearer &quot;</span> + result.<span class="property">access_token</span>&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="title class_">UrlFetchApp</span>.<span class="title function_">fetch</span>(<span class="string">&quot;https://notify-api.line.me/api/notify&quot;</span>, options);</span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -354,7 +337,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start-1"><span class="nav-number">2.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post-1"><span class="nav-number">2.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server-1"><span class="nav-number">2.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files-1"><span class="nav-number">2.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites-1"><span class="nav-number">2.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start-2"><span class="nav-number">3.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post-2"><span class="nav-number">3.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server-2"><span class="nav-number">3.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files-2"><span class="nav-number">3.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites-2"><span class="nav-number">3.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%88%E8%A1%8C%E8%A8%AD%E5%AE%9A%E5%85%A7%E5%AE%B9"><span class="nav-number">2.</span> <span class="nav-text">先行設定內容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%B8%E7%BF%92%E9%87%8D%E9%BB%9E"><span class="nav-number">3.</span> <span class="nav-text">學習重點</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A9%E7%94%A8Oauth%E5%8F%96%E5%BE%97code"><span class="nav-number">3.1.</span> <span class="nav-text">利用Oauth取得code</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%98%B2%E6%AD%A2CSRF%E6%94%BB%E6%93%8A%EF%BC%8C%E6%8E%A1%E7%94%A8state"><span class="nav-number">3.2.</span> <span class="nav-text">防止CSRF攻擊，採用state</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%8D%E4%BD%BF%E7%94%A8%E8%80%85%E7%99%BC%E9%80%81%E8%A8%8A%E6%81%AF"><span class="nav-number">3.3.</span> <span class="nav-text">對使用者發送訊息</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -464,77 +447,6 @@ setInterval("createtime()",250);
 
 
 
-  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
-  <script>
-    firebase.initializeApp({
-      apiKey   : 'AIzaSyBb_bqgt21PXZBeQeUckiw9jsMOao0zObc',
-      projectId: 'hexo-821cc'
-    });
-
-    function getCount(doc, increaseCount) {
-      // IncreaseCount will be false when not in article page
-      return doc.get().then(d => {
-        var count = 0;
-        if (!d.exists) { // Has no data, initialize count
-          if (increaseCount) {
-            doc.set({
-              count: 1
-            });
-            count = 1;
-          }
-        } else { // Has data
-          count = d.data().count;
-          if (increaseCount) {
-            // If first view this article
-            doc.set({ // Increase count
-              count: count + 1
-            });
-            count++;
-          }
-        }
-
-        return count;
-      });
-    }
-
-    function appendCountTo(el) {
-      return count => {
-        el.innerText = count;
-      }
-    }
-  </script>
-  <script>
-    (function() {
-      var db = firebase.firestore();
-      var articles = db.collection('articles');
-
-      if (CONFIG.page.isPost) { // Is article page
-        var title = document.querySelector('.post-title').innerText.trim();
-        var doc = articles.doc(title);
-        var increaseCount = CONFIG.hostname === location.hostname;
-        if (localStorage.getItem(title)) {
-          increaseCount = false;
-        } else {
-          // Mark as visited
-          localStorage.setItem(title, true);
-        }
-        getCount(doc, increaseCount).then(appendCountTo(document.querySelector('.firestore-visitors-count')));
-      } else if (CONFIG.page.isHome) { // Is index page
-        var promises = [...document.querySelectorAll('.post-title')].map(element => {
-          var title = element.innerText.trim();
-          var doc = articles.doc(title);
-          return getCount(doc);
-        });
-        Promise.all(promises).then(counts => {
-          var metas = document.querySelectorAll('.firestore-visitors-count');
-          counts.forEach((val, idx) => {
-            appendCountTo(metas[idx])(val);
-          });
-        });
-      }
-    })();
-  </script>
 
 
 
