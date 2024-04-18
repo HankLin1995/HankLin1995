@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.2.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.hanksvba.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="前言Hexo本身的簡潔有力能夠讓使用者在看文章的過程中感到舒適，藉由學習一項新的技術同時也來更新一下這幾年所遇到的專案問題，也能夠將當初的寫部落格初衷繼續傳承下去，取之於網路，回饋於網路。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="創站首篇文章">
+<meta property="og:url" content="https://www.hanksvba.com/Initialize/">
+<meta property="og:site_name" content="Hank&#39;s Blog">
+<meta property="og:description" content="前言Hexo本身的簡潔有力能夠讓使用者在看文章的過程中感到舒適，藉由學習一項新的技術同時也來更新一下這幾年所遇到的專案問題，也能夠將當初的寫部落格初衷繼續傳承下去，取之於網路，回饋於網路。">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2024-04-18T14:27:57.000Z">
+<meta property="article:modified_time" content="2024-04-18T15:25:22.153Z">
+<meta property="article:author" content="Hank Lin">
+<meta property="article:tag" content="Blog">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://www.hanksvba.com/Initialize/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"https://www.hanksvba.com/Initialize/","path":"Initialize/","title":"創站首篇文章"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>創站首篇文章 | Hank's Blog</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Hank's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">工程人的設計監造VBA工具交流區</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜尋" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-首頁"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a></li><li class="menu-item menu-item-關於"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a></li><li class="menu-item menu-item-標籤"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a></li><li class="menu-item menu-item-分類"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a></li><li class="menu-item menu-item-文章"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>文章</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%82%BA%E4%BB%80%E9%BA%BC%E6%83%B3%E8%A6%81%E9%87%8D%E5%BB%BA%E4%B8%80%E5%80%8B%E9%83%A8%E8%90%BD%E6%A0%BC"><span class="nav-number">2.</span> <span class="nav-text">為什麼想要重建一個部落格?</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E5%8E%9F%E5%9B%A0"><span class="nav-number">2.1.</span> <span class="nav-text">主要原因</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A1%8D%E5%A4%96%E5%A5%BD%E8%99%95"><span class="nav-number">2.2.</span> <span class="nav-text">額外好處</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AA%E4%BE%86%E6%96%87%E7%AB%A0%E7%B5%84%E6%88%90%E6%96%B9%E5%90%91"><span class="nav-number">3.</span> <span class="nav-text">未來文章組成方向</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A8%8B%E5%BC%8F%E5%AF%AB%E4%BD%9C%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86"><span class="nav-number">3.1.</span> <span class="nav-text">程式寫作基本原理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%88%E6%A1%88%E9%96%8B%E7%99%BC%E7%9A%84%E9%81%8E%E7%A8%8B%E7%B4%80%E9%8C%84"><span class="nav-number">3.2.</span> <span class="nav-text">專案開發的過程紀錄</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%88%E6%A1%88%E5%9F%B7%E8%A1%8C%E7%9A%84%E5%8F%AF%E8%83%BD%E7%99%BC%E5%B1%95%E6%96%B9%E5%90%91"><span class="nav-number">3.3.</span> <span class="nav-text">專案執行的可能發展方向</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Hank Lin"
+      src="/images/avatar_custom.png">
+  <p class="site-author-name" itemprop="name">Hank Lin</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="mailto:apple84026113@gmail.com" title="E-Mail → mailto:apple84026113@gmail.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.youtube.com/channel/UCWmy5KaK7Leg6lLUlWBPaSw" title="YouTube → https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UCWmy5KaK7Leg6lLUlWBPaSw" rel="noopener me" target="_blank"><i class="fab fa-youtube fa-fw"></i>YouTube</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/images/LINE_QRCODE.png" title="LINE → &#x2F;images&#x2F;LINE_QRCODE.png" rel="noopener me"><i class="fab fa-line fa-fw"></i>LINE</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://reurl.cc/RyvvaZ" title="LINE社群 → https:&#x2F;&#x2F;reurl.cc&#x2F;RyvvaZ" rel="noopener me" target="_blank"><i class="fas fa-comment fa-fw"></i>LINE社群</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://hankvba.blogspot.com/" title="Blogger → https:&#x2F;&#x2F;hankvba.blogspot.com&#x2F;" rel="noopener me" target="_blank"><i class="fab fa-blogger fa-fw"></i>Blogger</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://www.hanksvba.com/Initialize/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar_custom.png">
+      <meta itemprop="name" content="Hank Lin">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hank's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="創站首篇文章 | Hank's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          創站首篇文章
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">發表於</span>
+      
+
+      <time title="創建時間：2024-04-18 22:27:57 / 修改時間：23:25:22" itemprop="dateCreated datePublished" datetime="2024-04-18T22:27:57+08:00">2024-04-18</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="閱讀次數" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">閱讀次數：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Hexo本身的簡潔有力能夠讓使用者在看文章的過程中感到舒適，藉由學習一項新的技術同時也來更新一下這幾年所遇到的專案問題，也能夠將當初的寫部落格初衷繼續傳承下去，取之於網路，回饋於網路。</p>
+<span id="more"></span>
+
+<h2 id="為什麼想要重建一個部落格"><a href="#為什麼想要重建一個部落格" class="headerlink" title="為什麼想要重建一個部落格?"></a>為什麼想要重建一個部落格?</h2><h3 id="主要原因"><a href="#主要原因" class="headerlink" title="主要原因"></a>主要原因</h3><blockquote>
+<p>Hexo相當簡潔有力</p>
+</blockquote>
+<p>自2018年開始使用了Google提供的Blogger平台作為簡單紀錄開發內容的部落格之後，就一直沒有對部落格的外觀問題好好處理，反而只針對專案內容傾心研究，過程中所研究的內容也是糊里糊塗的就丟上去平台分享，一直到我發現了Hexo(也就是您目前所見的這個網頁)，才知道原來我之前的Blogger真的有夠醜，Hexo所製作的內容相當的簡潔有力!</p>
+<h3 id="額外好處"><a href="#額外好處" class="headerlink" title="額外好處"></a>額外好處</h3><blockquote>
+<p>網站自主權，非常的重要!</p>
+</blockquote>
+<p>Hexo作為一個靜態網頁框架，可以在本地端透過套件進行靜態網頁渲染，從而讓使用者可以自由指定要Host的地方，而剛好<strong>GitHubPage</strong>也有提供這樣的服務，讓網頁的內容可以藉由佈署在Github進行呈現，透過自己網域進行CNAME設定即可有自己的官方網站部落格了，不用擔心有一天Blogger服務被Google收掉的話，所建立的內容會血本無歸。</p>
+<h2 id="未來文章組成方向"><a href="#未來文章組成方向" class="headerlink" title="未來文章組成方向"></a>未來文章組成方向</h2><blockquote>
+<p>撰寫有價值的文章!</p>
+</blockquote>
+<p>開始撰寫部落格的初衷也是因為有一群大神願意在網路世界的某處將所習得的知識分享給各位，期許我也能夠成為像是這樣有用的人，撰寫出一些能夠對這個世界有所幫助的文章。</p>
+<p>這幾年來與各地網友交流，也大概可以理解我能夠幫助到那些部分，尤其是對於VBA在工程上的設計監造應用專案最為受各位所喜愛，在此，我也很感謝曾經幫助過我的朋友，因為有你們的支持，也才能讓我有動力繼續研究開發，未來文章發展方向會由以下三點進行</p>
+<h3 id="程式寫作基本原理"><a href="#程式寫作基本原理" class="headerlink" title="程式寫作基本原理"></a>程式寫作基本原理</h3><ul>
+<li><p>Excel VBA</p>
+<p>  儲存格、工作表、活頁簿的屬性操作，表單的設計流程，類資料庫的編排，報表的呈現方式…</p>
+</li>
+<li><p>AutoCAD VBA (ProgeCAD VBA)</p>
+<p>  圖元操作(點、線、面、文字)、配置設定、與外界數據交互…</p>
+</li>
+<li><p>Google Apps Script</p>
+<p>  Google Sheet、Gmail、Drive、WebApp網頁表單、WebAPI與外界資料交換</p>
+</li>
+<li><p>LINE</p>
+<p>  LINE Notify通知、LINE BOT機器人(結合Flask、GAS的WebAPI)</p>
+</li>
+<li><p>Python</p>
+<p>  藉由引用Python相關套件做成的套件提供給Excel無法達成的功能作為使用、以及最近開始接觸的<em>Streamlit</em>，這是一個不需要理解前端介面的好工具，可以很快的發展一個線上服務。</p>
+</li>
+</ul>
+<h3 id="專案開發的過程紀錄"><a href="#專案開發的過程紀錄" class="headerlink" title="專案開發的過程紀錄"></a>專案開發的過程紀錄</h3><p>目前所採用的語言為了加速開發的時間，大多數都是沒有很嚴謹的程式語言，也就是不會針對程式最基礎的部分進行琢磨(包含資料型式的比較、互動)，所以會遇到不如預期的內容也算是滿正常的，能夠透過採坑的過程中將可能會預見的提前告訴世人，也是功德一件，當然這些內容都可以透過單元測試的過程作避免的手段，只不過有更多的人只是希望東西能夠動起來最要緊，也會變成技術債…</p>
+<h3 id="專案執行的可能發展方向"><a href="#專案執行的可能發展方向" class="headerlink" title="專案執行的可能發展方向"></a>專案執行的可能發展方向</h3><p>專案執行會有一些朋友參與，不同的使用者有各式各樣的需求，這部分對我而言都是很好的回饋，如果這些需求能夠讓程式更適用於大多數人的需求，這樣對於專案執行的發展方向就會是健康的，畢竟東西好壞各有所主觀意識，但若能夠大部分的人都認為這樣很棒，那我也很樂意為之，所以遇到問題的時候請用力告訴我，這樣我會很開心!</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>作者： </strong>Hank Lin
+  </li>
+  <li class="post-copyright-link">
+      <strong>文章連結：</strong>
+      <a href="https://www.hanksvba.com/Initialize/" title="創站首篇文章">https://www.hanksvba.com/Initialize/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版權聲明： </strong>本網誌所有文章除特別聲明外，均採用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 許可協議。轉載請註明出處！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/Blog/" rel="tag"><i class="fa fa-tag"></i> Blog</a>
+          </div>
+
+        
+
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Hank Lin</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="訪客總數">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="總瀏覽次數">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="back-to-top" role="button" aria-label="回到頂端">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
