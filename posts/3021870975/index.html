@@ -18,16 +18,16 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.hanksvba.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="前言 明渠輸水渠道的設計重點共有以下幾點  排水渠道要注意流量是否可以提供農田排水10年重現期距1日排出。 灌溉渠道要確認灌溉計畫所需計畫流量。 設計的最小容許流速不能低於水草生長速度或淤沙速度。 設計的最大容許流速不能高於規範所限制的速度。 設計時需注意不能太接近臨界流況，動水壓力對構造物較容易不穩定。 檢討各田區所需水頭，上下游構造物所需的水頭高度是否足以供灌。  為簡化作">
+    <meta name="description" content="前言 明渠輸水渠道的設計重點大概羅列如下幾點:  排水渠道要注意流量是否可以提供農田排水10年重現期距1日排出。 灌溉渠道要確認灌溉計畫所需計畫流量。 設計的最小容許流速不能低於水草生長速度或淤沙速度。 設計的最大容許流速不能高於規範所限制的速度。 設計時需注意不能太接近臨界流況，動水壓力對構造物較容易不穩定。 檢討各田區所需水頭，上下游構造物所需的水頭高度是否足以供灌。  為">
 <meta property="og:type" content="article">
 <meta property="og:title" content="明渠水理計算">
 <meta property="og:url" content="https://www.hanksvba.com/posts/3021870975/">
 <meta property="og:site_name" content="Hank&#39;s Blog">
-<meta property="og:description" content="前言 明渠輸水渠道的設計重點共有以下幾點  排水渠道要注意流量是否可以提供農田排水10年重現期距1日排出。 灌溉渠道要確認灌溉計畫所需計畫流量。 設計的最小容許流速不能低於水草生長速度或淤沙速度。 設計的最大容許流速不能高於規範所限制的速度。 設計時需注意不能太接近臨界流況，動水壓力對構造物較容易不穩定。 檢討各田區所需水頭，上下游構造物所需的水頭高度是否足以供灌。  為簡化作">
+<meta property="og:description" content="前言 明渠輸水渠道的設計重點大概羅列如下幾點:  排水渠道要注意流量是否可以提供農田排水10年重現期距1日排出。 灌溉渠道要確認灌溉計畫所需計畫流量。 設計的最小容許流速不能低於水草生長速度或淤沙速度。 設計的最大容許流速不能高於規範所限制的速度。 設計時需注意不能太接近臨界流況，動水壓力對構造物較容易不穩定。 檢討各田區所需水頭，上下游構造物所需的水頭高度是否足以供灌。  為">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://www.hanksvba.com/posts/3021870975/Streamlit.JPG">
 <meta property="article:published_time" content="2024-04-21T04:24:33.000Z">
-<meta property="article:modified_time" content="2024-04-21T09:05:46.456Z">
+<meta property="article:modified_time" content="2024-04-21T09:07:38.281Z">
 <meta property="article:author" content="Hank Lin">
 <meta property="article:tag" content="明渠計算">
 <meta property="article:tag" content="Python">
@@ -216,7 +216,7 @@
       <span class="post-meta-item-text">發表於</span>
       
 
-      <time title="創建時間：2024-04-21 12:24:33 / 修改時間：17:05:46" itemprop="dateCreated datePublished" datetime="2024-04-21T12:24:33+08:00">2024-04-21</time>
+      <time title="創建時間：2024-04-21 12:24:33 / 修改時間：17:07:38" itemprop="dateCreated datePublished" datetime="2024-04-21T12:24:33+08:00">2024-04-21</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -245,7 +245,7 @@
     
     
     <div class="post-body" itemprop="articleBody"><h2 id="前言">前言</h2>
-<p>明渠輸水渠道的設計重點共有以下幾點</p>
+<p>明渠輸水渠道的設計重點大概羅列如下幾點:</p>
 <ol type="1">
 <li>排水渠道要注意流量是否可以提供農田排水10年重現期距1日排出。</li>
 <li>灌溉渠道要確認灌溉計畫所需計畫流量。</li>
@@ -254,7 +254,7 @@
 <li>設計時需注意不能太接近臨界流況，動水壓力對構造物較容易不穩定。</li>
 <li>檢討各田區所需水頭，上下游構造物所需的水頭高度是否足以供灌。</li>
 </ol>
-<p>為簡化作業，我利用Python中的Streamlit開發了一套雲端計算系統，來達成輸入參數&gt;自動檢核&gt;產製報表，有興趣請繼續往下看設計原理</p>
+<p>為簡化作業，我利用Python中的Streamlit開發了一套雲端計算系統，來達成輸入參數&gt;自動檢核&gt;產製報表</p>
 <span id="more"></span>
 <h2 id="主要操作畫面">主要操作畫面</h2>
 <figure>
