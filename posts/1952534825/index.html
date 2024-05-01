@@ -18,12 +18,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.hanksvba.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="前言 契約項目、單價、數量可以說是整個工程進行中的數量計算核心，監造單位會將已經抽查完成的數量填報上去施作數量來作為換算實際進度的依據，變更設計、新增單價也是針對契約項目及施作數量所記載的內容進行，承攬廠商要進行估驗計價也是依據報表所記載的施作數量填報，因此契約項目欄位規劃都需要特別注意結構性與擴充性才會方便作業。">
+    <meta name="description" content="前言 契約項目、單價、數量可以說是整個工程進行中的數量計算核心，監造單位會將已經抽查完成的數量填報上去施作數量來作為換算實際進度的依據，變更設計、新增單價也是針對契約項目及施作數量所記載的內容進行，承攬廠商要進行估驗計價也是依據報表所記載的施作數量填報，因此契約項目欄位規劃都需要特別注意結構性與擴充性才會方便作業。   iomg">
 <meta property="og:type" content="article">
 <meta property="og:title" content="監造報表資料庫規劃-數量計算">
 <meta property="og:url" content="https://www.hanksvba.com/posts/1952534825/">
 <meta property="og:site_name" content="Hank&#39;s Blog">
-<meta property="og:description" content="前言 契約項目、單價、數量可以說是整個工程進行中的數量計算核心，監造單位會將已經抽查完成的數量填報上去施作數量來作為換算實際進度的依據，變更設計、新增單價也是針對契約項目及施作數量所記載的內容進行，承攬廠商要進行估驗計價也是依據報表所記載的施作數量填報，因此契約項目欄位規劃都需要特別注意結構性與擴充性才會方便作業。">
+<meta property="og:description" content="前言 契約項目、單價、數量可以說是整個工程進行中的數量計算核心，監造單位會將已經抽查完成的數量填報上去施作數量來作為換算實際進度的依據，變更設計、新增單價也是針對契約項目及施作數量所記載的內容進行，承攬廠商要進行估驗計價也是依據報表所記載的施作數量填報，因此契約項目欄位規劃都需要特別注意結構性與擴充性才會方便作業。   iomg">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://www.hanksvba.com/posts/1952534825/upload_6e802f62772646653c59aa4bfdfb83db.png">
 <meta property="og:image" content="https://www.hanksvba.com/posts/1952534825/upload_33eb45717c5bc11304ad3865fbf5d446.png">
@@ -131,7 +131,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -142,7 +142,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>
@@ -245,6 +245,12 @@
     
     <div class="post-body" itemprop="articleBody"><h2 id="前言">前言</h2>
 <p>契約項目、單價、數量可以說是整個工程進行中的<strong>數量計算</strong>核心，監造單位會將已經抽查完成的數量填報上去施作數量來作為換算實際進度的依據，變更設計、新增單價也是針對契約項目及施作數量所記載的內容進行，承攬廠商要進行估驗計價也是依據報表所記載的施作數量填報，因此契約項目欄位規劃都需要特別注意<strong>結構性</strong>與<strong>擴充性</strong>才會方便作業。</p>
+<figure>
+<img
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4P4ZlmPy4maPHfKTQXw65YeckzW29NL9icWDpaMAhPA&amp;s"
+alt="iomg" />
+<figcaption aria-hidden="true">iomg</figcaption>
+</figure>
 <span id="more"></span>
 <h2 id="資料庫規劃概念">資料庫規劃概念</h2>
 <h3 id="結構性">結構性</h3>
@@ -351,6 +357,9 @@ target="_blank" rel="noopener" href="https://hankvba.blogspot.com/2024/02/excel-
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/posts/1066861632/" rel="next" title="批次轉換doc到pdf">
+                  批次轉換doc到pdf <i class="fa fa-angle-right"></i>
+                </a>
             </div>
           </div>
     </footer>
