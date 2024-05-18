@@ -18,12 +18,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.hanksvba.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="前言  交通部的部頒規範下載下來之後會變成很多細碎的檔案，包含PDF跟DOC，在進行檔案內容搜尋的時候時常需要跨檔案比對，無法在同個檔案中一次到位。 有些規範有進行修改的內容需要先修改doc後再輸出PDF，乾脆將所有PDF都先進行刪除，後續再針對資料夾批次轉檔成PDF後再做合併。  解決目標🔎:將doc修改完畢後輸出為pdf，丟到pdf_merge中進行合併，這實在是很麻煩。  本">
+    <meta name="description" content="🙌前言  交通部的部頒規範下載下來之後會變成很多細碎的檔案，包含PDF跟DOC，在進行檔案內容搜尋的時候時常需要跨檔案比對，無法在同個檔案中一次到位。 有些規範有進行修改的內容需要先修改doc後再輸出PDF，乾脆將所有PDF都先進行刪除，後續再針對資料夾批次轉檔成PDF後再做合併。  解決目標:將doc修改完畢後輸出為pdf，丟到pdf_merge中進行合併，這實在是很麻煩。  本">
 <meta property="og:type" content="article">
 <meta property="og:title" content="批次轉換doc到pdf">
 <meta property="og:url" content="https://www.hanksvba.com/posts/1066861632/">
 <meta property="og:site_name" content="Hank&#39;s Blog">
-<meta property="og:description" content="前言  交通部的部頒規範下載下來之後會變成很多細碎的檔案，包含PDF跟DOC，在進行檔案內容搜尋的時候時常需要跨檔案比對，無法在同個檔案中一次到位。 有些規範有進行修改的內容需要先修改doc後再輸出PDF，乾脆將所有PDF都先進行刪除，後續再針對資料夾批次轉檔成PDF後再做合併。  解決目標🔎:將doc修改完畢後輸出為pdf，丟到pdf_merge中進行合併，這實在是很麻煩。  本">
+<meta property="og:description" content="🙌前言  交通部的部頒規範下載下來之後會變成很多細碎的檔案，包含PDF跟DOC，在進行檔案內容搜尋的時候時常需要跨檔案比對，無法在同個檔案中一次到位。 有些規範有進行修改的內容需要先修改doc後再輸出PDF，乾脆將所有PDF都先進行刪除，後續再針對資料夾批次轉檔成PDF後再做合併。  解決目標:將doc修改完畢後輸出為pdf，丟到pdf_merge中進行合併，這實在是很麻煩。  本">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://www.hanksvba.com/posts/1066861632/1.png">
 <meta property="og:image" content="https://www.hanksvba.com/posts/1066861632/2.png">
@@ -118,7 +118,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AA%94%E6%A1%88%E4%BE%86%E6%BA%90"><span class="nav-number">1.1.</span> <span class="nav-text">檔案來源</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#python%E7%9A%84%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88"><span class="nav-number">2.</span> <span class="nav-text">👉Python的解決方案</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A0%90%E8%A8%88%E4%BD%BF%E7%94%A8%E5%B7%A5%E5%85%B7%E7%82%BAdocx2pdf%E9%80%B2%E8%A1%8C%E8%BD%89%E6%AA%94"><span class="nav-number">2.1.</span> <span class="nav-text">預計使用工具為docx2pdf進行轉檔</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%80%E7%B5%82%E9%81%B8%E6%93%87"><span class="nav-number">3.</span> <span class="nav-text">👍最終選擇</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9A%AB%E6%99%82%E7%B5%90%E6%9E%9C"><span class="nav-number">3.1.</span> <span class="nav-text">暫時結果</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E5%8D%B0%E9%A0%86%E5%BA%8F"><span class="nav-number">3.2.</span> <span class="nav-text">列印順序</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%96%8B%E7%99%BC%E9%81%8E%E7%A8%8B%E7%9A%84%E5%95%8F%E9%A1%8C"><span class="nav-number">4.</span> <span class="nav-text">👻開發過程的問題</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AA%94%E6%A1%88%E5%90%8D%E7%A8%B1%E7%82%BA%E4%B8%AD%E6%96%87%E8%A6%81%E6%94%B6%E9%9B%86%E5%8C%AF%E5%85%A5csv%E6%AA%94%E6%A1%88%E7%9A%84%E6%99%82%E6%9C%83%E8%AE%8A%E6%88%90%E4%BA%82%E7%A2%BC"><span class="nav-number">4.1.</span> <span class="nav-text">檔案名稱為中文，要收集匯入csv檔案的時會變成亂碼</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A6%81%E5%B0%87csv%E7%9A%84%E5%85%A7%E5%AE%B9%E5%8C%AF%E5%85%A5%E5%88%B0python%E9%80%B2%E8%A1%8C%E5%BE%8C%E7%BA%8C%E9%81%8B%E7%94%A8%E6%99%82%E6%9C%83%E5%87%BA%E7%8F%BEunicodedecodeerror"><span class="nav-number">4.2.</span> <span class="nav-text">要將CSV的內容匯入到python進行後續運用時會出現&#39;UnicodeDecodeError&#39;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%96%8B%E5%95%9F%E4%B8%80%E5%80%8B%E5%85%A8%E6%96%B0%E7%9A%84%E7%92%B0%E5%A2%83%E8%A6%81%E5%B0%87csv%E7%9A%84%E5%85%A7%E5%AE%B9%E5%8C%AF%E5%85%A5%E5%88%B0python%E9%80%B2%E8%A1%8C%E5%BE%8C%E7%BA%8C%E9%81%8B%E7%94%A8%E6%99%82%E6%9C%83%E5%87%BA%E7%8F%BE"><span class="nav-number">4.3.</span> <span class="nav-text">開啟一個全新的環境，要將CSV的內容匯入到python進行後續運用時會出現</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">🙌前言</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AA%94%E6%A1%88%E4%BE%86%E6%BA%90"><span class="nav-number">1.1.</span> <span class="nav-text">檔案來源</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#python%E7%9A%84%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88"><span class="nav-number">2.</span> <span class="nav-text">👉Python的解決方案</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A0%90%E8%A8%88%E4%BD%BF%E7%94%A8%E5%B7%A5%E5%85%B7%E7%82%BAdocx2pdf%E9%80%B2%E8%A1%8C%E8%BD%89%E6%AA%94"><span class="nav-number">2.1.</span> <span class="nav-text">預計使用工具為docx2pdf進行轉檔</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%80%E7%B5%82%E9%81%B8%E6%93%87"><span class="nav-number">3.</span> <span class="nav-text">👍最終選擇</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9A%AB%E6%99%82%E7%B5%90%E6%9E%9C"><span class="nav-number">3.1.</span> <span class="nav-text">暫時結果</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E5%8D%B0%E9%A0%86%E5%BA%8F"><span class="nav-number">3.2.</span> <span class="nav-text">列印順序</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%96%8B%E7%99%BC%E9%81%8E%E7%A8%8B%E7%9A%84%E5%95%8F%E9%A1%8C"><span class="nav-number">4.</span> <span class="nav-text">👻開發過程的問題</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AA%94%E6%A1%88%E5%90%8D%E7%A8%B1%E7%82%BA%E4%B8%AD%E6%96%87%E8%A6%81%E6%94%B6%E9%9B%86%E5%8C%AF%E5%85%A5csv%E6%AA%94%E6%A1%88%E7%9A%84%E6%99%82%E6%9C%83%E8%AE%8A%E6%88%90%E4%BA%82%E7%A2%BC"><span class="nav-number">4.1.</span> <span class="nav-text">檔案名稱為中文，要收集匯入csv檔案的時會變成亂碼</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A6%81%E5%B0%87csv%E7%9A%84%E5%85%A7%E5%AE%B9%E5%8C%AF%E5%85%A5%E5%88%B0python%E9%80%B2%E8%A1%8C%E5%BE%8C%E7%BA%8C%E9%81%8B%E7%94%A8%E6%99%82%E6%9C%83%E5%87%BA%E7%8F%BEunicodedecodeerror"><span class="nav-number">4.2.</span> <span class="nav-text">要將CSV的內容匯入到python進行後續運用時會出現&#39;UnicodeDecodeError&#39;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%96%8B%E5%95%9F%E4%B8%80%E5%80%8B%E5%85%A8%E6%96%B0%E7%9A%84%E7%92%B0%E5%A2%83%E8%A6%81%E5%B0%87csv%E7%9A%84%E5%85%A7%E5%AE%B9%E5%8C%AF%E5%85%A5%E5%88%B0python%E9%80%B2%E8%A1%8C%E5%BE%8C%E7%BA%8C%E9%81%8B%E7%94%A8%E6%99%82%E6%9C%83%E5%87%BA%E7%8F%BE"><span class="nav-number">4.3.</span> <span class="nav-text">開啟一個全新的環境，要將CSV的內容匯入到python進行後續運用時會出現</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -133,7 +133,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">10</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -245,12 +245,12 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h2 id="前言">前言</h2>
+    <div class="post-body" itemprop="articleBody"><h2 id="前言">🙌前言</h2>
 <ol type="1">
 <li><p>交通部的部頒規範下載下來之後會變成很多細碎的檔案，包含PDF跟DOC，在進行檔案內容搜尋的時候時常需要跨檔案比對，無法在<strong>同個檔案</strong>中一次到位。</p></li>
 <li><p>有些規範有進行修改的內容需要先修改doc後再輸出PDF，乾脆將所有PDF都先進行刪除，後續再針對資料夾批次轉檔成PDF後再做合併。</p></li>
 </ol>
-<div class="note info"><p>解決目標🔎:將doc修改完畢後輸出為pdf，丟到pdf_merge中進行合併，這實在是很麻煩。</p>
+<div class="note info"><p>解決目標:將doc修改完畢後輸出為pdf，丟到pdf_merge中進行合併，這實在是很麻煩。</p>
 </div>
 <p>本篇介紹如何撰寫程式碼來簡化製作<strong>公路橋梁設計規範</strong>的流程，有興趣請繼續閱讀</p>
 <span id="more"></span>
@@ -368,8 +368,8 @@ id="開啟一個全新的環境要將csv的內容匯入到python進行後續運�
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/posts/1952534825/" rel="prev" title="監造報表資料庫規劃-數量計算">
-                  <i class="fa fa-angle-left"></i> 監造報表資料庫規劃-數量計算
+                <a href="/posts/1952534825/" rel="prev" title="監造報表規劃-數量計算">
+                  <i class="fa fa-angle-left"></i> 監造報表規劃-數量計算
                 </a>
             </div>
             <div class="post-nav-item">
