@@ -18,28 +18,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.hanksvba.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="🙌前言 自2018年開始撰寫Blogger紀錄工作上會遇到的內容，藉由紀錄的過程也有助於加深對於某項技術的印象。想當初我遇到問題的時候也是不斷Google，受惠於很多網路大神的文章才解決了問題，期許我也能夠成為網路世界中有用的人，撰寫出一些能夠對這個世界有所幫助的文章。 礙於我對於Blogger的調整不是很熟悉，常常影片上傳失敗或分頁的過程會無法完整呈現，有一天當我遇到Hexo-nexT的主">
+    <meta name="description" content="前言  工程估算為提報計畫前的必要內容，所提報的概估經費關乎於計畫核定後是否會造成實際所需經費是否足夠、執行率會不會有問題。  工程估算方法有兩種:材料及類別  材料是將單元拆分為鋼筋、模板、混凝土...等等可以從標準斷面計算而得的內容。 類別是將工程拆分為渠道工程、道路工程、橋梁工程...等可以明確分類的內容。  本篇文章希望能夠藉由雲端介面的操作來達成以下幾點需求  工程">
 <meta property="og:type" content="article">
-<meta property="og:title" content="創站首篇文章">
-<meta property="og:url" content="https://www.hanksvba.com/posts/2051013919/">
+<meta property="og:title" content="用Streamlit打造工程估算系統">
+<meta property="og:url" content="https://www.hanksvba.com/posts/2910899188/">
 <meta property="og:site_name" content="Hank&#39;s Blog">
-<meta property="og:description" content="🙌前言 自2018年開始撰寫Blogger紀錄工作上會遇到的內容，藉由紀錄的過程也有助於加深對於某項技術的印象。想當初我遇到問題的時候也是不斷Google，受惠於很多網路大神的文章才解決了問題，期許我也能夠成為網路世界中有用的人，撰寫出一些能夠對這個世界有所幫助的文章。 礙於我對於Blogger的調整不是很熟悉，常常影片上傳失敗或分頁的過程會無法完整呈現，有一天當我遇到Hexo-nexT的主">
+<meta property="og:description" content="前言  工程估算為提報計畫前的必要內容，所提報的概估經費關乎於計畫核定後是否會造成實際所需經費是否足夠、執行率會不會有問題。  工程估算方法有兩種:材料及類別  材料是將單元拆分為鋼筋、模板、混凝土...等等可以從標準斷面計算而得的內容。 類別是將工程拆分為渠道工程、道路工程、橋梁工程...等可以明確分類的內容。  本篇文章希望能夠藉由雲端介面的操作來達成以下幾點需求  工程">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2024-04-18T14:27:57.000Z">
-<meta property="article:modified_time" content="2024-04-18T14:27:57.000Z">
+<meta property="article:published_time" content="2024-06-19T14:32:24.000Z">
+<meta property="article:modified_time" content="2024-06-19T14:32:24.000Z">
 <meta property="article:author" content="Hank Lin">
-<meta property="article:tag" content="Blog">
+<meta property="article:tag" content="Streamlit">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://www.hanksvba.com/posts/2051013919/">
+<link rel="canonical" href="https://www.hanksvba.com/posts/2910899188/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"https://www.hanksvba.com/posts/2051013919/","path":"posts/2051013919/","title":"創站首篇文章"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"https://www.hanksvba.com/posts/2910899188/","path":"posts/2910899188/","title":"用Streamlit打造工程估算系統"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>創站首篇文章 | Hank's Blog</title>
+<title>用Streamlit打造工程估算系統 | Hank's Blog</title>
   
 
 
@@ -112,7 +112,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">🙌前言</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E5%8E%9F%E5%9B%A0"><span class="nav-number">1.1.</span> <span class="nav-text">主要原因</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A1%8D%E5%A4%96%E5%A5%BD%E8%99%95"><span class="nav-number">1.2.</span> <span class="nav-text">額外好處</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AA%E4%BE%86%E6%96%87%E7%AB%A0%E7%B5%84%E6%88%90%E6%96%B9%E5%90%91"><span class="nav-number">2.</span> <span class="nav-text">⤴️未來文章組成方向</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="nav-number">2.1.</span> <span class="nav-text">基本概念</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%88%E6%A1%88%E9%96%8B%E7%99%BC"><span class="nav-number">2.2.</span> <span class="nav-text">專案開發</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%88%E6%A1%88%E6%88%90%E6%9E%9C"><span class="nav-number">2.3.</span> <span class="nav-text">專案成果</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9C%80%E6%B1%82%E5%9B%9E%E9%A5%8B"><span class="nav-number">2.4.</span> <span class="nav-text">需求回饋</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B7%A5%E7%A8%8B%E4%BC%B0%E7%AE%97%E6%96%B9%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text">工程估算方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BC%B0%E5%A4%AA%E5%B0%91"><span class="nav-number">2.1.</span> <span class="nav-text">估太少</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BC%B0%E5%A4%AA%E5%A4%9A"><span class="nav-number">2.2.</span> <span class="nav-text">估太多</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A1%9E%E5%88%A5%E8%A8%88%E7%AE%97%E5%85%A7%E5%AE%B9"><span class="nav-number">3.</span> <span class="nav-text">類別計算內容</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B8%A0%E9%81%93%E5%B7%A5%E7%A8%8B%E7%89%88%E6%A9%8B%E5%B7%A5%E7%A8%8B"><span class="nav-number">3.1.</span> <span class="nav-text">渠道工程、版橋工程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%93%8B%E5%9C%9F%E7%89%86"><span class="nav-number">3.2.</span> <span class="nav-text">擋土牆</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%81%93%E8%B7%AF%E5%B7%A5%E7%A8%8B%E7%89%88%E6%A8%81%E5%B7%A5%E7%A8%8B"><span class="nav-number">3.3.</span> <span class="nav-text">道路工程、版樁工程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9B%9C%E9%A0%85%E5%8F%8A%E5%85%B6%E4%BB%96"><span class="nav-number">3.4.</span> <span class="nav-text">雜項及其他</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%96%93%E6%8E%A5%E8%B2%BB%E7%94%A8"><span class="nav-number">3.5.</span> <span class="nav-text">間接費用</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BC%B8%E5%87%BA%E5%A0%B1%E8%A1%A8"><span class="nav-number">4.</span> <span class="nav-text">輸出報表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AF%A6%E4%BD%9C%E6%88%90%E6%9E%9C"><span class="nav-number">5.</span> <span class="nav-text">實作成果</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -182,7 +182,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://www.hanksvba.com/posts/2051013919/">
+    <link itemprop="mainEntityOfPage" href="https://www.hanksvba.com/posts/2910899188/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar_custom.png">
@@ -195,12 +195,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="創站首篇文章 | Hank's Blog">
+      <meta itemprop="name" content="用Streamlit打造工程估算系統 | Hank's Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          創站首篇文章
+          用Streamlit打造工程估算系統
         </h1>
 
         <div class="post-meta-container">
@@ -211,7 +211,16 @@
       </span>
       <span class="post-meta-item-text">發表於</span>
 
-      <time title="創建時間：2024-04-18 22:27:57" itemprop="dateCreated datePublished" datetime="2024-04-18T22:27:57+08:00">2024-04-18</time>
+      <time title="創建時間：2024-06-19 22:32:24" itemprop="dateCreated datePublished" datetime="2024-06-19T22:32:24+08:00">2024-06-19</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分類於</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%B0%88%E6%A1%88%E6%88%90%E6%9E%9C/" itemprop="url" rel="index"><span itemprop="name">專案成果</span></a>
+        </span>
     </span>
 
   
@@ -230,50 +239,52 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h2 id="前言">🙌前言</h2>
-<p>自2018年開始撰寫Blogger紀錄工作上會遇到的內容，藉由紀錄的過程也有助於加深對於某項技術的印象。想當初我遇到問題的時候也是不斷Google，受惠於很多網路大神的文章才解決了問題，期許我也能夠成為網路世界中有用的人，撰寫出一些能夠對這個世界有所幫助的文章。</p>
-<p>礙於我對於Blogger的調整不是很熟悉，常常影片上傳失敗或分頁的過程會無法完整呈現，有一天當我遇到Hexo-nexT的主題時，驚為天人，這完全就是我理想中的部落格外觀，因此就決定藉由學習一項新的技術的同時也來重建一下以前醜醜的Google
-Blogger...</p>
+    <div class="post-body" itemprop="articleBody"><h2 id="前言">前言</h2>
+<blockquote>
+<p>工程估算為提報計畫前的必要內容，所提報的概估經費關乎於計畫核定後是否會造成實際所需經費是否足夠、執行率會不會有問題。</p>
+</blockquote>
+<p>工程估算方法有兩種:材料及類別</p>
+<ul>
+<li>材料是將單元拆分為鋼筋、模板、混凝土...等等可以從標準斷面計算而得的內容。</li>
+<li>類別是將工程拆分為渠道工程、道路工程、橋梁工程...等可以明確分類的內容。</li>
+</ul>
+<p>本篇文章希望能夠藉由<strong>雲端介面</strong>的操作來達成以下幾點需求</p>
+<ol type="1">
+<li>工程估算方法將以往的<strong>材料</strong>導向為<strong>類別</strong>。</li>
+<li>各類別單元內容計算由程式接手，減少人力調配參數。</li>
+<li>輸出報表採用最新版本號，避免各地版本不一造成困擾。</li>
+<li>手機也能在工區現場獲得經費估算成果。</li>
+</ol>
 <span id="more"></span>
-<p>##🌟 為什麼想要重建一個部落格?</p>
-<h3 id="主要原因">主要原因</h3>
-<blockquote>
-<p>Hexo-nexT相當簡潔有力</p>
-</blockquote>
-<p>於我而言，理想中的部落格就是只要可以介紹我是誰、方便訪客查看文章、留言，這幾項基本功能即可</p>
-<p>剛好Hexo的nexT主題可以說是專為這些內容而生的靜態頁面渲染器，內建的文章目錄、可以直接使用markdown語法進行渲染的內容，還有各種留言外掛可供利用，完全符合我的需求。</p>
-<h3 id="額外好處">額外好處</h3>
-<blockquote>
-<p>網站自主權，非常的重要!</p>
-</blockquote>
-<p>Hexo可以在本地端透過hexo-cli套件進行靜態網頁渲染，讓使用者可以儲存原始檔案，不怕有一天服務收掉卻沒有原始檔可以復原。</p>
-<p>渲染後的內容要給網路看必須要找個空間進行部署，剛好<strong>GitHubPage</strong>有提供這項服務，如有購買網域，也可以進行CNAME設定即可擁有自己的官方網站部落格了，是不是很讚!</p>
-<hr />
-<h2 id="未來文章組成方向">⤴️未來文章組成方向</h2>
-<p>這幾年來做了不少個side
-project，專案執行過程也能有幸與各地網友交流，因為我本身是名工程人員，對於資訊人員所能撰寫的素材，我可以再多融入有關工程上的應用，而這些內容也是眾多網友所關注的內容，包含規劃、設計、監造、工務行政...等。</p>
-<p>在此，我很感謝曾經幫助過我的朋友，因為有你們的支持，也才能讓我有動力繼續研究開發。</p>
-<h3 id="基本概念">基本概念</h3>
-<p>當遇到的問題的時候就知道要去找答案了，這是我在自學的過程中所領悟到的一件事，看過程式碼其實不代表你已經會了，而是必須要把答案寫出來並解決了問題才是真的會了!</p>
-<blockquote>
-<p>寫程式本身就是一個不斷遇到錯誤、修正錯誤的過程</p>
-</blockquote>
-<p>我會將解決問題的過程中，那些值得紀錄的基本概念寫在我的部落格中，有一天網路上相遇時能幫助到你我會很開心。</p>
-<h3 id="專案開發">專案開發</h3>
-<p>寫程式的目標，往往是透過完成小專案合併成一個大專案來解決實務上的問題，懂得拆分需求也是一名好的資訊人員所需要的基本技能，開發過程難免會遇到一些奇怪的問題，但這些問題又偏離基本概念太遠，主要訴求是為了解決專案內容而生，因此這部分為以解決<strong>實務上的問題</strong>為內容，將我踩過的坑分享給各位同樣遇見該問題的人，而不再多琢磨基本概念。</p>
-<blockquote>
-<p>專案項目如果能進行良好的拆分並進行<strong>單元測試</strong>真的很有幫助</p>
-</blockquote>
-<h3 id="專案成果">專案成果</h3>
-<blockquote>
-<p>專案完成一定的程度就會需要進行測試，透過實際上的測試，了解專案的瑕疵在哪裡。</p>
-</blockquote>
-<p>既然會有操作，那把專案的相關文件撰寫清楚，才可能會有辦法好好操作，因此這階段的內容是將開發完成的專案使用情況、操作步驟好好描述，在此，很感謝願意進行測試的好朋友，有你們才能讓專案趨於完整，由衷感謝!!!</p>
-<h3 id="需求回饋">需求回饋</h3>
-<p>不同的使用者有各式各樣的需求，這部分對我而言都是很好的回饋，如果這些需求能夠讓程式更適用於大多數人的需求，這樣對於專案執行的發展方向就會是健康的，畢竟功能好壞各有所主觀意識，但若能夠大部分的人都認為這樣很棒，那我也很樂意為之。</p>
-<blockquote>
-<p>當實務上遇到問題的時候請用力告訴我，聯絡LINE還是Mail都可以!(詳見左方側邊攔)</p>
-</blockquote>
+<h2 id="工程估算方法">工程估算方法</h2>
+<p>工程估算方法不同是目前在處理計畫提報時常常造成提報經費與實際經費有落差的主因，經查發現原來是大多數人都用<strong>材料</strong>作為品項而非用<strong>工程類別</strong>作為品項，導致在估算過程容易忽略道路鋪面、擋土設施這類內容。</p>
+<h3 id="估太少">估太少</h3>
+<p>設計過程會需要東扣西扣，為了主體工程能夠收尾必須要捨棄掉某些也是很重要的項目。</p>
+<h3 id="估太多">估太多</h3>
+<p>會被檢討為什麼當初黑白估造成執行率不高，很多人都是因為被刁難過經費不能超過上限，所以就給他用力估下去，造成這樣的結果。</p>
+<h2 id="類別計算內容">類別計算內容</h2>
+<h3 id="渠道工程版橋工程">渠道工程、版橋工程</h3>
+<ul>
+<li>給定渠道長寬及長度，回推牆厚及所需鋼筋</li>
+<li>給定版橋長寬及座數，回推版厚及所需鋼筋</li>
+</ul>
+<h3 id="擋土牆">擋土牆</h3>
+<ul>
+<li>懸臂式擋土牆</li>
+<li>重力式擋土牆</li>
+</ul>
+<h3 id="道路工程版樁工程">道路工程、版樁工程</h3>
+<p>分為AC、再生AC、碎石級配、CLSM的各種排列組合，透過新增的方式來逐行增加，也可以進行刪除。</p>
+<h3 id="雜項及其他">雜項及其他</h3>
+<p>將前述內容加總後乘上<strong>雜項費用係數(預設為0.1)</strong></p>
+<h3 id="間接費用">間接費用</h3>
+<p>為前幾項的加總後乘上<strong>間接費用係數(預設為0.3)</strong>，這部分包含職安、環保、廠商利潤、工程管理費等</p>
+<h2 id="輸出報表">輸出報表</h2>
+<p>工作時如有需要輸出報表的時候，不外乎會採用word或者excel之類的工具，當版本有更新的時候會需要請同事重新下載使用，並在報表的某處壓一個<strong>版本號</strong>作為辨識，然而往往頒布適用的時候，還是會有不少同事以舊的版本提送報表。</p>
+<p>為解決上述版本差異問題，這次選擇利用雲端網頁作為可<strong>及時更新</strong>的報表輸出媒介，一旦計算規則改變或報表格式變化就能夠在同事輸入完基本資料之後，確保輸出的內容會是正確版的。</p>
+<h2 id="實作成果">實作成果</h2>
+<p><a target="_blank" rel="noopener" href="https://estimate.streamlit.app/">工程估算系統-Created By
+Streamlit</a></p>
 
     </div>
 
@@ -291,7 +302,7 @@ project，專案執行過程也能有幸與各地網友交流，因為我本身�
   </li>
   <li class="post-copyright-link">
       <strong>文章連結：</strong>
-      <a href="https://www.hanksvba.com/posts/2051013919/" title="創站首篇文章">https://www.hanksvba.com/posts/2051013919/</a>
+      <a href="https://www.hanksvba.com/posts/2910899188/" title="用Streamlit打造工程估算系統">https://www.hanksvba.com/posts/2910899188/</a>
   </li>
   <li class="post-copyright-license">
       <strong>版權聲明： </strong>本網誌所有文章除特別聲明外，均採用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 許可協議。轉載請註明出處！
@@ -300,18 +311,18 @@ project，專案執行過程也能有幸與各地網友交流，因為我本身�
 </div>
 
           <div class="post-tags">
-              <a href="/tags/Blog/" rel="tag"><i class="fa fa-tag"></i> Blog</a>
+              <a href="/tags/Streamlit/" rel="tag"><i class="fa fa-tag"></i> Streamlit</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
+                <a href="/posts/639809757/" rel="prev" title="Streamlit建置GoogleSheet簡易資料庫">
+                  <i class="fa fa-angle-left"></i> Streamlit建置GoogleSheet簡易資料庫
+                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/posts/3021870975/" rel="next" title="明渠水理計算">
-                  明渠水理計算 <i class="fa fa-angle-right"></i>
-                </a>
             </div>
           </div>
     </footer>
