@@ -25,8 +25,8 @@
 <meta property="og:site_name" content="Hank&#39;s Blog">
 <meta property="og:description" content="前言 自2018年發布監造日報表VBA及2022年發布公共工程施工日誌資料庫VBA後，陸續有收到很多朋友的回饋，經過一次又一次的迭代修改，該遇到的問題差不多也已經解決了，對於檔案中長期累積的程式碼或許因為在下的功力不夠深厚，遺留下大量的技術債，每次的程式碼編輯會耗費不少時間，而且也需要做大量的測試，為了不要債留子孫，特地花了一些時間通盤檢討進行一次完整的重構，也就是本篇文章的主角-施工日誌VBA">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://www.hanksvba.com/images/constructionLog.png">
 <meta property="og:image" content="https://www.hanksvba.com/posts/1000661249/1.png">
-<meta property="og:image" content="https://www.hanksvba.com/posts/1000661249/2.png">
 <meta property="og:image" content="https://www.hanksvba.com/posts/1000661249/3.png">
 <meta property="og:image" content="https://www.hanksvba.com/posts/1000661249/4.png">
 <meta property="og:image" content="https://www.hanksvba.com/posts/1000661249/5.png">
@@ -45,7 +45,7 @@
 <meta property="article:tag" content="建築物施工日誌">
 <meta property="article:tag" content="公共工程施工日誌">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://www.hanksvba.com/posts/1000661249/1.png">
+<meta name="twitter:image" content="https://www.hanksvba.com/images/constructionLog.png">
 
 
 <link rel="canonical" href="https://www.hanksvba.com/posts/1000661249/">
@@ -128,7 +128,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E7%95%AB%E9%9D%A2"><span class="nav-number">2.</span> <span class="nav-text">主要畫面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8A%9F%E8%83%BD"><span class="nav-number">3.</span> <span class="nav-text">功能</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A8%AD%E5%AE%9A%E7%9B%B8%E9%97%9C"><span class="nav-number">3.1.</span> <span class="nav-text">設定相關</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B4%80%E9%8C%84%E8%A1%A8%E7%9B%B8%E9%97%9C"><span class="nav-number">3.2.</span> <span class="nav-text">紀錄表相關</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%BC%E5%BC%8F%E7%9B%B8%E9%97%9C"><span class="nav-number">3.3.</span> <span class="nav-text">格式相關</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%82%99%E4%BB%BD%E9%82%84%E5%8E%9F"><span class="nav-number">3.4.</span> <span class="nav-text">備份還原</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B5%90%E8%AA%9E"><span class="nav-number">4.</span> <span class="nav-text">結語</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A6%96%E9%A0%81"><span class="nav-number">2.</span> <span class="nav-text">首頁</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8A%9F%E8%83%BD"><span class="nav-number">3.</span> <span class="nav-text">功能</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A8%AD%E5%AE%9A%E7%9B%B8%E9%97%9C"><span class="nav-number">3.1.</span> <span class="nav-text">設定相關</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B4%80%E9%8C%84%E8%A1%A8%E7%9B%B8%E9%97%9C"><span class="nav-number">3.2.</span> <span class="nav-text">紀錄表相關</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%BC%E5%BC%8F%E7%9B%B8%E9%97%9C"><span class="nav-number">3.3.</span> <span class="nav-text">格式相關</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%82%99%E4%BB%BD%E9%82%84%E5%8E%9F"><span class="nav-number">3.4.</span> <span class="nav-text">備份還原</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B5%90%E8%AA%9E"><span class="nav-number">4.</span> <span class="nav-text">結語</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -260,10 +260,16 @@
     
     <div class="post-body" itemprop="articleBody"><h2 id="前言">前言</h2>
 <p>自2018年發布監造日報表VBA及2022年發布公共工程施工日誌資料庫VBA後，陸續有收到很多朋友的回饋，經過一次又一次的迭代修改，該遇到的問題差不多也已經解決了，對於檔案中長期累積的程式碼或許因為在下的功力不夠深厚，遺留下大量的技術債，每次的程式碼編輯會耗費不少時間，而且也需要做大量的測試，為了不要債留子孫，特地花了一些時間通盤檢討進行一次完整的重構，也就是本篇文章的主角-<strong>施工日誌VBA-V3.5.0.</strong>。</p>
+<figure>
+<img src="/images/constructionLog.png" alt="Fig1.選單內容" />
+<figcaption aria-hidden="true">Fig1.選單內容</figcaption>
+</figure>
 <span id="more"></span>
-<h2 id="主要畫面">主要畫面</h2>
-<p><img src="1.png" alt="Fig1.主要畫面" /> <img src="2.png"
-alt="Fig2.功能選單" /></p>
+<h2 id="首頁">首頁</h2>
+<figure>
+<img src="1.png" alt="Fig2.主要進入點" />
+<figcaption aria-hidden="true">Fig2.主要進入點</figcaption>
+</figure>
 <h2 id="功能">功能</h2>
 <p>主要架構可分為設定、紀錄表、格式及資料備份，概述如下</p>
 <h3 id="設定相關">設定相關</h3>
