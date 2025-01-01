@@ -25,16 +25,22 @@
 <meta property="og:site_name" content="Hank&#39;s Blog">
 <meta property="og:description" content="背景 上級單位需要管考目前管理處執行中的工程案件，建立農田水利設施工程管考系統(以下稱外部系統)供各管理處進行填報，然而管理處於前期便已建立工程管考E化系統(以下稱內部系統)做為內部資料的收集，監造單位需要在內部系統先進行填寫後，再由管理單位進入外部系統將內部系統資料再重新謄打一次。 為進行外部系統資料填報，最理想的狀況當然是能透過內部系統自身觸發器(Trigger)執行外部系統API發送，內">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://www.hanksvba.com/posts/706100979/1.JPG">
+<meta property="og:image" content="https://www.hanksvba.com/posts/706100979/2.JPG">
+<meta property="og:image" content="https://www.hanksvba.com/posts/706100979/3.JPG">
+<meta property="og:image" content="https://www.hanksvba.com/posts/706100979/4.JPG">
+<meta property="og:image" content="https://www.hanksvba.com/posts/706100979/5.JPG">
+<meta property="og:image" content="https://www.hanksvba.com/posts/706100979/6.JPG">
 <meta property="og:image" content="https://www.hanksvba.com/posts/706100979/2.png">
 <meta property="og:image" content="https://www.hanksvba.com/posts/706100979/1.png">
 <meta property="article:published_time" content="2024-12-27T02:58:20.000Z">
 <meta property="article:modified_time" content="2024-12-27T02:58:20.000Z">
 <meta property="article:author" content="Hank Lin">
 <meta property="article:tag" content="Python">
-<meta property="article:tag" content="SQL">
 <meta property="article:tag" content="Selenium">
+<meta property="article:tag" content="SQL">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://www.hanksvba.com/posts/706100979/2.png">
+<meta name="twitter:image" content="https://www.hanksvba.com/posts/706100979/1.JPG">
 
 
 <link rel="canonical" href="https://www.hanksvba.com/posts/706100979/">
@@ -117,7 +123,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%83%8C%E6%99%AF"><span class="nav-number">1.</span> <span class="nav-text">背景</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%A7%E9%83%A8%E7%B3%BB%E7%B5%B1%E8%B3%87%E6%96%99%E5%BA%AB"><span class="nav-number">1.1.</span> <span class="nav-text">內部系統資料庫</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B6%B2%E9%A0%81%E8%87%AA%E5%8B%95%E5%8C%96%E5%A1%AB%E5%A0%B1"><span class="nav-number">1.2.</span> <span class="nav-text">網頁自動化填報</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%90%E6%9E%9C"><span class="nav-number">2.</span> <span class="nav-text">成果</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%83%8C%E6%99%AF"><span class="nav-number">1.</span> <span class="nav-text">背景</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%96%E9%83%A8%E7%B3%BB%E7%B5%B1%E6%93%8D%E4%BD%9C%E7%95%AB%E9%9D%A2"><span class="nav-number">1.1.</span> <span class="nav-text">外部系統操作畫面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%A7%E9%83%A8%E7%B3%BB%E7%B5%B1%E8%B3%87%E6%96%99%E5%BA%AB"><span class="nav-number">1.2.</span> <span class="nav-text">內部系統資料庫</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B6%B2%E9%A0%81%E8%87%AA%E5%8B%95%E5%8C%96%E5%A1%AB%E5%A0%B1"><span class="nav-number">1.3.</span> <span class="nav-text">網頁自動化填報</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%90%E6%9E%9C"><span class="nav-number">2.</span> <span class="nav-text">成果</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -253,6 +259,12 @@
 <p>然而今日<strong>沒有外部系統API使用</strong>，需要另外想辦法從原本的資料庫撈取資料進行<strong>網頁自動化填報</strong>才能省事，首先要確認內部系統的資料庫欄位是否能進行資料梳理，再者確認網頁自動化填報做法為何。</p>
 <span id="more"></span>
 <hr />
+<h3 id="外部系統操作畫面">外部系統操作畫面</h3>
+<p><img src="1.JPG" alt="Fig1. 新增計畫工程" /> <img src="2.JPG"
+alt="Fig2. 計畫工程成果" /> <img src="3.JPG" alt="Fig3. 新增分項工程" />
+<img src="4.JPG" alt="Fig4. 分項工程成果" /> <img src="5.JPG"
+alt="Fig5. 工程概要表填寫欄位(一)" /> <img src="6.JPG"
+alt="Fig6. 工程概要表填寫欄位(二)" /></p>
 <h3 id="內部系統資料庫">內部系統資料庫</h3>
 <p>經查外部系統相關資料欄位分散於內部系統資料庫(SQLserver)各個不同資料表，雖然透過JOIN的方式也可以產出一個滿接近可以直接輸入的成果，但筆者對於資料庫的操作經驗尚顯不足，期程迫在眉睫，只好先將內部系統相關各表先匯出成excel，再透過熟悉的VBA進行資料梳理，整理成未來網頁自動化填報待載入的內容。</p>
 <p>為不影響既有資料庫運作，先請各同仁將欲填報資料內容填寫完後進行資料庫備份，於本地端重啟一個資料庫服務並導入備份內容進行後續操作。</p>
@@ -361,8 +373,8 @@
 <h4 id="照片處理">照片處理</h4>
 <p>在處理照片對映時，發現資料庫中的照片存成二進位，需先把二進位轉成圖片才有辦法進行後續處理。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">get_photos</span>():</span><br><span class="line">    conn = get_db_connection()</span><br><span class="line">    cursor = conn.cursor()</span><br><span class="line"></span><br><span class="line">    query=<span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    SELECT  </span></span><br><span class="line"><span class="string">        mf.[MN_ID],</span></span><br><span class="line"><span class="string">        mf.[WRD_NAME],</span></span><br><span class="line"><span class="string">        mp.[PIC_FILE],  -- 假設你想要選擇圖片欄位</span></span><br><span class="line"><span class="string">        mp.[PIC_PATH]</span></span><br><span class="line"><span class="string">    FROM </span></span><br><span class="line"><span class="string">        [CMPSGS].[dbo].[MONFORM] mf</span></span><br><span class="line"><span class="string">    JOIN </span></span><br><span class="line"><span class="string">        [CMPSGS].[dbo].[MONFPIC] mp</span></span><br><span class="line"><span class="string">        ON mf.[MN_ID] = mp.[MN_ID]</span></span><br><span class="line"><span class="string">    WHERE </span></span><br><span class="line"><span class="string">        mf.[ADD_DT] &gt; &#x27;2024-11-01&#x27;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    ORDER BY</span></span><br><span class="line"><span class="string">        mf.[MN_ID]</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    cursor.execute(query)</span><br><span class="line">    <span class="comment"># 獲取列名</span></span><br><span class="line">    columns = [column[<span class="number">0</span>] <span class="keyword">for</span> column <span class="keyword">in</span> cursor.description]</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 將結果轉換為字典列表</span></span><br><span class="line">    results = [<span class="built_in">dict</span>(<span class="built_in">zip</span>(columns, row)) <span class="keyword">for</span> row <span class="keyword">in</span> cursor.fetchall()]</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># print(&quot;Results:&quot;, results)  # 新增這一行</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 將結果轉換為 DataFrame</span></span><br><span class="line">    df = pd.DataFrame(results)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> index, row <span class="keyword">in</span> df.iterrows():</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">if</span> index %<span class="number">3</span>==<span class="number">0</span>:</span><br><span class="line">            <span class="built_in">print</span>(row[<span class="string">&quot;WRD_NAME&quot;</span>])</span><br><span class="line">            folder_name=row[<span class="string">&quot;WRD_NAME&quot;</span>]</span><br><span class="line">            os.makedirs(<span class="string">&quot;./data/&quot;</span>+folder_name, exist_ok=<span class="literal">True</span>)</span><br><span class="line">            </span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;./data/&quot;</span>+folder_name+<span class="string">&quot;/&quot;</span>+row[<span class="string">&quot;WRD_NAME&quot;</span>]+<span class="string">&quot;-&quot;</span>+row[<span class="string">&quot;PIC_PATH&quot;</span>], <span class="string">&quot;wb&quot;</span>) <span class="keyword">as</span> image_file:</span><br><span class="line">            image_file.write(row[<span class="string">&quot;PIC_FILE&quot;</span>])</span><br><span class="line">            <span class="built_in">print</span>(<span class="built_in">str</span>(index)+<span class="string">&quot;...OK!&quot;</span>)</span><br><span class="line"></span><br><span class="line">    cursor.close()</span><br><span class="line">    conn.close()</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> df</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p><img src="2.png" alt="Fig1. 資料夾安排(以渠道名稱為分類)" /> <img
-src="3.png" alt="Fig2. 資料夾內容(檔案名稱取為數字方便排序進行)" /></p>
+<p><img src="2.png" alt="Fig7. 資料夾安排(以渠道名稱為分類)" /> <img
+src="3.png" alt="Fig8. 資料夾內容(檔案名稱取為數字方便排序進行)" /></p>
 <hr />
 <h3 id="網頁自動化填報">網頁自動化填報</h3>
 <p>原本想像中的Selenium會需要<strong>從無到有</strong>開啟一個網站後開始進行資料填寫，大多數的網站都會有帳號密碼驗證機制，甚至祭出驗證碼、選擇汽車圖片、移動滑鼠到指定位置...等反爬蟲機制來確認是否為機器人，但若網頁可以被<strong>接管</strong>繞開這些機制的話，那整個資料填報作業就會很有機會讓電腦代勞，這就是寫程式的趣味來源，當然還是要小心不能點太快，否則網站可能會負荷不過來。</p>
@@ -378,8 +390,8 @@ src="3.png" alt="Fig2. 資料夾內容(檔案名稱取為數字方便排序進�
 <p><code>"C:\Program Files\Google\Chrome\Application\chrome.exe" –remote-debugging-port=9222</code></p>
 <p>NOTE:如果仍然找不到瀏覽器的執行路徑，可以在原本桌面瀏覽器捷徑找尋內容</p>
 <figure>
-<img src="1.png" alt="Fig3. 瀏覽器畫面" />
-<figcaption aria-hidden="true">Fig3. 瀏覽器畫面</figcaption>
+<img src="1.png" alt="Fig9. 瀏覽器畫面" />
+<figcaption aria-hidden="true">Fig9. 瀏覽器畫面</figcaption>
 </figure>
 <hr />
 <p><a
@@ -413,8 +425,8 @@ href="https://www.hanksvba.com/posts/391727536/#more">更多細節請參考.Sele
 
           <div class="post-tags">
               <a href="/tags/Python/" rel="tag"><i class="fa fa-tag"></i> Python</a>
-              <a href="/tags/SQL/" rel="tag"><i class="fa fa-tag"></i> SQL</a>
               <a href="/tags/Selenium/" rel="tag"><i class="fa fa-tag"></i> Selenium</a>
+              <a href="/tags/SQL/" rel="tag"><i class="fa fa-tag"></i> SQL</a>
           </div>
 
         
@@ -445,7 +457,7 @@ href="https://www.hanksvba.com/posts/391727536/#more">更多細節請參考.Sele
 
   <div class="copyright">
     &copy; 
-    <span itemprop="copyrightYear">2024</span>
+    <span itemprop="copyrightYear">2025</span>
     <span class="with-love">
       <i class="fa fa-heart"></i>
     </span>
