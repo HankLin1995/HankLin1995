@@ -1,6 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>創站首篇文章</title>
+    <url>/posts/2051013919/</url>
+    <content><![CDATA[<h2 id="前言">🙌前言</h2>
+<p>自2018年開始撰寫Blogger紀錄工作上會遇到的內容，藉由紀錄的過程也有助於加深對於某項技術的印象。想當初我遇到問題的時候也是不斷Google，受惠於很多網路大神的文章才解決了問題，期許我也能夠成為網路世界中有用的人，撰寫出一些能夠對這個世界有所幫助的文章。</p>
+<p>礙於我對於Blogger的調整不是很熟悉，常常影片上傳失敗或分頁的過程會無法完整呈現，有一天當我遇到Hexo-nexT的主題時，驚為天人，這完全就是我理想中的部落格外觀，因此就決定藉由學習一項新的技術的同時也來重建一下以前醜醜的Google
+Blogger...</p>
+<span id="more"></span>
+<p>##🌟 為什麼想要重建一個部落格?</p>
+<h3 id="主要原因">主要原因</h3>
+<blockquote>
+<p>Hexo-nexT相當簡潔有力</p>
+</blockquote>
+<p>於我而言，理想中的部落格就是只要可以介紹我是誰、方便訪客查看文章、留言，這幾項基本功能即可</p>
+<p>剛好Hexo的nexT主題可以說是專為這些內容而生的靜態頁面渲染器，內建的文章目錄、可以直接使用markdown語法進行渲染的內容，還有各種留言外掛可供利用，完全符合我的需求。</p>
+<h3 id="額外好處">額外好處</h3>
+<blockquote>
+<p>網站自主權，非常的重要!</p>
+</blockquote>
+<p>Hexo可以在本地端透過hexo-cli套件進行靜態網頁渲染，讓使用者可以儲存原始檔案，不怕有一天服務收掉卻沒有原始檔可以復原。</p>
+<p>渲染後的內容要給網路看必須要找個空間進行部署，剛好<strong>GitHubPage</strong>有提供這項服務，如有購買網域，也可以進行CNAME設定即可擁有自己的官方網站部落格了，是不是很讚!</p>
+<hr />
+<h2 id="未來文章組成方向">⤴️未來文章組成方向</h2>
+<p>這幾年來做了不少個side
+project，專案執行過程也能有幸與各地網友交流，因為我本身是名工程人員，對於資訊人員所能撰寫的素材，我可以再多融入有關工程上的應用，而這些內容也是眾多網友所關注的內容，包含規劃、設計、監造、工務行政...等。</p>
+<p>在此，我很感謝曾經幫助過我的朋友，因為有你們的支持，也才能讓我有動力繼續研究開發。</p>
+<h3 id="基本概念">基本概念</h3>
+<p>當遇到的問題的時候就知道要去找答案了，這是我在自學的過程中所領悟到的一件事，看過程式碼其實不代表你已經會了，而是必須要把答案寫出來並解決了問題才是真的會了!</p>
+<blockquote>
+<p>寫程式本身就是一個不斷遇到錯誤、修正錯誤的過程</p>
+</blockquote>
+<p>我會將解決問題的過程中，那些值得紀錄的基本概念寫在我的部落格中，有一天網路上相遇時能幫助到你我會很開心。</p>
+<h3 id="專案開發">專案開發</h3>
+<p>寫程式的目標，往往是透過完成小專案合併成一個大專案來解決實務上的問題，懂得拆分需求也是一名好的資訊人員所需要的基本技能，開發過程難免會遇到一些奇怪的問題，但這些問題又偏離基本概念太遠，主要訴求是為了解決專案內容而生，因此這部分為以解決<strong>實務上的問題</strong>為內容，將我踩過的坑分享給各位同樣遇見該問題的人，而不再多琢磨基本概念。</p>
+<blockquote>
+<p>專案項目如果能進行良好的拆分並進行<strong>單元測試</strong>真的很有幫助</p>
+</blockquote>
+<h3 id="專案成果">專案成果</h3>
+<blockquote>
+<p>專案完成一定的程度就會需要進行測試，透過實際上的測試，了解專案的瑕疵在哪裡。</p>
+</blockquote>
+<p>既然會有操作，那把專案的相關文件撰寫清楚，才可能會有辦法好好操作，因此這階段的內容是將開發完成的專案使用情況、操作步驟好好描述，在此，很感謝願意進行測試的好朋友，有你們才能讓專案趨於完整，由衷感謝!!!</p>
+<h3 id="需求回饋">需求回饋</h3>
+<p>不同的使用者有各式各樣的需求，這部分對我而言都是很好的回饋，如果這些需求能夠讓程式更適用於大多數人的需求，這樣對於專案執行的發展方向就會是健康的，畢竟功能好壞各有所主觀意識，但若能夠大部分的人都認為這樣很棒，那我也很樂意為之。</p>
+<blockquote>
+<p>當實務上遇到問題的時候請用力告訴我，聯絡LINE還是Mail都可以!(詳見左方側邊攔)</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LINE機器人自動備份群組照片</title>
+    <url>/posts/3782846762/</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>在執行工程時，經常會為了聯絡相關事宜建立LINE群組來進行交談，通常施工照片也會在這個群裡面進行上傳讓大家可以確認內容，上傳照片到LINE群組的時候除了直接上傳外，也可以透過建立相簿將照片永久保存。</p>
+<p>在LINE群組的檔案機制，照片或文件會有一定時間的存活期，當過了存活期之後照片就會呈現無法下載的情形，因此將照片做一個額外存放的動作算是滿重要的一個手段，而這件事除了繁瑣也很可能會因為再次請求上傳的過程多存了不少張<strong>重複的照片</strong>，而這個部分相信大多數人都是透過人眼來進行判別，火眼金睛用久也是會累的。</p>
+<blockquote>
+<p>希望能夠打造一個當群組內判定到照片資料時，能夠自動備份到指定硬碟並汰除重複照片的機器人，減少這些瑣事的發生。</p>
+</blockquote>
+<p>至於照片後續要進行處理就可以利用<a
+href="https://www.hanksvba.com/posts/144473154/">施工照片VBA</a>進行資料排序、批次改名、報表輸出。</p>
+<span id="more"></span>
+<h2 id="操作畫面">操作畫面</h2>
+<figure>
+<img src="upload_53cc488e0a27cf493cd07d4905969356.png"
+alt="Fig1.LINE群組畫面" />
+<figcaption aria-hidden="true">Fig1.LINE群組畫面</figcaption>
+</figure>
+<figure>
+<img src="upload_62b06ad5bf5b96e4922d9c01ab1de029.png"
+alt="Fig2.本地端儲存畫面" />
+<figcaption aria-hidden="true">Fig2.本地端儲存畫面</figcaption>
+</figure>
+<h2 id="基本工具">基本工具</h2>
+<ul>
+<li>LINEBOT
+<ul>
+<li>MessengerAPI</li>
+</ul></li>
+<li>ngrok
+<ul>
+<li>主要是用來建立https連線給LINEBOT的webhook使用</li>
+</ul></li>
+<li>python
+<ul>
+<li>flask</li>
+<li>linebotsdk</li>
+</ul></li>
+</ul>
+<h3 id="相關連結">相關連結</h3>
+<ul>
+<li><a
+href="https://github.com/yaoandy107/line-bot-tutorial">LINEBOT基本建立</a></li>
+<li><a href="https://ngrok.com/download">ngrok</a></li>
+<li><a
+href="https://ithelp.ithome.com.tw/m/articles/10295654">本地端使用ngrok</a></li>
+</ul>
+<h2 id="實作邏輯">實作邏輯</h2>
+<h3 id="預先準備內容">預先準備內容</h3>
+<ol type="1">
+<li>建立flask並啟用app</li>
+<li>啟用ngrok</li>
+<li>複製將ngrok上面的對外連線IP</li>
+<li>貼到LINEBOT的webhook</li>
+</ol>
+<h3 id="訊息接收過程">訊息接收過程</h3>
+<ol type="1">
+<li>LINEBOT在接受到群組內的訊息時</li>
+<li>判定訊息屬性是否為Image</li>
+<li>圖片內容會先暫時放在LINE機房並且生成一組token</li>
+<li>收到訊息的同時會執行API(Webhook機制)</li>
+<li>API中會將訊息做過濾，藉由token取得照片到本地端</li>
+<li>本地端資料庫會記錄已經存放的照片跟Image_hash</li>
+<li>判定是否有重複的image_hash，如有則回傳"圖片已存在"</li>
+<li>通過重複汰除機制過濾完成後可將照片存放到指定位置</li>
+</ol>
+<h2 id="程式碼">程式碼</h2>
+<h3 id="webhook">webhook</h3>
+<blockquote>
+<p>app_local.py</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 存放在本地端sqlite+本地端硬碟</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> flask <span class="keyword">import</span> Flask, request, abort</span><br><span class="line"><span class="keyword">from</span> linebot <span class="keyword">import</span> LineBotApi, WebhookHandler</span><br><span class="line"><span class="keyword">from</span> linebot.exceptions <span class="keyword">import</span> InvalidSignatureError</span><br><span class="line"><span class="keyword">from</span> linebot.models <span class="keyword">import</span> MessageEvent, ImageMessage, TextSendMessage</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> uuid</span><br><span class="line"><span class="keyword">import</span> hashlib</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> sql_utils <span class="keyword">import</span> get_db, save_photo_to_db, is_image_hash_exist</span><br><span class="line"></span><br><span class="line">app = Flask(__name__)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 設定你的 Channel Access Token 和 Channel Secret</span></span><br><span class="line">CHANNEL_ACCESS_TOKEN = <span class="string">&#x27;YOUR_CHANNEL_ACCESS_TOKEN&#x27;</span></span><br><span class="line">CHANNEL_SECRET = <span class="string">&#x27;YOUR_CHANNEL_SECRET&#x27;</span></span><br><span class="line"></span><br><span class="line">line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)</span><br><span class="line">handler = WebhookHandler(CHANNEL_SECRET)</span><br><span class="line"></span><br><span class="line">PHOTOS_DIR = <span class="string">&#x27;photos&#x27;</span></span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> os.path.exists(PHOTOS_DIR):</span><br><span class="line">    os.makedirs(PHOTOS_DIR)</span><br><span class="line"></span><br><span class="line"><span class="meta">@app.route(<span class="params"><span class="string">&quot;/callback&quot;</span>, methods=[<span class="string">&#x27;POST&#x27;</span>]</span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">callback</span>():</span><br><span class="line">    <span class="comment"># 獲取 X-Line-Signature header</span></span><br><span class="line">    signature = request.headers[<span class="string">&#x27;X-Line-Signature&#x27;</span>]</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 獲取請求體</span></span><br><span class="line">    body = request.get_data(as_text=<span class="literal">True</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        handler.handle(body, signature)</span><br><span class="line">    <span class="keyword">except</span> InvalidSignatureError:</span><br><span class="line">        abort(<span class="number">400</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;OK&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="meta">@handler.add(<span class="params">MessageEvent, message=ImageMessage</span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">handle_image_message</span>(<span class="params">event</span>):</span><br><span class="line">    <span class="comment"># 獲取圖像內容</span></span><br><span class="line">    message_content = line_bot_api.get_message_content(event.message.<span class="built_in">id</span>)</span><br><span class="line">    image_data = message_content.content</span><br><span class="line">    image_hash = calculate_image_hash(image_data)</span><br><span class="line">    user_id = event.source.user_id</span><br><span class="line">    group_id = event.source.group_id</span><br><span class="line">    photo_properties = &#123;<span class="string">&quot;edit&quot;</span>: <span class="string">&quot;false&quot;</span>&#125;</span><br><span class="line">    photo_url=<span class="literal">None</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">next</span>(get_db()) <span class="keyword">as</span> db:</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 檢查圖片是否已存在</span></span><br><span class="line">        <span class="keyword">if</span> is_image_hash_exist(db, image_hash):</span><br><span class="line">            reply_text = <span class="string">&quot;圖片已存在，未保存。&quot;</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="comment"># 保存圖片到本地資料夾</span></span><br><span class="line">            file_name = <span class="built_in">str</span>(uuid.uuid4()) + <span class="string">&#x27;.jpg&#x27;</span></span><br><span class="line">            file_path = os.path.join(PHOTOS_DIR, file_name)</span><br><span class="line">            <span class="keyword">with</span> <span class="built_in">open</span>(file_path, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">                <span class="keyword">for</span> chunk <span class="keyword">in</span> message_content.iter_content():</span><br><span class="line">                    f.write(chunk)</span><br><span class="line"></span><br><span class="line">            <span class="comment"># 保存圖片到資料庫</span></span><br><span class="line">            saved_photo = save_photo_to_db(db, user_id, group_id, file_name, photo_url, photo_properties, image_hash)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;Photo saved successfully:&quot;</span>, saved_photo)</span><br><span class="line"></span><br><span class="line">            reply_text = <span class="string">&quot;圖片已保存到本地端！&quot;</span></span><br><span class="line"></span><br><span class="line">    line_bot_api.reply_message(</span><br><span class="line">        event.reply_token,</span><br><span class="line">        TextSendMessage(text=reply_text)</span><br><span class="line">    )</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">calculate_image_hash</span>(<span class="params">image_data</span>):</span><br><span class="line">    hasher = hashlib.sha256()</span><br><span class="line">    hasher.update(image_data)</span><br><span class="line">    <span class="keyword">return</span> hasher.hexdigest()</span><br><span class="line"></span><br><span class="line"><span class="meta">@handler.add(<span class="params">MessageEvent</span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">handle_message</span>(<span class="params">event</span>):</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> <span class="built_in">isinstance</span>(event.message, ImageMessage):</span><br><span class="line">        reply_text = <span class="string">&quot;請傳送圖片訊息。&quot;</span></span><br><span class="line">        line_bot_api.reply_message(</span><br><span class="line">            event.reply_token,</span><br><span class="line">            TextSendMessage(text=reply_text)</span><br><span class="line">        )</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    app.run(host=<span class="string">&quot;0.0.0.0&quot;</span>, port=<span class="number">8000</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>sql_utils.py</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> sqlalchemy <span class="keyword">import</span> create_engine, Column, Integer, String, DateTime, JSON</span><br><span class="line"><span class="keyword">from</span> sqlalchemy.orm <span class="keyword">import</span> sessionmaker,declarative_base</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> sqlalchemy.orm <span class="keyword">import</span> Session</span><br><span class="line"></span><br><span class="line">DATABASE_URL=<span class="string">&quot;sqlite:///photos.db&quot;</span></span><br><span class="line">engine = create_engine(DATABASE_URL)</span><br><span class="line">Base = declarative_base()</span><br><span class="line">SessionLocal = sessionmaker(autocommit=<span class="literal">False</span>, autoflush=<span class="literal">False</span>, bind=engine)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定義數據庫模型</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Photo</span>(<span class="title class_ inherited__">Base</span>):</span><br><span class="line">    __tablename__ = <span class="string">&#x27;photos_backup&#x27;</span></span><br><span class="line">    <span class="built_in">id</span> = Column(Integer, primary_key=<span class="literal">True</span>, index=<span class="literal">True</span>)</span><br><span class="line">    user_id = Column(String)</span><br><span class="line">    group_id = Column(String)</span><br><span class="line">    photo_name = Column(String)</span><br><span class="line">    photo_url = Column(String)</span><br><span class="line">    photo_thumbnail_url = Column(String)</span><br><span class="line">    created_time = Column(DateTime, default=datetime.utcnow)</span><br><span class="line">    photo_properties = Column(JSON)</span><br><span class="line">    photo_image_hash = Column(String)<span class="comment">#, unique=True, nullable=False)</span></span><br><span class="line"></span><br><span class="line">Base.metadata.create_all(bind=engine)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 獲取數據庫會話</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_db</span>():</span><br><span class="line">    db = SessionLocal()</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="keyword">yield</span> db</span><br><span class="line">    <span class="keyword">finally</span>:</span><br><span class="line">        db.close()</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">save_photo_to_db</span>(<span class="params">db, user_id,group_id, photo_name, photo_url, photo_properties,image_hash</span>):</span><br><span class="line">    new_photo = Photo(</span><br><span class="line">        user_id=user_id,</span><br><span class="line">        group_id=group_id,</span><br><span class="line">        photo_name=photo_name,</span><br><span class="line">        photo_url=photo_url,</span><br><span class="line">        photo_properties=photo_properties,</span><br><span class="line">        photo_image_hash=image_hash</span><br><span class="line">    )</span><br><span class="line">    db.add(new_photo)</span><br><span class="line">    db.commit()</span><br><span class="line">    db.refresh(new_photo)</span><br><span class="line">    <span class="keyword">return</span> new_photo</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_photo_by_id</span>(<span class="params">db: Session, photo_id: <span class="built_in">int</span></span>):</span><br><span class="line">    <span class="keyword">return</span> db.query(Photo).<span class="built_in">filter</span>(Photo.<span class="built_in">id</span> == photo_id).first()</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">fetch_all_photos</span>(<span class="params">db: Session</span>):</span><br><span class="line">    <span class="keyword">return</span> db.query(Photo).<span class="built_in">all</span>()</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">delete_photo_from_db</span>(<span class="params">db: Session, photo_id: <span class="built_in">int</span></span>):</span><br><span class="line">    photo = db.query(Photo).<span class="built_in">filter</span>(Photo.<span class="built_in">id</span> == photo_id).first()</span><br><span class="line">    <span class="keyword">if</span> photo:</span><br><span class="line">        db.delete(photo)</span><br><span class="line">        db.commit()</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Photo with ID <span class="subst">&#123;photo_id&#125;</span> deleted successfully from database.&quot;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;No photo found with ID <span class="subst">&#123;photo_id&#125;</span>.&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">is_image_hash_exist</span>(<span class="params">db, image_hash</span>):</span><br><span class="line">    <span class="keyword">return</span> db.query(Photo).<span class="built_in">filter</span>(Photo.photo_image_hash == image_hash).first() <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="結語">結語</h2>
+<p>如果您本身執行工程專案時有大量的照片需要進行自動備份，同時又有一台電腦可以不關機當作server用途，可以將他建立好python執行環境並參考上述的內容搭配使用，如有不懂的內容也歡迎聯繫作者來<strong>協助架設LINE群組機器人</strong>，自動備份工程群組內部照片省時又省力。</p>
+]]></content>
+      <categories>
+        <category>專案成果</category>
+      </categories>
+      <tags>
+        <tag>flask</tag>
+        <tag>LINEBOT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>土方計算-方格法(VBA)</title>
     <url>/posts/4262718496/</url>
     <content><![CDATA[<h2 id="前言">🙌前言</h2>
@@ -200,145 +339,6 @@ Validation的方式判斷目前模型的合理程度，影響IDW有搜尋半徑�
       </tags>
   </entry>
   <entry>
-    <title>創站首篇文章</title>
-    <url>/posts/2051013919/</url>
-    <content><![CDATA[<h2 id="前言">🙌前言</h2>
-<p>自2018年開始撰寫Blogger紀錄工作上會遇到的內容，藉由紀錄的過程也有助於加深對於某項技術的印象。想當初我遇到問題的時候也是不斷Google，受惠於很多網路大神的文章才解決了問題，期許我也能夠成為網路世界中有用的人，撰寫出一些能夠對這個世界有所幫助的文章。</p>
-<p>礙於我對於Blogger的調整不是很熟悉，常常影片上傳失敗或分頁的過程會無法完整呈現，有一天當我遇到Hexo-nexT的主題時，驚為天人，這完全就是我理想中的部落格外觀，因此就決定藉由學習一項新的技術的同時也來重建一下以前醜醜的Google
-Blogger...</p>
-<span id="more"></span>
-<p>##🌟 為什麼想要重建一個部落格?</p>
-<h3 id="主要原因">主要原因</h3>
-<blockquote>
-<p>Hexo-nexT相當簡潔有力</p>
-</blockquote>
-<p>於我而言，理想中的部落格就是只要可以介紹我是誰、方便訪客查看文章、留言，這幾項基本功能即可</p>
-<p>剛好Hexo的nexT主題可以說是專為這些內容而生的靜態頁面渲染器，內建的文章目錄、可以直接使用markdown語法進行渲染的內容，還有各種留言外掛可供利用，完全符合我的需求。</p>
-<h3 id="額外好處">額外好處</h3>
-<blockquote>
-<p>網站自主權，非常的重要!</p>
-</blockquote>
-<p>Hexo可以在本地端透過hexo-cli套件進行靜態網頁渲染，讓使用者可以儲存原始檔案，不怕有一天服務收掉卻沒有原始檔可以復原。</p>
-<p>渲染後的內容要給網路看必須要找個空間進行部署，剛好<strong>GitHubPage</strong>有提供這項服務，如有購買網域，也可以進行CNAME設定即可擁有自己的官方網站部落格了，是不是很讚!</p>
-<hr />
-<h2 id="未來文章組成方向">⤴️未來文章組成方向</h2>
-<p>這幾年來做了不少個side
-project，專案執行過程也能有幸與各地網友交流，因為我本身是名工程人員，對於資訊人員所能撰寫的素材，我可以再多融入有關工程上的應用，而這些內容也是眾多網友所關注的內容，包含規劃、設計、監造、工務行政...等。</p>
-<p>在此，我很感謝曾經幫助過我的朋友，因為有你們的支持，也才能讓我有動力繼續研究開發。</p>
-<h3 id="基本概念">基本概念</h3>
-<p>當遇到的問題的時候就知道要去找答案了，這是我在自學的過程中所領悟到的一件事，看過程式碼其實不代表你已經會了，而是必須要把答案寫出來並解決了問題才是真的會了!</p>
-<blockquote>
-<p>寫程式本身就是一個不斷遇到錯誤、修正錯誤的過程</p>
-</blockquote>
-<p>我會將解決問題的過程中，那些值得紀錄的基本概念寫在我的部落格中，有一天網路上相遇時能幫助到你我會很開心。</p>
-<h3 id="專案開發">專案開發</h3>
-<p>寫程式的目標，往往是透過完成小專案合併成一個大專案來解決實務上的問題，懂得拆分需求也是一名好的資訊人員所需要的基本技能，開發過程難免會遇到一些奇怪的問題，但這些問題又偏離基本概念太遠，主要訴求是為了解決專案內容而生，因此這部分為以解決<strong>實務上的問題</strong>為內容，將我踩過的坑分享給各位同樣遇見該問題的人，而不再多琢磨基本概念。</p>
-<blockquote>
-<p>專案項目如果能進行良好的拆分並進行<strong>單元測試</strong>真的很有幫助</p>
-</blockquote>
-<h3 id="專案成果">專案成果</h3>
-<blockquote>
-<p>專案完成一定的程度就會需要進行測試，透過實際上的測試，了解專案的瑕疵在哪裡。</p>
-</blockquote>
-<p>既然會有操作，那把專案的相關文件撰寫清楚，才可能會有辦法好好操作，因此這階段的內容是將開發完成的專案使用情況、操作步驟好好描述，在此，很感謝願意進行測試的好朋友，有你們才能讓專案趨於完整，由衷感謝!!!</p>
-<h3 id="需求回饋">需求回饋</h3>
-<p>不同的使用者有各式各樣的需求，這部分對我而言都是很好的回饋，如果這些需求能夠讓程式更適用於大多數人的需求，這樣對於專案執行的發展方向就會是健康的，畢竟功能好壞各有所主觀意識，但若能夠大部分的人都認為這樣很棒，那我也很樂意為之。</p>
-<blockquote>
-<p>當實務上遇到問題的時候請用力告訴我，聯絡LINE還是Mail都可以!(詳見左方側邊攔)</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>Blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>LINE機器人自動備份群組照片</title>
-    <url>/posts/3782846762/</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>在執行工程時，經常會為了聯絡相關事宜建立LINE群組來進行交談，通常施工照片也會在這個群裡面進行上傳讓大家可以確認內容，上傳照片到LINE群組的時候除了直接上傳外，也可以透過建立相簿將照片永久保存。</p>
-<p>在LINE群組的檔案機制，照片或文件會有一定時間的存活期，當過了存活期之後照片就會呈現無法下載的情形，因此將照片做一個額外存放的動作算是滿重要的一個手段，而這件事除了繁瑣也很可能會因為再次請求上傳的過程多存了不少張<strong>重複的照片</strong>，而這個部分相信大多數人都是透過人眼來進行判別，火眼金睛用久也是會累的。</p>
-<blockquote>
-<p>希望能夠打造一個當群組內判定到照片資料時，能夠自動備份到指定硬碟並汰除重複照片的機器人，減少這些瑣事的發生。</p>
-</blockquote>
-<p>至於照片後續要進行處理就可以利用<a
-href="https://www.hanksvba.com/posts/144473154/">施工照片VBA</a>進行資料排序、批次改名、報表輸出。</p>
-<span id="more"></span>
-<h2 id="操作畫面">操作畫面</h2>
-<figure>
-<img src="upload_53cc488e0a27cf493cd07d4905969356.png"
-alt="Fig1.LINE群組畫面" />
-<figcaption aria-hidden="true">Fig1.LINE群組畫面</figcaption>
-</figure>
-<figure>
-<img src="upload_62b06ad5bf5b96e4922d9c01ab1de029.png"
-alt="Fig2.本地端儲存畫面" />
-<figcaption aria-hidden="true">Fig2.本地端儲存畫面</figcaption>
-</figure>
-<h2 id="基本工具">基本工具</h2>
-<ul>
-<li>LINEBOT
-<ul>
-<li>MessengerAPI</li>
-</ul></li>
-<li>ngrok
-<ul>
-<li>主要是用來建立https連線給LINEBOT的webhook使用</li>
-</ul></li>
-<li>python
-<ul>
-<li>flask</li>
-<li>linebotsdk</li>
-</ul></li>
-</ul>
-<h3 id="相關連結">相關連結</h3>
-<ul>
-<li><a
-href="https://github.com/yaoandy107/line-bot-tutorial">LINEBOT基本建立</a></li>
-<li><a href="https://ngrok.com/download">ngrok</a></li>
-<li><a
-href="https://ithelp.ithome.com.tw/m/articles/10295654">本地端使用ngrok</a></li>
-</ul>
-<h2 id="實作邏輯">實作邏輯</h2>
-<h3 id="預先準備內容">預先準備內容</h3>
-<ol type="1">
-<li>建立flask並啟用app</li>
-<li>啟用ngrok</li>
-<li>複製將ngrok上面的對外連線IP</li>
-<li>貼到LINEBOT的webhook</li>
-</ol>
-<h3 id="訊息接收過程">訊息接收過程</h3>
-<ol type="1">
-<li>LINEBOT在接受到群組內的訊息時</li>
-<li>判定訊息屬性是否為Image</li>
-<li>圖片內容會先暫時放在LINE機房並且生成一組token</li>
-<li>收到訊息的同時會執行API(Webhook機制)</li>
-<li>API中會將訊息做過濾，藉由token取得照片到本地端</li>
-<li>本地端資料庫會記錄已經存放的照片跟Image_hash</li>
-<li>判定是否有重複的image_hash，如有則回傳"圖片已存在"</li>
-<li>通過重複汰除機制過濾完成後可將照片存放到指定位置</li>
-</ol>
-<h2 id="程式碼">程式碼</h2>
-<h3 id="webhook">webhook</h3>
-<blockquote>
-<p>app_local.py</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 存放在本地端sqlite+本地端硬碟</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> flask <span class="keyword">import</span> Flask, request, abort</span><br><span class="line"><span class="keyword">from</span> linebot <span class="keyword">import</span> LineBotApi, WebhookHandler</span><br><span class="line"><span class="keyword">from</span> linebot.exceptions <span class="keyword">import</span> InvalidSignatureError</span><br><span class="line"><span class="keyword">from</span> linebot.models <span class="keyword">import</span> MessageEvent, ImageMessage, TextSendMessage</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> uuid</span><br><span class="line"><span class="keyword">import</span> hashlib</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> sql_utils <span class="keyword">import</span> get_db, save_photo_to_db, is_image_hash_exist</span><br><span class="line"></span><br><span class="line">app = Flask(__name__)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 設定你的 Channel Access Token 和 Channel Secret</span></span><br><span class="line">CHANNEL_ACCESS_TOKEN = <span class="string">&#x27;YOUR_CHANNEL_ACCESS_TOKEN&#x27;</span></span><br><span class="line">CHANNEL_SECRET = <span class="string">&#x27;YOUR_CHANNEL_SECRET&#x27;</span></span><br><span class="line"></span><br><span class="line">line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)</span><br><span class="line">handler = WebhookHandler(CHANNEL_SECRET)</span><br><span class="line"></span><br><span class="line">PHOTOS_DIR = <span class="string">&#x27;photos&#x27;</span></span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> os.path.exists(PHOTOS_DIR):</span><br><span class="line">    os.makedirs(PHOTOS_DIR)</span><br><span class="line"></span><br><span class="line"><span class="meta">@app.route(<span class="params"><span class="string">&quot;/callback&quot;</span>, methods=[<span class="string">&#x27;POST&#x27;</span>]</span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">callback</span>():</span><br><span class="line">    <span class="comment"># 獲取 X-Line-Signature header</span></span><br><span class="line">    signature = request.headers[<span class="string">&#x27;X-Line-Signature&#x27;</span>]</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 獲取請求體</span></span><br><span class="line">    body = request.get_data(as_text=<span class="literal">True</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        handler.handle(body, signature)</span><br><span class="line">    <span class="keyword">except</span> InvalidSignatureError:</span><br><span class="line">        abort(<span class="number">400</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;OK&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="meta">@handler.add(<span class="params">MessageEvent, message=ImageMessage</span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">handle_image_message</span>(<span class="params">event</span>):</span><br><span class="line">    <span class="comment"># 獲取圖像內容</span></span><br><span class="line">    message_content = line_bot_api.get_message_content(event.message.<span class="built_in">id</span>)</span><br><span class="line">    image_data = message_content.content</span><br><span class="line">    image_hash = calculate_image_hash(image_data)</span><br><span class="line">    user_id = event.source.user_id</span><br><span class="line">    group_id = event.source.group_id</span><br><span class="line">    photo_properties = &#123;<span class="string">&quot;edit&quot;</span>: <span class="string">&quot;false&quot;</span>&#125;</span><br><span class="line">    photo_url=<span class="literal">None</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">next</span>(get_db()) <span class="keyword">as</span> db:</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 檢查圖片是否已存在</span></span><br><span class="line">        <span class="keyword">if</span> is_image_hash_exist(db, image_hash):</span><br><span class="line">            reply_text = <span class="string">&quot;圖片已存在，未保存。&quot;</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="comment"># 保存圖片到本地資料夾</span></span><br><span class="line">            file_name = <span class="built_in">str</span>(uuid.uuid4()) + <span class="string">&#x27;.jpg&#x27;</span></span><br><span class="line">            file_path = os.path.join(PHOTOS_DIR, file_name)</span><br><span class="line">            <span class="keyword">with</span> <span class="built_in">open</span>(file_path, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">                <span class="keyword">for</span> chunk <span class="keyword">in</span> message_content.iter_content():</span><br><span class="line">                    f.write(chunk)</span><br><span class="line"></span><br><span class="line">            <span class="comment"># 保存圖片到資料庫</span></span><br><span class="line">            saved_photo = save_photo_to_db(db, user_id, group_id, file_name, photo_url, photo_properties, image_hash)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;Photo saved successfully:&quot;</span>, saved_photo)</span><br><span class="line"></span><br><span class="line">            reply_text = <span class="string">&quot;圖片已保存到本地端！&quot;</span></span><br><span class="line"></span><br><span class="line">    line_bot_api.reply_message(</span><br><span class="line">        event.reply_token,</span><br><span class="line">        TextSendMessage(text=reply_text)</span><br><span class="line">    )</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">calculate_image_hash</span>(<span class="params">image_data</span>):</span><br><span class="line">    hasher = hashlib.sha256()</span><br><span class="line">    hasher.update(image_data)</span><br><span class="line">    <span class="keyword">return</span> hasher.hexdigest()</span><br><span class="line"></span><br><span class="line"><span class="meta">@handler.add(<span class="params">MessageEvent</span>)</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">handle_message</span>(<span class="params">event</span>):</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> <span class="built_in">isinstance</span>(event.message, ImageMessage):</span><br><span class="line">        reply_text = <span class="string">&quot;請傳送圖片訊息。&quot;</span></span><br><span class="line">        line_bot_api.reply_message(</span><br><span class="line">            event.reply_token,</span><br><span class="line">            TextSendMessage(text=reply_text)</span><br><span class="line">        )</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    app.run(host=<span class="string">&quot;0.0.0.0&quot;</span>, port=<span class="number">8000</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>sql_utils.py</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> sqlalchemy <span class="keyword">import</span> create_engine, Column, Integer, String, DateTime, JSON</span><br><span class="line"><span class="keyword">from</span> sqlalchemy.orm <span class="keyword">import</span> sessionmaker,declarative_base</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">from</span> sqlalchemy.orm <span class="keyword">import</span> Session</span><br><span class="line"></span><br><span class="line">DATABASE_URL=<span class="string">&quot;sqlite:///photos.db&quot;</span></span><br><span class="line">engine = create_engine(DATABASE_URL)</span><br><span class="line">Base = declarative_base()</span><br><span class="line">SessionLocal = sessionmaker(autocommit=<span class="literal">False</span>, autoflush=<span class="literal">False</span>, bind=engine)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定義數據庫模型</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Photo</span>(<span class="title class_ inherited__">Base</span>):</span><br><span class="line">    __tablename__ = <span class="string">&#x27;photos_backup&#x27;</span></span><br><span class="line">    <span class="built_in">id</span> = Column(Integer, primary_key=<span class="literal">True</span>, index=<span class="literal">True</span>)</span><br><span class="line">    user_id = Column(String)</span><br><span class="line">    group_id = Column(String)</span><br><span class="line">    photo_name = Column(String)</span><br><span class="line">    photo_url = Column(String)</span><br><span class="line">    photo_thumbnail_url = Column(String)</span><br><span class="line">    created_time = Column(DateTime, default=datetime.utcnow)</span><br><span class="line">    photo_properties = Column(JSON)</span><br><span class="line">    photo_image_hash = Column(String)<span class="comment">#, unique=True, nullable=False)</span></span><br><span class="line"></span><br><span class="line">Base.metadata.create_all(bind=engine)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 獲取數據庫會話</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_db</span>():</span><br><span class="line">    db = SessionLocal()</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="keyword">yield</span> db</span><br><span class="line">    <span class="keyword">finally</span>:</span><br><span class="line">        db.close()</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">save_photo_to_db</span>(<span class="params">db, user_id,group_id, photo_name, photo_url, photo_properties,image_hash</span>):</span><br><span class="line">    new_photo = Photo(</span><br><span class="line">        user_id=user_id,</span><br><span class="line">        group_id=group_id,</span><br><span class="line">        photo_name=photo_name,</span><br><span class="line">        photo_url=photo_url,</span><br><span class="line">        photo_properties=photo_properties,</span><br><span class="line">        photo_image_hash=image_hash</span><br><span class="line">    )</span><br><span class="line">    db.add(new_photo)</span><br><span class="line">    db.commit()</span><br><span class="line">    db.refresh(new_photo)</span><br><span class="line">    <span class="keyword">return</span> new_photo</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_photo_by_id</span>(<span class="params">db: Session, photo_id: <span class="built_in">int</span></span>):</span><br><span class="line">    <span class="keyword">return</span> db.query(Photo).<span class="built_in">filter</span>(Photo.<span class="built_in">id</span> == photo_id).first()</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">fetch_all_photos</span>(<span class="params">db: Session</span>):</span><br><span class="line">    <span class="keyword">return</span> db.query(Photo).<span class="built_in">all</span>()</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">delete_photo_from_db</span>(<span class="params">db: Session, photo_id: <span class="built_in">int</span></span>):</span><br><span class="line">    photo = db.query(Photo).<span class="built_in">filter</span>(Photo.<span class="built_in">id</span> == photo_id).first()</span><br><span class="line">    <span class="keyword">if</span> photo:</span><br><span class="line">        db.delete(photo)</span><br><span class="line">        db.commit()</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Photo with ID <span class="subst">&#123;photo_id&#125;</span> deleted successfully from database.&quot;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;No photo found with ID <span class="subst">&#123;photo_id&#125;</span>.&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">is_image_hash_exist</span>(<span class="params">db, image_hash</span>):</span><br><span class="line">    <span class="keyword">return</span> db.query(Photo).<span class="built_in">filter</span>(Photo.photo_image_hash == image_hash).first() <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="結語">結語</h2>
-<p>如果您本身執行工程專案時有大量的照片需要進行自動備份，同時又有一台電腦可以不關機當作server用途，可以將他建立好python執行環境並參考上述的內容搭配使用，如有不懂的內容也歡迎聯繫作者來<strong>協助架設LINE群組機器人</strong>，自動備份工程群組內部照片省時又省力。</p>
-]]></content>
-      <categories>
-        <category>專案成果</category>
-      </categories>
-      <tags>
-        <tag>flask</tag>
-        <tag>LINEBOT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Streamlit做手繪簽名</title>
     <url>/posts/213685522/</url>
     <content><![CDATA[<h2 id="前言">前言</h2>
@@ -367,6 +367,85 @@ VBA@簽名檔小工具</a></p>
       </categories>
       <tags>
         <tag>Streamlit</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VBA橫斷面法面積批次處理</title>
+    <url>/posts/2533511128/</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>工程特性如為帶狀工程，比如:水溝、道路等等，通常會以橫斷面法作為土方計算的數量依據，此指土方計算不外乎為:挖方、填方、回填方、CLSM之類。</p>
+<p>在繪製土方基本資料時，面積的框選便會是決定數量很重要的部分，實務上的土方計算流程為:</p>
+<p>圖層設定:</p>
+<ul>
+<li>原地面線</li>
+<li>結構線</li>
+<li>開挖線</li>
+<li>填方線</li>
+<li>開挖面積</li>
+<li>挖方面積</li>
+</ul>
+<ol type="1">
+<li>繪製挖方面積時，將原地面線與開挖線隔離顯示，透過BO或HATCH生成面積</li>
+<li>繪製填方面積時，將回填線、結構線、開挖線隔離顯示，透過BO或HATCH生成面積</li>
+</ol>
+<blockquote>
+<p>封閉聚合線</p>
+</blockquote>
+<p>CAD內建指令'BO'會出現一張介面，可以藉由點選內部點生成封閉聚合線，指令'-BO'則可以略過介面的程序直接點選，此時封閉聚合線會有'面積'屬性。</p>
+<blockquote>
+<p>填充線</p>
+</blockquote>
+<p>CAD內建指令'HATCH'可以點選內部點生成填充線，此時填充線會有'面積'屬性，須注意之前測試過<strong>HATCH可能會有些許的誤差</strong>，這個也不清楚原因為何...</p>
+<span id="more"></span>
+<h2 id="vba批次處理流程">VBA批次處理流程</h2>
+<p>正常的作業流程會將每一個樁號底下的面積逐筆紀錄作加總，算完的數據會修改到橫斷面上所記載的挖方面積數字、填方面積數字，後續再將這些數字填報到土方計算表，稍有恍神則容易出錯，也因此若這些內容都可以用CAD中對應圖元的面積屬性進行處理，並且將資料傳輸到土方計算表及回歸到圖面修訂記載數字，這會讓整個土方計算作業簡單很多。</p>
+<blockquote>
+<p>目標為希望能夠框選一次範圍，就將所有的面積計算完畢並且放置於對應的樁號，省下作業時間!!!</p>
+</blockquote>
+<p>要將圖面進行批次處理時，會需要進行下列步驟搭配VBA執行便能順利完成</p>
+<h3 id="主要介面">主要介面</h3>
+<figure>
+<img src="upload_0667e12aec332c0df8989682a27406ac.png"
+alt="橫斷面圖範例" />
+<figcaption aria-hidden="true">橫斷面圖範例</figcaption>
+</figure>
+<figure>
+<img src="upload_600f965523bfbad7cbb664384cbd23e1.png"
+alt="資料庫介面" />
+<figcaption aria-hidden="true">資料庫介面</figcaption>
+</figure>
+<h3 id="建立樁號外框">建立樁號外框</h3>
+<p>每一個橫斷面圖都會有它所代表的樁號名稱及橫斷面圖範圍(此處是指BORDER欄位)，將外框完成之後做適當的放大縮小，目標是讓所有與該樁號相關的土方面積'形心'都能被完整包覆在框框裡面，後續要判斷面積歸屬時可以順利執行。</p>
+<h3 id="點選面積">點選面積</h3>
+<p>面積部分有兩種實作方式</p>
+<ol type="1">
+<li><p>如前言所述用不同的圖層來預先定義面積歸屬項目(挖方、填方)並且透過BO或HATCH來點擊'內部點'，但這樣還是免不了會有手動處理的部分。</p></li>
+<li><p>用幾何數學方法來處理，原地面線是f(x)，開挖線是g(x)，開挖線先將兩端用CAD中的IntersectWith做延伸後，在用f(x)與g(x)的幾何關係計算面積，相關VBA程式碼實作如下:</p></li>
+</ol>
+<figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"><span class="comment">&#x27;===Main Function===</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Sub</span> plotDigLine(<span class="keyword">ByVal</span> EG <span class="keyword">As</span> <span class="type">Object</span>, <span class="keyword">ByVal</span> EGVertices)</span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> IsIntersect <span class="keyword">As</span> <span class="type">Boolean</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Call</span> CAD.GetBoundingBox(buttomCONC, MinX, MinY, MaxX, MaxY)</span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> vertices(<span class="number">4</span> * <span class="number">2</span> - <span class="number">1</span>) <span class="keyword">As</span> <span class="type">Double</span></span><br><span class="line"></span><br><span class="line">vertices(<span class="number">0</span>) = MinX - <span class="number">300</span> - <span class="number">30</span></span><br><span class="line">vertices(<span class="number">1</span>) = MinY + <span class="number">100</span></span><br><span class="line">vertices(<span class="number">2</span>) = MinX - <span class="number">300</span></span><br><span class="line">vertices(<span class="number">3</span>) = MinY</span><br><span class="line">vertices(<span class="number">4</span>) = MaxX + <span class="number">300</span></span><br><span class="line">vertices(<span class="number">5</span>) = MinY</span><br><span class="line">vertices(<span class="number">6</span>) = MaxX + <span class="number">300</span> + <span class="number">30</span></span><br><span class="line">vertices(<span class="number">7</span>) = MinY + <span class="number">100</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> DL = CAD.AddLWPolyLine(vertices)</span><br><span class="line"><span class="keyword">Call</span> CAD.setLayer(DL, <span class="string">&quot;CAL&quot;</span>)</span><br><span class="line"><span class="comment">&#x27;DL.Layer = &quot;CAL&quot; &#x27; &quot;橫斷面-挖方線&quot;</span></span><br><span class="line"></span><br><span class="line">retpt = myFunc.SortPTArray(CAD.IntersectWith(DL, EG, <span class="number">1</span>, IsIntersect))</span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> IsIntersect = <span class="literal">False</span> <span class="keyword">Then</span> <span class="keyword">Exit</span> <span class="keyword">Sub</span></span><br><span class="line"></span><br><span class="line">vertices(<span class="number">0</span>) = retpt(<span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line">vertices(<span class="number">1</span>) = retpt(<span class="number">0</span>, <span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">vertices(<span class="number">6</span>) = retpt(UBound(retpt, <span class="number">1</span>), <span class="number">0</span>) <span class="comment">&#x27;- 3 + 1)</span></span><br><span class="line">vertices(<span class="number">7</span>) = retpt(UBound(retpt, <span class="number">1</span>), <span class="number">1</span>) <span class="comment">&#x27;- 3 + 2)</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;========以邊界為基準================</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;vertices(0) = EGVertices(0)</span></span><br><span class="line"><span class="comment">&#x27;vertices(1) = EGVertices(1)</span></span><br><span class="line"><span class="comment">&#x27;vertices(6) = EGVertices(UBound(EGVertices) - 1)</span></span><br><span class="line"><span class="comment">&#x27;vertices(7) = EGVertices(UBound(EGVertices))</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;====================================</span></span><br><span class="line"></span><br><span class="line">DL.Delete</span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> DL2 = CAD.AddLWPolyLine(vertices)</span><br><span class="line"></span><br><span class="line">DL2.Layer = <span class="string">&quot;CAL&quot;</span> <span class="comment">&#x27;&quot;橫斷面-挖方線&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;============匯入挖方面積==================</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> stoneObj <span class="keyword">As</span> <span class="built_in">New</span> clsStone</span><br><span class="line"></span><br><span class="line">DLArea = stoneObj.getDLArea(EG, DL2)</span><br><span class="line"></span><br><span class="line"><span class="keyword">With</span> Sheets(<span class="string">&quot;中心線&quot;</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Set</span> rng = .Columns(<span class="number">1</span>).Find(loc)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> <span class="built_in">Not</span> rng <span class="built_in">Is</span> <span class="literal">Nothing</span> <span class="keyword">Then</span></span><br><span class="line">    </span><br><span class="line">    r = rng.Row</span><br><span class="line">    .Cells(r, <span class="number">5</span>) = DLArea</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">With</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;====clsCAD===</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> IntersectWith(<span class="keyword">ByVal</span> PL1, <span class="keyword">ByVal</span> PL2, <span class="keyword">ByVal</span> mode <span class="keyword">As</span> <span class="type">Byte</span>, <span class="keyword">ByRef</span> IsIntersect <span class="keyword">As</span> <span class="type">Boolean</span>)</span><br><span class="line"></span><br><span class="line">IsIntersect = <span class="literal">False</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> coll <span class="keyword">As</span> <span class="built_in">New</span> Collection</span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> CADVer = <span class="string">&quot;ICAD&quot;</span> <span class="keyword">Then</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">On</span> <span class="keyword">Error</span> <span class="keyword">GoTo</span> ERRORHANDLE <span class="comment">&#x27;20210901 錯誤偵測</span></span><br><span class="line">    <span class="keyword">Set</span> retpt = PL1.IntersectWith(PL2, mode) <span class="comment">&#x27;acExtendThisEntity)</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">For</span> <span class="keyword">Each</span> it <span class="keyword">In</span> retpt</span><br><span class="line">    </span><br><span class="line">        coll.Add it.x</span><br><span class="line">        coll.Add it.y</span><br><span class="line">        coll.Add it.Z</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> coll <span class="built_in">Is</span> <span class="literal">Nothing</span> <span class="keyword">Then</span></span><br><span class="line"><span class="symbol">ERRORHANDLE:</span></span><br><span class="line">        <span class="comment">&#x27;intersectWith = &quot;EMPTY&quot;</span></span><br><span class="line">    <span class="keyword">Else</span></span><br><span class="line">        IntersectWith = myFunc.tranColl2Array(coll)</span><br><span class="line">        IsIntersect = <span class="literal">True</span></span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">Else</span></span><br><span class="line"></span><br><span class="line">    retpt = PL1.IntersectWith(PL2, mode) <span class="comment">&#x27;acExtendThisEntity)</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> UBound(retpt) = -<span class="number">1</span> <span class="keyword">Then</span></span><br><span class="line">       <span class="comment">&#x27; IntersectWith = &quot;EMPTY&quot;</span></span><br><span class="line">    <span class="keyword">Else</span></span><br><span class="line">        IntersectWith = retpt</span><br><span class="line">        IsIntersect = <span class="literal">True</span></span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;====clsStone===</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;<span class="doctag">TODO:</span></span></span><br><span class="line"><span class="comment">&#x27;1.sort X coordinate</span></span><br><span class="line"><span class="comment">&#x27;2.define border</span></span><br><span class="line"><span class="comment">&#x27;3.decide X-value</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> getDLArea(<span class="keyword">ByVal</span> EG, <span class="keyword">ByVal</span> DL)</span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> PLobj1 = RevisePL(EG)</span><br><span class="line">EG.Delete</span><br><span class="line"></span><br><span class="line">PL1_X = myFunc.tranColl2Array(getcoll(PLobj1, <span class="string">&quot;X&quot;</span>))</span><br><span class="line">PL1_Y = myFunc.tranColl2Array(getcoll(PLobj1, <span class="string">&quot;Y&quot;</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> PLobj2 = RevisePL(DL)</span><br><span class="line">DL.Delete</span><br><span class="line"></span><br><span class="line">PL2_X = myFunc.tranColl2Array(getcoll(PLobj2, <span class="string">&quot;X&quot;</span>))</span><br><span class="line">PL2_Y = myFunc.tranColl2Array(getcoll(PLobj2, <span class="string">&quot;Y&quot;</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">Call</span> defineBorder(PL1_X, PL2_X, BL, BR)</span><br><span class="line"></span><br><span class="line">getDLArea = calculateArea_test(PL1_X, PL1_Y, PL2_X, PL2_Y, BL, BR)</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> RevisePL(<span class="keyword">ByVal</span> PLobj) <span class="comment">&#x27;由左至右排序</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> coll <span class="keyword">As</span> <span class="built_in">New</span> Collection</span><br><span class="line"></span><br><span class="line">co = <span class="number">3</span></span><br><span class="line"><span class="keyword">If</span> TypeName(PLobj) <span class="built_in">Like</span> <span class="string">&quot;*LWPolyline&quot;</span> <span class="keyword">Then</span> co = <span class="number">2</span>  <span class="comment">&#x27;IIcadLightWeightPolyline</span></span><br><span class="line"></span><br><span class="line">arr = CAD.tranIPoints(PLobj.coordinates)</span><br><span class="line"></span><br><span class="line">Debug.Print TypeName(PLobj)</span><br><span class="line"></span><br><span class="line">X1 = arr(<span class="number">0</span>)</span><br><span class="line">Xn = arr(UBound(arr) - co + <span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> X1 &gt; Xn <span class="keyword">Then</span></span><br><span class="line">    <span class="keyword">Set</span> RevisePL = CAD.ReverseLine(<span class="keyword">ByVal</span> PLobj)</span><br><span class="line"><span class="keyword">Else</span></span><br><span class="line">    <span class="keyword">Set</span> RevisePL = PLobj</span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">For</span> i = <span class="number">0</span> <span class="keyword">To</span> UBound(arr) - co <span class="keyword">Step</span> co</span><br><span class="line"></span><br><span class="line">    X1 = arr(i)</span><br><span class="line">    X2 = arr(i + co)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> X1 = X2 <span class="keyword">Then</span> arr(i + co) = arr(i + co) + <span class="number">0.001</span> <span class="comment">&#x27;若為垂直則微調往右偏移</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> RevisePL = CAD.AddLWPolyLine(arr)</span><br><span class="line">RevisePL.Layer = PLobj.Layer</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> calculateArea_test(<span class="keyword">ByVal</span> PL1_X, <span class="keyword">ByVal</span> PL1_Y, <span class="keyword">ByVal</span> PL2_X, <span class="keyword">ByVal</span> PL2_Y, <span class="keyword">ByVal</span> BL, <span class="keyword">ByVal</span> BR)</span><br><span class="line"></span><br><span class="line">X_sort = myFunc.BubbleSort_array(myFunc.combineArray(PL1_X, PL2_X))</span><br><span class="line"></span><br><span class="line"><span class="keyword">For</span> i = LBound(X_sort) <span class="keyword">To</span> UBound(X_sort) - <span class="number">1</span></span><br><span class="line">    </span><br><span class="line">    X1 = X_sort(i)</span><br><span class="line">    X2 = X_sort(i + <span class="number">1</span>)</span><br><span class="line">    </span><br><span class="line">    dx = X2 - X1</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> X1 &gt;= BL <span class="built_in">And</span> X2 &lt;= BR <span class="keyword">Then</span></span><br><span class="line">        </span><br><span class="line">        Y1f = getYbyX(X1, PL1_X, PL1_Y)</span><br><span class="line">        Y2f = getYbyX(X1, PL2_X, PL2_Y)</span><br><span class="line">        </span><br><span class="line">        dYf = Y1f - Y2f</span><br><span class="line">        </span><br><span class="line">        Y1b = getYbyX(X2, PL1_X, PL1_Y)</span><br><span class="line">        Y2b = getYbyX(X2, PL2_X, PL2_Y)</span><br><span class="line">        </span><br><span class="line">        dYb = Y1b - Y2b</span><br><span class="line"></span><br><span class="line">        <span class="keyword">If</span> dYf &gt; <span class="number">0</span> <span class="built_in">And</span> dYb &lt; <span class="number">0</span> <span class="keyword">Then</span> <span class="comment">&#x27;與基準線交叉(正到負)</span></span><br><span class="line">        </span><br><span class="line">            X_intersect = getIntersectX(X1, X2, Y1f, Y1b, Y2f, Y2b)</span><br><span class="line">            dA = dYf * (X_intersect - X1) / <span class="number">2</span></span><br><span class="line">            <span class="comment">&#x27;Set lineObj = CAD.AddLineCO(X1, Y1f, X1, Y2f)</span></span><br><span class="line">            </span><br><span class="line">        <span class="keyword">ElseIf</span> dYf &lt; <span class="number">0</span> <span class="built_in">And</span> dYb &gt; <span class="number">0</span> <span class="keyword">Then</span> <span class="comment">&#x27;與基準線交叉(負到正)</span></span><br><span class="line">        </span><br><span class="line">            X_intersect = getIntersectX(X1, X2, Y1f, Y1b, Y2f, Y2b)</span><br><span class="line">            dA = dYb * (X2 - X_intersect) / <span class="number">2</span></span><br><span class="line">            <span class="comment">&#x27;Set lineObj = CAD.AddLineCO(X2, Y1b, X2, Y2b)</span></span><br><span class="line">            </span><br><span class="line">        <span class="keyword">ElseIf</span> dYf &gt;= <span class="number">0</span> <span class="built_in">And</span> dYb &gt;= <span class="number">0</span> <span class="keyword">Then</span> <span class="comment">&#x27;皆在基準線下方</span></span><br><span class="line">        </span><br><span class="line">            dA = (dYf + dYb) * dx / <span class="number">2</span></span><br><span class="line">            <span class="comment">&#x27;Set lineObj = CAD.AddLineCO(X1, Y1f, X1, Y2f)</span></span><br><span class="line">            <span class="comment">&#x27;Set lineObj = CAD.AddLineCO(X2, Y1b, X2, Y2b)</span></span><br><span class="line">        </span><br><span class="line">        <span class="keyword">Else</span></span><br><span class="line">            dA = <span class="number">0</span></span><br><span class="line">        </span><br><span class="line">        <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment">&#x27;Debug.Print &quot;dYf=&quot; &amp; dYf &amp; &quot;,dYb=&quot; &amp; dYb &amp; &quot;,dA=&quot; &amp; dA</span></span><br><span class="line">        sA = sA + dA</span><br><span class="line">        </span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line">calculateArea_test = Round(sA / <span class="number">1000000</span>, <span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> getIntersectX(<span class="keyword">ByVal</span> X1 <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> X2 <span class="keyword">As</span> <span class="type">Double</span>, _</span><br><span class="line">                        <span class="keyword">ByVal</span> Y1f <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> Y1b <span class="keyword">As</span> <span class="type">Double</span>, _</span><br><span class="line">                        <span class="keyword">ByVal</span> Y2f <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> Y2b <span class="keyword">As</span> <span class="type">Double</span>)</span><br><span class="line"></span><br><span class="line">dx = X2 - X1</span><br><span class="line"></span><br><span class="line">y1_slope = (Y1b - Y1f) / dx</span><br><span class="line">y2_slope = (Y2b - Y2f) / dx</span><br><span class="line"></span><br><span class="line">slope_change = Abs(y1_slope - y2_slope)</span><br><span class="line">dY_f = Abs(Y1f - Y2f)</span><br><span class="line"></span><br><span class="line">getIntersectX = X1 + dY_f / slope_change</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> getYbyX(<span class="keyword">ByVal</span> x <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> PL_X, <span class="keyword">ByVal</span> PL_Y)</span><br><span class="line"></span><br><span class="line"><span class="keyword">For</span> i = LBound(PL_X) <span class="keyword">To</span> UBound(PL_X) - <span class="number">1</span></span><br><span class="line">    </span><br><span class="line">    X1 = PL_X(i)</span><br><span class="line">    X2 = PL_X(i + <span class="number">1</span>)</span><br><span class="line">    Y1 = PL_Y(i)</span><br><span class="line">    Y2 = PL_Y(i + <span class="number">1</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> X1 = X2 <span class="keyword">Then</span> X2 = X2 + <span class="number">0.001</span>: <span class="keyword">Stop</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> x &gt;= X1 <span class="built_in">And</span> x &lt;= X2 <span class="keyword">Then</span></span><br><span class="line">        </span><br><span class="line">        s1 = x - X1</span><br><span class="line">        s2 = X2 - x</span><br><span class="line">        getYbyX = (s1 * Y2 + s2 * Y1) / (s1 + s2)</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">Exit</span> <span class="keyword">For</span></span><br><span class="line">      </span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br></pre></td></tr></table></figure>
+<h3 id="判斷面積歸屬">判斷面積歸屬</h3>
+<p>面積歸屬的判定方法為該封閉聚合線的形心點或填充線的形心點位於哪個樁號外框中，判定屬於哪個外框後取出面積並做挖方加總或填方加總(看取出的圖層是哪一種)，關於點與外框的位置判定關係請參考下列程式碼:</p>
+<p>此處範例是用HATCH的面積取出其值，ssetAreas先做好Hatch的篩選才進行後續內容，有需要者可以改用polyline</p>
+<figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Sub</span> CalcCABA() <span class="comment">&#x27;20210720 update</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> ssetAreas = CAD.CreateSSET(<span class="string">&quot;HA&quot;</span>, <span class="string">&quot;0&quot;</span>, <span class="string">&quot;Hatch&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">For</span> <span class="keyword">Each</span> ssetArea <span class="keyword">In</span> ssetAreas</span><br><span class="line"></span><br><span class="line">    <span class="comment">&#x27;<span class="doctag">TODO:</span></span></span><br><span class="line">    <span class="comment">&#x27;1.getMidPoint</span></span><br><span class="line">    <span class="comment">&#x27;2.searchLoc</span></span><br><span class="line">    <span class="comment">&#x27;3.getAreaCol</span></span><br><span class="line">    <span class="comment">&#x27;4.keyinArea</span></span><br><span class="line">    </span><br><span class="line">    r = getRowFromBorder(ssetArea)</span><br><span class="line">    c = getColFromLayerName(ssetArea)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> r &lt;&gt; <span class="string">&quot;&quot;</span> <span class="built_in">And</span> c &lt;&gt; <span class="string">&quot;&quot;</span> <span class="keyword">Then</span> shtCL.Cells(r, c) = ssetArea.area / <span class="number">1000000</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> getColFromLayerName(<span class="keyword">ByVal</span> ha)</span><br><span class="line"></span><br><span class="line"><span class="keyword">With</span> shtCL</span><br><span class="line"></span><br><span class="line">    CD = ha.Layer <span class="comment">&#x27;橫斷面-挖方</span></span><br><span class="line">    </span><br><span class="line">    targetColName = Split(CD, <span class="string">&quot;-&quot;</span>)(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">Set</span> rng = .Rows(<span class="number">2</span>).Find(targetColName)</span><br><span class="line">    </span><br><span class="line">    getColFromLayerName = rng.Column</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">With</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> getRowFromBorder(<span class="keyword">ByVal</span> ha)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">Call</span> CAD.GetBoundingBox(ha, MinX, MinY, MaxX, MaxY)</span><br><span class="line">    midX = (MinX + MaxX) / <span class="number">2</span></span><br><span class="line">    midY = (MinY + MaxY) / <span class="number">2</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">With</span> shtCL</span><br><span class="line"></span><br><span class="line">        lr = .Cells(.Rows.Count, <span class="number">1</span>).<span class="keyword">End</span>(xlUp).Row</span><br><span class="line">    </span><br><span class="line">        <span class="keyword">For</span> r = <span class="number">3</span> <span class="keyword">To</span> lr</span><br><span class="line">        </span><br><span class="line">            BorderPTs = Split(.Cells(r, <span class="number">3</span>), <span class="string">&quot;,&quot;</span>)</span><br><span class="line">            </span><br><span class="line">            <span class="keyword">If</span> UBound(BorderPTs) = <span class="number">3</span> <span class="keyword">Then</span></span><br><span class="line">        </span><br><span class="line">                Border_minX = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">0</span>))</span><br><span class="line">                Border_minY = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">1</span>))</span><br><span class="line">                Border_maxX = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">2</span>))</span><br><span class="line">                Border_maxY = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">3</span>))</span><br><span class="line">                </span><br><span class="line">                <span class="keyword">If</span> midX &gt;= Border_minX <span class="built_in">And</span> midX &lt;= Border_maxX <span class="built_in">And</span> midY &gt;= Border_minY <span class="built_in">And</span> midY &lt;= Border_maxY <span class="keyword">Then</span></span><br><span class="line">                    </span><br><span class="line">                    getRowFromBorder = r</span><br><span class="line">                    <span class="keyword">Exit</span> <span class="keyword">For</span></span><br><span class="line">                    </span><br><span class="line">                <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">            </span><br><span class="line">            <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">            </span><br><span class="line">        <span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">With</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="數據回歸圖面">數據回歸圖面</h3>
+<p>我這裡是採用屬性圖塊方式處理，如果不要那麼麻煩也可以用最簡單的text判定樁號的形心位置後，做相對文字偏移並且加入挖方填方面積文字就可以了，這樣可以有效避免沒有圖塊的問題。</p>
+<figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Sub</span> DrawCABA_Main() <span class="comment">&#x27;將橫斷面說明的CL、CA、BA刪除後重整</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> sset = CAD.CreateSSET(<span class="string">&quot;Title&quot;</span>, <span class="string">&quot;8&quot;</span>, <span class="string">&quot;TITLE&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">For</span> <span class="keyword">Each</span> it <span class="keyword">In</span> sset</span><br><span class="line">        </span><br><span class="line">    <span class="keyword">If</span> TypeName(it) = <span class="string">&quot;IAcadBlockReference&quot;</span> <span class="keyword">Then</span></span><br><span class="line">    </span><br><span class="line">        myAttr = it.GetAttributes</span><br><span class="line">        HSecLoc = myAttr(<span class="number">0</span>).TextString</span><br><span class="line">        </span><br><span class="line">        s = returnCABA(HSecLoc)</span><br><span class="line">        </span><br><span class="line">        tmp = Split(s, <span class="string">&quot;,&quot;</span>)</span><br><span class="line">        </span><br><span class="line">        myAttr(<span class="number">1</span>).TextString = tmp(<span class="number">0</span>)</span><br><span class="line">        myAttr(<span class="number">2</span>).TextString = <span class="string">&quot;挖方=&quot;</span> &amp; Round(tmp(<span class="number">1</span>), <span class="number">2</span>) &amp; <span class="string">&quot; m2&quot;</span></span><br><span class="line">        myAttr(<span class="number">3</span>).TextString = <span class="string">&quot;填方=&quot;</span> &amp; Round(tmp(<span class="number">2</span>), <span class="number">2</span>) &amp; <span class="string">&quot; m2&quot;</span></span><br><span class="line">        <span class="comment">&#x27;myAttr(4).TextString = &quot;CLSM=&quot; &amp; Round(tmp(3), 2) &amp; &quot; m2&quot;</span></span><br><span class="line">        </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="symbol">ERRORHANDLE:</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Private</span> <span class="keyword">Function</span> returnCABA(<span class="keyword">ByVal</span> HSecLoc <span class="keyword">As</span> <span class="type">String</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">With</span> shtCL</span><br><span class="line"></span><br><span class="line">    <span class="keyword">Set</span> rng = .Cells.Find(HSecLoc)</span><br><span class="line">    </span><br><span class="line">    r = rng.Row</span><br><span class="line">    </span><br><span class="line">    deltaH = .Cells(r, <span class="number">2</span> + <span class="number">2</span>)</span><br><span class="line">    CA = .Cells(r, <span class="number">3</span> + <span class="number">2</span>)</span><br><span class="line">    BA = .Cells(r, <span class="number">4</span> + <span class="number">2</span>)</span><br><span class="line">    RA = .Cells(r, <span class="number">5</span> + <span class="number">2</span>)</span><br><span class="line">    </span><br><span class="line">    returnCABA = deltaH &amp; <span class="string">&quot;,&quot;</span> &amp; CA &amp; <span class="string">&quot;,&quot;</span> &amp; BA &amp; <span class="string">&quot;,&quot;</span> &amp; RA</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">With</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br></pre></td></tr></table></figure>
+<h3 id="生成報告">生成報告</h3>
+<p>這裡就是單純的對格子塞資料計算總數而已，僅提供成果供參。</p>
+<figure>
+<img src="upload_85c9fc6b507cc57c8285967bf25cd55b.png"
+alt="土方報告成果" />
+<figcaption aria-hidden="true">土方報告成果</figcaption>
+</figure>
+<h2 id="更多細節">更多細節</h2>
+<p>有需要更多技術細節內容再請來信討論或LINE進行聯繫。</p>
+]]></content>
+      <categories>
+        <category>專案開發</category>
+      </categories>
+      <tags>
+        <tag>AutoCAD VBA</tag>
+        <tag>Excel VBA</tag>
       </tags>
   </entry>
   <entry>
@@ -588,85 +667,6 @@ POST請求發送到GAS後端。</li>
       <tags>
         <tag>Streamlit</tag>
         <tag>GAS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VBA橫斷面法面積批次處理</title>
-    <url>/posts/2533511128/</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>工程特性如為帶狀工程，比如:水溝、道路等等，通常會以橫斷面法作為土方計算的數量依據，此指土方計算不外乎為:挖方、填方、回填方、CLSM之類。</p>
-<p>在繪製土方基本資料時，面積的框選便會是決定數量很重要的部分，實務上的土方計算流程為:</p>
-<p>圖層設定:</p>
-<ul>
-<li>原地面線</li>
-<li>結構線</li>
-<li>開挖線</li>
-<li>填方線</li>
-<li>開挖面積</li>
-<li>挖方面積</li>
-</ul>
-<ol type="1">
-<li>繪製挖方面積時，將原地面線與開挖線隔離顯示，透過BO或HATCH生成面積</li>
-<li>繪製填方面積時，將回填線、結構線、開挖線隔離顯示，透過BO或HATCH生成面積</li>
-</ol>
-<blockquote>
-<p>封閉聚合線</p>
-</blockquote>
-<p>CAD內建指令'BO'會出現一張介面，可以藉由點選內部點生成封閉聚合線，指令'-BO'則可以略過介面的程序直接點選，此時封閉聚合線會有'面積'屬性。</p>
-<blockquote>
-<p>填充線</p>
-</blockquote>
-<p>CAD內建指令'HATCH'可以點選內部點生成填充線，此時填充線會有'面積'屬性，須注意之前測試過<strong>HATCH可能會有些許的誤差</strong>，這個也不清楚原因為何...</p>
-<span id="more"></span>
-<h2 id="vba批次處理流程">VBA批次處理流程</h2>
-<p>正常的作業流程會將每一個樁號底下的面積逐筆紀錄作加總，算完的數據會修改到橫斷面上所記載的挖方面積數字、填方面積數字，後續再將這些數字填報到土方計算表，稍有恍神則容易出錯，也因此若這些內容都可以用CAD中對應圖元的面積屬性進行處理，並且將資料傳輸到土方計算表及回歸到圖面修訂記載數字，這會讓整個土方計算作業簡單很多。</p>
-<blockquote>
-<p>目標為希望能夠框選一次範圍，就將所有的面積計算完畢並且放置於對應的樁號，省下作業時間!!!</p>
-</blockquote>
-<p>要將圖面進行批次處理時，會需要進行下列步驟搭配VBA執行便能順利完成</p>
-<h3 id="主要介面">主要介面</h3>
-<figure>
-<img src="upload_0667e12aec332c0df8989682a27406ac.png"
-alt="橫斷面圖範例" />
-<figcaption aria-hidden="true">橫斷面圖範例</figcaption>
-</figure>
-<figure>
-<img src="upload_600f965523bfbad7cbb664384cbd23e1.png"
-alt="資料庫介面" />
-<figcaption aria-hidden="true">資料庫介面</figcaption>
-</figure>
-<h3 id="建立樁號外框">建立樁號外框</h3>
-<p>每一個橫斷面圖都會有它所代表的樁號名稱及橫斷面圖範圍(此處是指BORDER欄位)，將外框完成之後做適當的放大縮小，目標是讓所有與該樁號相關的土方面積'形心'都能被完整包覆在框框裡面，後續要判斷面積歸屬時可以順利執行。</p>
-<h3 id="點選面積">點選面積</h3>
-<p>面積部分有兩種實作方式</p>
-<ol type="1">
-<li><p>如前言所述用不同的圖層來預先定義面積歸屬項目(挖方、填方)並且透過BO或HATCH來點擊'內部點'，但這樣還是免不了會有手動處理的部分。</p></li>
-<li><p>用幾何數學方法來處理，原地面線是f(x)，開挖線是g(x)，開挖線先將兩端用CAD中的IntersectWith做延伸後，在用f(x)與g(x)的幾何關係計算面積，相關VBA程式碼實作如下:</p></li>
-</ol>
-<figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"><span class="comment">&#x27;===Main Function===</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Sub</span> plotDigLine(<span class="keyword">ByVal</span> EG <span class="keyword">As</span> <span class="type">Object</span>, <span class="keyword">ByVal</span> EGVertices)</span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> IsIntersect <span class="keyword">As</span> <span class="type">Boolean</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Call</span> CAD.GetBoundingBox(buttomCONC, MinX, MinY, MaxX, MaxY)</span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> vertices(<span class="number">4</span> * <span class="number">2</span> - <span class="number">1</span>) <span class="keyword">As</span> <span class="type">Double</span></span><br><span class="line"></span><br><span class="line">vertices(<span class="number">0</span>) = MinX - <span class="number">300</span> - <span class="number">30</span></span><br><span class="line">vertices(<span class="number">1</span>) = MinY + <span class="number">100</span></span><br><span class="line">vertices(<span class="number">2</span>) = MinX - <span class="number">300</span></span><br><span class="line">vertices(<span class="number">3</span>) = MinY</span><br><span class="line">vertices(<span class="number">4</span>) = MaxX + <span class="number">300</span></span><br><span class="line">vertices(<span class="number">5</span>) = MinY</span><br><span class="line">vertices(<span class="number">6</span>) = MaxX + <span class="number">300</span> + <span class="number">30</span></span><br><span class="line">vertices(<span class="number">7</span>) = MinY + <span class="number">100</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> DL = CAD.AddLWPolyLine(vertices)</span><br><span class="line"><span class="keyword">Call</span> CAD.setLayer(DL, <span class="string">&quot;CAL&quot;</span>)</span><br><span class="line"><span class="comment">&#x27;DL.Layer = &quot;CAL&quot; &#x27; &quot;橫斷面-挖方線&quot;</span></span><br><span class="line"></span><br><span class="line">retpt = myFunc.SortPTArray(CAD.IntersectWith(DL, EG, <span class="number">1</span>, IsIntersect))</span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> IsIntersect = <span class="literal">False</span> <span class="keyword">Then</span> <span class="keyword">Exit</span> <span class="keyword">Sub</span></span><br><span class="line"></span><br><span class="line">vertices(<span class="number">0</span>) = retpt(<span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line">vertices(<span class="number">1</span>) = retpt(<span class="number">0</span>, <span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">vertices(<span class="number">6</span>) = retpt(UBound(retpt, <span class="number">1</span>), <span class="number">0</span>) <span class="comment">&#x27;- 3 + 1)</span></span><br><span class="line">vertices(<span class="number">7</span>) = retpt(UBound(retpt, <span class="number">1</span>), <span class="number">1</span>) <span class="comment">&#x27;- 3 + 2)</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;========以邊界為基準================</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;vertices(0) = EGVertices(0)</span></span><br><span class="line"><span class="comment">&#x27;vertices(1) = EGVertices(1)</span></span><br><span class="line"><span class="comment">&#x27;vertices(6) = EGVertices(UBound(EGVertices) - 1)</span></span><br><span class="line"><span class="comment">&#x27;vertices(7) = EGVertices(UBound(EGVertices))</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;====================================</span></span><br><span class="line"></span><br><span class="line">DL.Delete</span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> DL2 = CAD.AddLWPolyLine(vertices)</span><br><span class="line"></span><br><span class="line">DL2.Layer = <span class="string">&quot;CAL&quot;</span> <span class="comment">&#x27;&quot;橫斷面-挖方線&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;============匯入挖方面積==================</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> stoneObj <span class="keyword">As</span> <span class="built_in">New</span> clsStone</span><br><span class="line"></span><br><span class="line">DLArea = stoneObj.getDLArea(EG, DL2)</span><br><span class="line"></span><br><span class="line"><span class="keyword">With</span> Sheets(<span class="string">&quot;中心線&quot;</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Set</span> rng = .Columns(<span class="number">1</span>).Find(loc)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> <span class="built_in">Not</span> rng <span class="built_in">Is</span> <span class="literal">Nothing</span> <span class="keyword">Then</span></span><br><span class="line">    </span><br><span class="line">    r = rng.Row</span><br><span class="line">    .Cells(r, <span class="number">5</span>) = DLArea</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">With</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;====clsCAD===</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> IntersectWith(<span class="keyword">ByVal</span> PL1, <span class="keyword">ByVal</span> PL2, <span class="keyword">ByVal</span> mode <span class="keyword">As</span> <span class="type">Byte</span>, <span class="keyword">ByRef</span> IsIntersect <span class="keyword">As</span> <span class="type">Boolean</span>)</span><br><span class="line"></span><br><span class="line">IsIntersect = <span class="literal">False</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> coll <span class="keyword">As</span> <span class="built_in">New</span> Collection</span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> CADVer = <span class="string">&quot;ICAD&quot;</span> <span class="keyword">Then</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">On</span> <span class="keyword">Error</span> <span class="keyword">GoTo</span> ERRORHANDLE <span class="comment">&#x27;20210901 錯誤偵測</span></span><br><span class="line">    <span class="keyword">Set</span> retpt = PL1.IntersectWith(PL2, mode) <span class="comment">&#x27;acExtendThisEntity)</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">For</span> <span class="keyword">Each</span> it <span class="keyword">In</span> retpt</span><br><span class="line">    </span><br><span class="line">        coll.Add it.x</span><br><span class="line">        coll.Add it.y</span><br><span class="line">        coll.Add it.Z</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> coll <span class="built_in">Is</span> <span class="literal">Nothing</span> <span class="keyword">Then</span></span><br><span class="line"><span class="symbol">ERRORHANDLE:</span></span><br><span class="line">        <span class="comment">&#x27;intersectWith = &quot;EMPTY&quot;</span></span><br><span class="line">    <span class="keyword">Else</span></span><br><span class="line">        IntersectWith = myFunc.tranColl2Array(coll)</span><br><span class="line">        IsIntersect = <span class="literal">True</span></span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">Else</span></span><br><span class="line"></span><br><span class="line">    retpt = PL1.IntersectWith(PL2, mode) <span class="comment">&#x27;acExtendThisEntity)</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> UBound(retpt) = -<span class="number">1</span> <span class="keyword">Then</span></span><br><span class="line">       <span class="comment">&#x27; IntersectWith = &quot;EMPTY&quot;</span></span><br><span class="line">    <span class="keyword">Else</span></span><br><span class="line">        IntersectWith = retpt</span><br><span class="line">        IsIntersect = <span class="literal">True</span></span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;====clsStone===</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;<span class="doctag">TODO:</span></span></span><br><span class="line"><span class="comment">&#x27;1.sort X coordinate</span></span><br><span class="line"><span class="comment">&#x27;2.define border</span></span><br><span class="line"><span class="comment">&#x27;3.decide X-value</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> getDLArea(<span class="keyword">ByVal</span> EG, <span class="keyword">ByVal</span> DL)</span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> PLobj1 = RevisePL(EG)</span><br><span class="line">EG.Delete</span><br><span class="line"></span><br><span class="line">PL1_X = myFunc.tranColl2Array(getcoll(PLobj1, <span class="string">&quot;X&quot;</span>))</span><br><span class="line">PL1_Y = myFunc.tranColl2Array(getcoll(PLobj1, <span class="string">&quot;Y&quot;</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> PLobj2 = RevisePL(DL)</span><br><span class="line">DL.Delete</span><br><span class="line"></span><br><span class="line">PL2_X = myFunc.tranColl2Array(getcoll(PLobj2, <span class="string">&quot;X&quot;</span>))</span><br><span class="line">PL2_Y = myFunc.tranColl2Array(getcoll(PLobj2, <span class="string">&quot;Y&quot;</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">Call</span> defineBorder(PL1_X, PL2_X, BL, BR)</span><br><span class="line"></span><br><span class="line">getDLArea = calculateArea_test(PL1_X, PL1_Y, PL2_X, PL2_Y, BL, BR)</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> RevisePL(<span class="keyword">ByVal</span> PLobj) <span class="comment">&#x27;由左至右排序</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> coll <span class="keyword">As</span> <span class="built_in">New</span> Collection</span><br><span class="line"></span><br><span class="line">co = <span class="number">3</span></span><br><span class="line"><span class="keyword">If</span> TypeName(PLobj) <span class="built_in">Like</span> <span class="string">&quot;*LWPolyline&quot;</span> <span class="keyword">Then</span> co = <span class="number">2</span>  <span class="comment">&#x27;IIcadLightWeightPolyline</span></span><br><span class="line"></span><br><span class="line">arr = CAD.tranIPoints(PLobj.coordinates)</span><br><span class="line"></span><br><span class="line">Debug.Print TypeName(PLobj)</span><br><span class="line"></span><br><span class="line">X1 = arr(<span class="number">0</span>)</span><br><span class="line">Xn = arr(UBound(arr) - co + <span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> X1 &gt; Xn <span class="keyword">Then</span></span><br><span class="line">    <span class="keyword">Set</span> RevisePL = CAD.ReverseLine(<span class="keyword">ByVal</span> PLobj)</span><br><span class="line"><span class="keyword">Else</span></span><br><span class="line">    <span class="keyword">Set</span> RevisePL = PLobj</span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">For</span> i = <span class="number">0</span> <span class="keyword">To</span> UBound(arr) - co <span class="keyword">Step</span> co</span><br><span class="line"></span><br><span class="line">    X1 = arr(i)</span><br><span class="line">    X2 = arr(i + co)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> X1 = X2 <span class="keyword">Then</span> arr(i + co) = arr(i + co) + <span class="number">0.001</span> <span class="comment">&#x27;若為垂直則微調往右偏移</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> RevisePL = CAD.AddLWPolyLine(arr)</span><br><span class="line">RevisePL.Layer = PLobj.Layer</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> calculateArea_test(<span class="keyword">ByVal</span> PL1_X, <span class="keyword">ByVal</span> PL1_Y, <span class="keyword">ByVal</span> PL2_X, <span class="keyword">ByVal</span> PL2_Y, <span class="keyword">ByVal</span> BL, <span class="keyword">ByVal</span> BR)</span><br><span class="line"></span><br><span class="line">X_sort = myFunc.BubbleSort_array(myFunc.combineArray(PL1_X, PL2_X))</span><br><span class="line"></span><br><span class="line"><span class="keyword">For</span> i = LBound(X_sort) <span class="keyword">To</span> UBound(X_sort) - <span class="number">1</span></span><br><span class="line">    </span><br><span class="line">    X1 = X_sort(i)</span><br><span class="line">    X2 = X_sort(i + <span class="number">1</span>)</span><br><span class="line">    </span><br><span class="line">    dx = X2 - X1</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> X1 &gt;= BL <span class="built_in">And</span> X2 &lt;= BR <span class="keyword">Then</span></span><br><span class="line">        </span><br><span class="line">        Y1f = getYbyX(X1, PL1_X, PL1_Y)</span><br><span class="line">        Y2f = getYbyX(X1, PL2_X, PL2_Y)</span><br><span class="line">        </span><br><span class="line">        dYf = Y1f - Y2f</span><br><span class="line">        </span><br><span class="line">        Y1b = getYbyX(X2, PL1_X, PL1_Y)</span><br><span class="line">        Y2b = getYbyX(X2, PL2_X, PL2_Y)</span><br><span class="line">        </span><br><span class="line">        dYb = Y1b - Y2b</span><br><span class="line"></span><br><span class="line">        <span class="keyword">If</span> dYf &gt; <span class="number">0</span> <span class="built_in">And</span> dYb &lt; <span class="number">0</span> <span class="keyword">Then</span> <span class="comment">&#x27;與基準線交叉(正到負)</span></span><br><span class="line">        </span><br><span class="line">            X_intersect = getIntersectX(X1, X2, Y1f, Y1b, Y2f, Y2b)</span><br><span class="line">            dA = dYf * (X_intersect - X1) / <span class="number">2</span></span><br><span class="line">            <span class="comment">&#x27;Set lineObj = CAD.AddLineCO(X1, Y1f, X1, Y2f)</span></span><br><span class="line">            </span><br><span class="line">        <span class="keyword">ElseIf</span> dYf &lt; <span class="number">0</span> <span class="built_in">And</span> dYb &gt; <span class="number">0</span> <span class="keyword">Then</span> <span class="comment">&#x27;與基準線交叉(負到正)</span></span><br><span class="line">        </span><br><span class="line">            X_intersect = getIntersectX(X1, X2, Y1f, Y1b, Y2f, Y2b)</span><br><span class="line">            dA = dYb * (X2 - X_intersect) / <span class="number">2</span></span><br><span class="line">            <span class="comment">&#x27;Set lineObj = CAD.AddLineCO(X2, Y1b, X2, Y2b)</span></span><br><span class="line">            </span><br><span class="line">        <span class="keyword">ElseIf</span> dYf &gt;= <span class="number">0</span> <span class="built_in">And</span> dYb &gt;= <span class="number">0</span> <span class="keyword">Then</span> <span class="comment">&#x27;皆在基準線下方</span></span><br><span class="line">        </span><br><span class="line">            dA = (dYf + dYb) * dx / <span class="number">2</span></span><br><span class="line">            <span class="comment">&#x27;Set lineObj = CAD.AddLineCO(X1, Y1f, X1, Y2f)</span></span><br><span class="line">            <span class="comment">&#x27;Set lineObj = CAD.AddLineCO(X2, Y1b, X2, Y2b)</span></span><br><span class="line">        </span><br><span class="line">        <span class="keyword">Else</span></span><br><span class="line">            dA = <span class="number">0</span></span><br><span class="line">        </span><br><span class="line">        <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment">&#x27;Debug.Print &quot;dYf=&quot; &amp; dYf &amp; &quot;,dYb=&quot; &amp; dYb &amp; &quot;,dA=&quot; &amp; dA</span></span><br><span class="line">        sA = sA + dA</span><br><span class="line">        </span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line">calculateArea_test = Round(sA / <span class="number">1000000</span>, <span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> getIntersectX(<span class="keyword">ByVal</span> X1 <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> X2 <span class="keyword">As</span> <span class="type">Double</span>, _</span><br><span class="line">                        <span class="keyword">ByVal</span> Y1f <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> Y1b <span class="keyword">As</span> <span class="type">Double</span>, _</span><br><span class="line">                        <span class="keyword">ByVal</span> Y2f <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> Y2b <span class="keyword">As</span> <span class="type">Double</span>)</span><br><span class="line"></span><br><span class="line">dx = X2 - X1</span><br><span class="line"></span><br><span class="line">y1_slope = (Y1b - Y1f) / dx</span><br><span class="line">y2_slope = (Y2b - Y2f) / dx</span><br><span class="line"></span><br><span class="line">slope_change = Abs(y1_slope - y2_slope)</span><br><span class="line">dY_f = Abs(Y1f - Y2f)</span><br><span class="line"></span><br><span class="line">getIntersectX = X1 + dY_f / slope_change</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> getYbyX(<span class="keyword">ByVal</span> x <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> PL_X, <span class="keyword">ByVal</span> PL_Y)</span><br><span class="line"></span><br><span class="line"><span class="keyword">For</span> i = LBound(PL_X) <span class="keyword">To</span> UBound(PL_X) - <span class="number">1</span></span><br><span class="line">    </span><br><span class="line">    X1 = PL_X(i)</span><br><span class="line">    X2 = PL_X(i + <span class="number">1</span>)</span><br><span class="line">    Y1 = PL_Y(i)</span><br><span class="line">    Y2 = PL_Y(i + <span class="number">1</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> X1 = X2 <span class="keyword">Then</span> X2 = X2 + <span class="number">0.001</span>: <span class="keyword">Stop</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> x &gt;= X1 <span class="built_in">And</span> x &lt;= X2 <span class="keyword">Then</span></span><br><span class="line">        </span><br><span class="line">        s1 = x - X1</span><br><span class="line">        s2 = X2 - x</span><br><span class="line">        getYbyX = (s1 * Y2 + s2 * Y1) / (s1 + s2)</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">Exit</span> <span class="keyword">For</span></span><br><span class="line">      </span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br></pre></td></tr></table></figure>
-<h3 id="判斷面積歸屬">判斷面積歸屬</h3>
-<p>面積歸屬的判定方法為該封閉聚合線的形心點或填充線的形心點位於哪個樁號外框中，判定屬於哪個外框後取出面積並做挖方加總或填方加總(看取出的圖層是哪一種)，關於點與外框的位置判定關係請參考下列程式碼:</p>
-<p>此處範例是用HATCH的面積取出其值，ssetAreas先做好Hatch的篩選才進行後續內容，有需要者可以改用polyline</p>
-<figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Sub</span> CalcCABA() <span class="comment">&#x27;20210720 update</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> ssetAreas = CAD.CreateSSET(<span class="string">&quot;HA&quot;</span>, <span class="string">&quot;0&quot;</span>, <span class="string">&quot;Hatch&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">For</span> <span class="keyword">Each</span> ssetArea <span class="keyword">In</span> ssetAreas</span><br><span class="line"></span><br><span class="line">    <span class="comment">&#x27;<span class="doctag">TODO:</span></span></span><br><span class="line">    <span class="comment">&#x27;1.getMidPoint</span></span><br><span class="line">    <span class="comment">&#x27;2.searchLoc</span></span><br><span class="line">    <span class="comment">&#x27;3.getAreaCol</span></span><br><span class="line">    <span class="comment">&#x27;4.keyinArea</span></span><br><span class="line">    </span><br><span class="line">    r = getRowFromBorder(ssetArea)</span><br><span class="line">    c = getColFromLayerName(ssetArea)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> r &lt;&gt; <span class="string">&quot;&quot;</span> <span class="built_in">And</span> c &lt;&gt; <span class="string">&quot;&quot;</span> <span class="keyword">Then</span> shtCL.Cells(r, c) = ssetArea.area / <span class="number">1000000</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> getColFromLayerName(<span class="keyword">ByVal</span> ha)</span><br><span class="line"></span><br><span class="line"><span class="keyword">With</span> shtCL</span><br><span class="line"></span><br><span class="line">    CD = ha.Layer <span class="comment">&#x27;橫斷面-挖方</span></span><br><span class="line">    </span><br><span class="line">    targetColName = Split(CD, <span class="string">&quot;-&quot;</span>)(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">Set</span> rng = .Rows(<span class="number">2</span>).Find(targetColName)</span><br><span class="line">    </span><br><span class="line">    getColFromLayerName = rng.Column</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">With</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> getRowFromBorder(<span class="keyword">ByVal</span> ha)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">Call</span> CAD.GetBoundingBox(ha, MinX, MinY, MaxX, MaxY)</span><br><span class="line">    midX = (MinX + MaxX) / <span class="number">2</span></span><br><span class="line">    midY = (MinY + MaxY) / <span class="number">2</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">With</span> shtCL</span><br><span class="line"></span><br><span class="line">        lr = .Cells(.Rows.Count, <span class="number">1</span>).<span class="keyword">End</span>(xlUp).Row</span><br><span class="line">    </span><br><span class="line">        <span class="keyword">For</span> r = <span class="number">3</span> <span class="keyword">To</span> lr</span><br><span class="line">        </span><br><span class="line">            BorderPTs = Split(.Cells(r, <span class="number">3</span>), <span class="string">&quot;,&quot;</span>)</span><br><span class="line">            </span><br><span class="line">            <span class="keyword">If</span> UBound(BorderPTs) = <span class="number">3</span> <span class="keyword">Then</span></span><br><span class="line">        </span><br><span class="line">                Border_minX = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">0</span>))</span><br><span class="line">                Border_minY = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">1</span>))</span><br><span class="line">                Border_maxX = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">2</span>))</span><br><span class="line">                Border_maxY = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">3</span>))</span><br><span class="line">                </span><br><span class="line">                <span class="keyword">If</span> midX &gt;= Border_minX <span class="built_in">And</span> midX &lt;= Border_maxX <span class="built_in">And</span> midY &gt;= Border_minY <span class="built_in">And</span> midY &lt;= Border_maxY <span class="keyword">Then</span></span><br><span class="line">                    </span><br><span class="line">                    getRowFromBorder = r</span><br><span class="line">                    <span class="keyword">Exit</span> <span class="keyword">For</span></span><br><span class="line">                    </span><br><span class="line">                <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">            </span><br><span class="line">            <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">            </span><br><span class="line">        <span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">With</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h3 id="數據回歸圖面">數據回歸圖面</h3>
-<p>我這裡是採用屬性圖塊方式處理，如果不要那麼麻煩也可以用最簡單的text判定樁號的形心位置後，做相對文字偏移並且加入挖方填方面積文字就可以了，這樣可以有效避免沒有圖塊的問題。</p>
-<figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Sub</span> DrawCABA_Main() <span class="comment">&#x27;將橫斷面說明的CL、CA、BA刪除後重整</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> sset = CAD.CreateSSET(<span class="string">&quot;Title&quot;</span>, <span class="string">&quot;8&quot;</span>, <span class="string">&quot;TITLE&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">For</span> <span class="keyword">Each</span> it <span class="keyword">In</span> sset</span><br><span class="line">        </span><br><span class="line">    <span class="keyword">If</span> TypeName(it) = <span class="string">&quot;IAcadBlockReference&quot;</span> <span class="keyword">Then</span></span><br><span class="line">    </span><br><span class="line">        myAttr = it.GetAttributes</span><br><span class="line">        HSecLoc = myAttr(<span class="number">0</span>).TextString</span><br><span class="line">        </span><br><span class="line">        s = returnCABA(HSecLoc)</span><br><span class="line">        </span><br><span class="line">        tmp = Split(s, <span class="string">&quot;,&quot;</span>)</span><br><span class="line">        </span><br><span class="line">        myAttr(<span class="number">1</span>).TextString = tmp(<span class="number">0</span>)</span><br><span class="line">        myAttr(<span class="number">2</span>).TextString = <span class="string">&quot;挖方=&quot;</span> &amp; Round(tmp(<span class="number">1</span>), <span class="number">2</span>) &amp; <span class="string">&quot; m2&quot;</span></span><br><span class="line">        myAttr(<span class="number">3</span>).TextString = <span class="string">&quot;填方=&quot;</span> &amp; Round(tmp(<span class="number">2</span>), <span class="number">2</span>) &amp; <span class="string">&quot; m2&quot;</span></span><br><span class="line">        <span class="comment">&#x27;myAttr(4).TextString = &quot;CLSM=&quot; &amp; Round(tmp(3), 2) &amp; &quot; m2&quot;</span></span><br><span class="line">        </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="symbol">ERRORHANDLE:</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Private</span> <span class="keyword">Function</span> returnCABA(<span class="keyword">ByVal</span> HSecLoc <span class="keyword">As</span> <span class="type">String</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">With</span> shtCL</span><br><span class="line"></span><br><span class="line">    <span class="keyword">Set</span> rng = .Cells.Find(HSecLoc)</span><br><span class="line">    </span><br><span class="line">    r = rng.Row</span><br><span class="line">    </span><br><span class="line">    deltaH = .Cells(r, <span class="number">2</span> + <span class="number">2</span>)</span><br><span class="line">    CA = .Cells(r, <span class="number">3</span> + <span class="number">2</span>)</span><br><span class="line">    BA = .Cells(r, <span class="number">4</span> + <span class="number">2</span>)</span><br><span class="line">    RA = .Cells(r, <span class="number">5</span> + <span class="number">2</span>)</span><br><span class="line">    </span><br><span class="line">    returnCABA = deltaH &amp; <span class="string">&quot;,&quot;</span> &amp; CA &amp; <span class="string">&quot;,&quot;</span> &amp; BA &amp; <span class="string">&quot;,&quot;</span> &amp; RA</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">With</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br></pre></td></tr></table></figure>
-<h3 id="生成報告">生成報告</h3>
-<p>這裡就是單純的對格子塞資料計算總數而已，僅提供成果供參。</p>
-<figure>
-<img src="upload_85c9fc6b507cc57c8285967bf25cd55b.png"
-alt="土方報告成果" />
-<figcaption aria-hidden="true">土方報告成果</figcaption>
-</figure>
-<h2 id="更多細節">更多細節</h2>
-<p>有需要更多技術細節內容再請來信討論或LINE進行聯繫。</p>
-]]></content>
-      <categories>
-        <category>專案開發</category>
-      </categories>
-      <tags>
-        <tag>AutoCAD VBA</tag>
-        <tag>Excel VBA</tag>
       </tags>
   </entry>
   <entry>
@@ -1423,94 +1423,6 @@ href="https://www.hanksvba.com/posts/1000661249/#more">施工日誌VBA-V3.5.0</a
       </tags>
   </entry>
   <entry>
-    <title>施工日誌VBA-記錄篇</title>
-    <url>/posts/426352985/</url>
-    <content><![CDATA[<h2 id="前言">前言</h2>
-<p>本篇文章延伸於 <a
-href="https://www.hanksvba.com/posts/1000661249/#more">施工日誌VBA-V3.5.0</a>
-版本操作教學</p>
-<p>從前篇第1步驟開始進行的朋友，會發現有一個生效日是空白的，這就是讓使用者要開始填寫日報前的最後確認，確認無誤後便會將生效日加註(第一次加註會與開工日相同)，此時<strong>才能開始填寫日報</strong>，填寫日報後需要點選"儲存日報"資料才會生效，取消填寫時只能透過按鈕"取消填寫"，不能點選右上角的X。</p>
-<p>填寫日報的過程，可以在版本說明中的"功能主要畫面"裡面對日報進行新增、編輯、刪除，有關日報填寫內容分為以下幾種內容:</p>
-<ol type="1">
-<li>基本資訊</li>
-<li>契約項目</li>
-<li>材料</li>
-<li>人力</li>
-<li>機具</li>
-<li>其他備註</li>
-<li>監造部分</li>
-</ol>
-<span id="more"></span>
-<h2 id="基本資訊">基本資訊</h2>
-<h3 id="日期">日期</h3>
-<p>日期在進行新增日報的時候便會要求輸入，如果有重複則會警示已經有填寫過了，本篇旨在介紹工程專案類型，而非開口契約類型，原則每日會有一篇日報作為紀錄使用。</p>
-<p>我有預留一日多表的擴充程式碼，如果有需要請聯絡我進行修改。</p>
-<h3 id="天氣">天氣</h3>
-<p>天氣部分分為上午跟下午，內容有晴、陰、雨，未來預定會提供一個參考測站，透過中央氣象局API去取得相對時段的自動測報內容。</p>
-<h2 id="契約項目">契約項目</h2>
-<h3 id="項目">項目</h3>
-<figure>
-<img src="upload_002d5b23b669e4f8fc082cd7b630bd9a.png"
-alt="Fig1. 項目" />
-<figcaption aria-hidden="true">Fig1. 項目</figcaption>
-</figure>
-<p>契約項目填寫來源為契約設定的項目，有關契約項目有兩項特別要注意的事項:</p>
-<ol type="1">
-<li>設定為不列入進度項目，則不會被計入進度換算時的分母。</li>
-<li>設定為發包工作費外的項目，則不會顯示於下拉式選單中。</li>
-</ol>
-<p>選取契約項目後，會同步呈現該項目之契約數量、累計數量，填寫施作數量時，會同時於右側顯示剩餘數量，如出現紅色表示剩餘數量為負值、綠色表示仍有剩餘數量可以使用。</p>
-<p>輸入完畢點選"新增"，項目將會列於下方暫存區域，可以等所有項目(包含後續內容皆完成後)在一併點選"儲存日報"，此時資料才會正式匯入日報中。</p>
-<h3 id="進度">進度</h3>
-<p>進入畫面時，會預先取得累積至前日之金額及進度，當填寫項目後，系統會自動換算本日金額與本日進度呈現於左下角，兩樣數值加總後取得本日累積實際進度，同時會根據實際進度與預定進度的差異呈現紅色或綠色。</p>
-<h2 id="材料人力機具">材料、人力、機具</h2>
-<p>項目來源為工料設定，這裡比較單純沒有其他內容，僅作為紀錄使用，於工料設定中如有填寫其相關單價，未來可以加入功能輸出統計長表，讓管理者清楚目前所支出的內容，包含人力費用、材料費用、機具費用，方便與估驗請款後的現金流做比對評估財務支出收入狀況。</p>
-<figure>
-<img src="upload_abe97fd1ed633682823960c24a3542af.png"
-alt="Fig2. 工料設定畫面" />
-<figcaption aria-hidden="true">Fig2. 工料設定畫面</figcaption>
-</figure>
-<h2 id="其他備註">其他備註</h2>
-<figure>
-<img src="upload_f1f414d001074694b0a6fd123c72f45f.png"
-alt="Fig3. 其他備註" />
-<figcaption aria-hidden="true">Fig3. 其他備註</figcaption>
-</figure>
-<p>有關其他比較長的文字紀錄部分皆會在此進行，之前委員有說過格子不能塗黑，要打勾，這裡有提供選項給使用者選取，如果讓電腦打勾也不行，請選取兩邊都是空白框框。</p>
-<p>另關於施工取樣試驗紀錄與重要事項紀錄未來預計會與收發文系統、品管系統作為綁定使用，請再稍等下!</p>
-<h2 id="監造部分">監造部分</h2>
-<p>如果只有單純要做施工日誌的使用者，可以跳過這一個步驟。</p>
-<figure>
-<img src="4.png" alt="Fig4. 監造部分" />
-<figcaption aria-hidden="true">Fig4. 監造部分</figcaption>
-</figure>
-<p>有關其他比較長的文字紀錄部分皆會在此進行，打勾情況一樣有做考量，同樣提供三種情況供使用者選取。</p>
-<p>目前工程進行情況，可以<strong>自行填寫</strong>或者是透過前面填寫之契約項目做<strong>百分比換算</strong>呈現(如下圖)。</p>
-<figure>
-<img src="5.png" alt="Fig5. 百分比範例" />
-<figcaption aria-hidden="true">Fig5. 百分比範例</figcaption>
-</figure>
-<p>另關於檢驗停留點及抽查系統作為綁定使用，查核材料規格及品質與品管系統作為綁定使用，請再稍等下!</p>
-<h2 id="相關連結">相關連結</h2>
-<p><a href="https://www.hanksvba.com/posts/1990910755"><span
-class="github-emoji" data-alias="link" style=""
-data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png?v8">🔗</span>
-施工日誌VBA-設定篇</a></p>
-<p><a href="https://www.hanksvba.com/posts/997099184"><span
-class="github-emoji" data-alias="link" style=""
-data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png?v8">🔗</span>
-施工日誌VBA-列印篇</a></p>
-]]></content>
-      <categories>
-        <category>專案開發</category>
-      </categories>
-      <tags>
-        <tag>Excel VBA</tag>
-        <tag>施工日誌</tag>
-        <tag>監造報表</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>施工日誌VBA-列印篇</title>
     <url>/posts/997099184/</url>
     <content><![CDATA[<h2 id="前言">前言</h2>
@@ -1600,110 +1512,93 @@ data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f
       <tags>
         <tag>Excel VBA</tag>
         <tag>施工日誌</tag>
-        <tag>監造報表</tag>
       </tags>
   </entry>
   <entry>
-    <title>施工日誌VBA-版本說明</title>
-    <url>/posts/1512537146/</url>
-    <content><![CDATA[<h2 id="版本內容比較">版本內容比較</h2>
-<table>
-<thead>
-<tr class="header">
-<th>項目</th>
-<th>訂閱版</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>基本功能</strong></td>
-<td>O</td>
-</tr>
-<tr class="even">
-<td><strong>錯誤修復</strong></td>
-<td>O</td>
-</tr>
-<tr class="odd">
-<td><strong>技術支援</strong></td>
-<td>O</td>
-</tr>
-<tr class="even">
-<td><strong>原始碼</strong></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>使用期限</strong></td>
-<td>工程期間</td>
-</tr>
-</tbody>
-</table>
-<h2 id="備註事項">備註事項</h2>
-<div class="note info"><ol type="1">
-<li><p>施工日誌舊版(社群版)正在使用中的朋友<strong>仍可使用到2024年底</strong>，如需轉換至新版請聯繫作者協助。</p></li>
-<li><p>如欲購置施工日誌新版(V3.5.0)系列後之訂閱包套服務(包含變更設計、展延工期、契約項目導入)，請提供以下資料並聯繫作者</p></li>
+    <title>施工日誌VBA-記錄篇</title>
+    <url>/posts/426352985/</url>
+    <content><![CDATA[<h2 id="前言">前言</h2>
+<p>本篇文章延伸於 <a
+href="https://www.hanksvba.com/posts/1000661249/#more">施工日誌VBA-V3.5.0</a>
+版本操作教學</p>
+<p>從前篇第1步驟開始進行的朋友，會發現有一個生效日是空白的，這就是讓使用者要開始填寫日報前的最後確認，確認無誤後便會將生效日加註(第一次加註會與開工日相同)，此時<strong>才能開始填寫日報</strong>，填寫日報後需要點選"儲存日報"資料才會生效，取消填寫時只能透過按鈕"取消填寫"，不能點選右上角的X。</p>
+<p>填寫日報的過程，可以在版本說明中的"功能主要畫面"裡面對日報進行新增、編輯、刪除，有關日報填寫內容分為以下幾種內容:</p>
+<ol type="1">
+<li>基本資訊</li>
+<li>契約項目</li>
+<li>材料</li>
+<li>人力</li>
+<li>機具</li>
+<li>其他備註</li>
+<li>監造部分</li>
 </ol>
-<ul>
-<li>工程名稱</li>
-<li>契約金額</li>
-<li>工程日數</li>
-</ul>
-<ol start="3" type="1">
-<li>聯繫方式</li>
-</ol>
-<ul>
-<li>LINE(ID:<span class="citation"
-data-cites="903qzhwa">@903qzhwa</span>)</li>
-<li>電子郵件(apple84026113@gmail.com)</li>
-</ul>
-</div>
 <span id="more"></span>
-<h3 id="基本功能">基本功能</h3>
-<ul>
-<li>公共工程施工日誌(第一聯、第二聯)</li>
-<li>建築物施工日誌(第一聯、第二聯)</li>
-<li>監造日報</li>
-</ul>
-<h3 id="錯誤修復">錯誤修復</h3>
-<ul>
-<li>修復重大系統錯誤</li>
-</ul>
-<h3 id="技術支援">技術支援</h3>
-<ul>
-<li>公版報表微調</li>
-<li>客製功能擴充(按工時另計)</li>
-<li>變更設計異動</li>
-<li>展延工期調整</li>
-</ul>
-<h2 id="法規來源">法規來源</h2>
-<p><a
-href="https://www.nlma.gov.tw/%E6%9C%80%E6%96%B0%E8%A8%8A%E6%81%AF/%E5%88%97%E5%8D%B0/17819.html">建築物施工日誌</a></p>
-<p><a
-href="https://lawweb.pcc.gov.tw/LawContent.aspx?id=FL003734">公共工程施工日誌</a></p>
+<h2 id="基本資訊">基本資訊</h2>
+<h3 id="日期">日期</h3>
+<p>日期在進行新增日報的時候便會要求輸入，如果有重複則會警示已經有填寫過了，本篇旨在介紹工程專案類型，而非開口契約類型，原則每日會有一篇日報作為紀錄使用。</p>
+<p>我有預留一日多表的擴充程式碼，如果有需要請聯絡我進行修改。</p>
+<h3 id="天氣">天氣</h3>
+<p>天氣部分分為上午跟下午，內容有晴、陰、雨，未來預定會提供一個參考測站，透過中央氣象局API去取得相對時段的自動測報內容。</p>
+<h2 id="契約項目">契約項目</h2>
+<h3 id="項目">項目</h3>
+<figure>
+<img src="upload_002d5b23b669e4f8fc082cd7b630bd9a.png"
+alt="Fig1. 項目" />
+<figcaption aria-hidden="true">Fig1. 項目</figcaption>
+</figure>
+<p>契約項目填寫來源為契約設定的項目，有關契約項目有兩項特別要注意的事項:</p>
+<ol type="1">
+<li>設定為不列入進度項目，則不會被計入進度換算時的分母。</li>
+<li>設定為發包工作費外的項目，則不會顯示於下拉式選單中。</li>
+</ol>
+<p>選取契約項目後，會同步呈現該項目之契約數量、累計數量，填寫施作數量時，會同時於右側顯示剩餘數量，如出現紅色表示剩餘數量為負值、綠色表示仍有剩餘數量可以使用。</p>
+<p>輸入完畢點選"新增"，項目將會列於下方暫存區域，可以等所有項目(包含後續內容皆完成後)在一併點選"儲存日報"，此時資料才會正式匯入日報中。</p>
+<h3 id="進度">進度</h3>
+<p>進入畫面時，會預先取得累積至前日之金額及進度，當填寫項目後，系統會自動換算本日金額與本日進度呈現於左下角，兩樣數值加總後取得本日累積實際進度，同時會根據實際進度與預定進度的差異呈現紅色或綠色。</p>
+<h2 id="材料人力機具">材料、人力、機具</h2>
+<p>項目來源為工料設定，這裡比較單純沒有其他內容，僅作為紀錄使用，於工料設定中如有填寫其相關單價，未來可以加入功能輸出統計長表，讓管理者清楚目前所支出的內容，包含人力費用、材料費用、機具費用，方便與估驗請款後的現金流做比對評估財務支出收入狀況。</p>
+<figure>
+<img src="upload_abe97fd1ed633682823960c24a3542af.png"
+alt="Fig2. 工料設定畫面" />
+<figcaption aria-hidden="true">Fig2. 工料設定畫面</figcaption>
+</figure>
+<h2 id="其他備註">其他備註</h2>
+<figure>
+<img src="upload_f1f414d001074694b0a6fd123c72f45f.png"
+alt="Fig3. 其他備註" />
+<figcaption aria-hidden="true">Fig3. 其他備註</figcaption>
+</figure>
+<p>有關其他比較長的文字紀錄部分皆會在此進行，之前委員有說過格子不能塗黑，要打勾，這裡有提供選項給使用者選取，如果讓電腦打勾也不行，請選取兩邊都是空白框框。</p>
+<p>另關於施工取樣試驗紀錄與重要事項紀錄未來預計會與收發文系統、品管系統作為綁定使用，請再稍等下!</p>
+<h2 id="監造部分">監造部分</h2>
+<p>如果只有單純要做施工日誌的使用者，可以跳過這一個步驟。</p>
+<figure>
+<img src="4.png" alt="Fig4. 監造部分" />
+<figcaption aria-hidden="true">Fig4. 監造部分</figcaption>
+</figure>
+<p>有關其他比較長的文字紀錄部分皆會在此進行，打勾情況一樣有做考量，同樣提供三種情況供使用者選取。</p>
+<p>目前工程進行情況，可以<strong>自行填寫</strong>或者是透過前面填寫之契約項目做<strong>百分比換算</strong>呈現(如下圖)。</p>
+<figure>
+<img src="5.png" alt="Fig5. 百分比範例" />
+<figcaption aria-hidden="true">Fig5. 百分比範例</figcaption>
+</figure>
+<p>另關於檢驗停留點及抽查系統作為綁定使用，查核材料規格及品質與品管系統作為綁定使用，請再稍等下!</p>
 <h2 id="相關連結">相關連結</h2>
-<p><a href="https://www.hanksvba.com/posts/1000661249/#more"><span
-class="github-emoji" data-alias="link" style=""
-data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png?v8">🔗</span>
-施工日誌VBA-V3.5.0</a></p>
 <p><a href="https://www.hanksvba.com/posts/1990910755"><span
 class="github-emoji" data-alias="link" style=""
 data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png?v8">🔗</span>
 施工日誌VBA-設定篇</a></p>
-<p><a href="https://www.hanksvba.com/posts/426352985"><span
-class="github-emoji" data-alias="link" style=""
-data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png?v8">🔗</span>
-施工日誌VBA-記錄篇</a></p>
 <p><a href="https://www.hanksvba.com/posts/997099184"><span
 class="github-emoji" data-alias="link" style=""
 data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png?v8">🔗</span>
 施工日誌VBA-列印篇</a></p>
 ]]></content>
       <categories>
-        <category>專案成果</category>
+        <category>專案開發</category>
       </categories>
       <tags>
         <tag>Excel VBA</tag>
-        <tag>建築物施工日誌</tag>
-        <tag>公共工程施工日誌</tag>
+        <tag>施工日誌</tag>
       </tags>
   </entry>
   <entry>
@@ -2037,7 +1932,6 @@ data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f
       <tags>
         <tag>Excel VBA</tag>
         <tag>施工日誌</tag>
-        <tag>監造報表</tag>
       </tags>
   </entry>
   <entry>
@@ -2167,6 +2061,109 @@ data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2b
 有需要請LINE(ID:<span class="citation"
 data-cites="903qzhwa">@903qzhwa</span>)聯繫或電子郵件(apple84026113@gmail.com)聯繫</p>
 <h2 id="相關連結">相關連結</h2>
+<p><a href="https://www.hanksvba.com/posts/1990910755"><span
+class="github-emoji" data-alias="link" style=""
+data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png?v8">🔗</span>
+施工日誌VBA-設定篇</a></p>
+<p><a href="https://www.hanksvba.com/posts/426352985"><span
+class="github-emoji" data-alias="link" style=""
+data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png?v8">🔗</span>
+施工日誌VBA-記錄篇</a></p>
+<p><a href="https://www.hanksvba.com/posts/997099184"><span
+class="github-emoji" data-alias="link" style=""
+data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png?v8">🔗</span>
+施工日誌VBA-列印篇</a></p>
+]]></content>
+      <categories>
+        <category>專案成果</category>
+      </categories>
+      <tags>
+        <tag>Excel VBA</tag>
+        <tag>施工日誌</tag>
+        <tag>監造報表</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>施工日誌VBA-版本說明</title>
+    <url>/posts/1512537146/</url>
+    <content><![CDATA[<h2 id="版本內容比較">版本內容比較</h2>
+<table>
+<thead>
+<tr class="header">
+<th>項目</th>
+<th>訂閱版</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>基本功能</strong></td>
+<td>O</td>
+</tr>
+<tr class="even">
+<td><strong>錯誤修復</strong></td>
+<td>O</td>
+</tr>
+<tr class="odd">
+<td><strong>技術支援</strong></td>
+<td>O</td>
+</tr>
+<tr class="even">
+<td><strong>原始碼</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>使用期限</strong></td>
+<td>工程期間</td>
+</tr>
+</tbody>
+</table>
+<h2 id="備註事項">備註事項</h2>
+<div class="note info"><ol type="1">
+<li><p>施工日誌舊版(社群版)正在使用中的朋友<strong>仍可使用到2024年底</strong>，如需轉換至新版請聯繫作者協助。</p></li>
+<li><p>如欲購置施工日誌新版(V3.5.0)系列後之訂閱包套服務(包含變更設計、展延工期、契約項目導入)，請提供以下資料並聯繫作者</p></li>
+</ol>
+<ul>
+<li>工程名稱</li>
+<li>契約金額</li>
+<li>工程日數</li>
+</ul>
+<ol start="3" type="1">
+<li>聯繫方式</li>
+</ol>
+<ul>
+<li>LINE(ID:<span class="citation"
+data-cites="903qzhwa">@903qzhwa</span>)</li>
+<li>電子郵件(apple84026113@gmail.com)</li>
+</ul>
+</div>
+<span id="more"></span>
+<h3 id="基本功能">基本功能</h3>
+<ul>
+<li>公共工程施工日誌(第一聯、第二聯)</li>
+<li>建築物施工日誌(第一聯、第二聯)</li>
+<li>監造日報</li>
+</ul>
+<h3 id="錯誤修復">錯誤修復</h3>
+<ul>
+<li>修復重大系統錯誤</li>
+</ul>
+<h3 id="技術支援">技術支援</h3>
+<ul>
+<li>公版報表微調</li>
+<li>客製功能擴充(按工時另計)</li>
+<li>變更設計異動</li>
+<li>展延工期調整</li>
+</ul>
+<h2 id="法規來源">法規來源</h2>
+<p><a
+href="https://www.nlma.gov.tw/%E6%9C%80%E6%96%B0%E8%A8%8A%E6%81%AF/%E5%88%97%E5%8D%B0/17819.html">建築物施工日誌</a></p>
+<p><a
+href="https://lawweb.pcc.gov.tw/LawContent.aspx?id=FL003734">公共工程施工日誌</a></p>
+<h2 id="相關連結">相關連結</h2>
+<p><a href="https://www.hanksvba.com/posts/1000661249/#more"><span
+class="github-emoji" data-alias="link" style=""
+data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png?v8">🔗</span>
+施工日誌VBA-V3.5.0</a></p>
 <p><a href="https://www.hanksvba.com/posts/1990910755"><span
 class="github-emoji" data-alias="link" style=""
 data-fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png?v8">🔗</span>
@@ -2700,6 +2697,80 @@ d/D=0.80~0.83(但至少為0.30m)</p>
       </tags>
   </entry>
   <entry>
+    <title>監造報表-數量計算-引用來源</title>
+    <url>/posts/3212778286/</url>
+    <content><![CDATA[<h2 id="前言">🙌前言</h2>
+<p>工程價格資料庫作業辦法有明定，新台幣1000萬元以上之<strong>公共工程</strong>於決標日起30日內必須將資料傳輸到主管機關，資料內容:</p>
+<ol type="1">
+<li>得標廠商之契約單價</li>
+<li>經機關核定之預算單價</li>
+<li>其他經主管機關指定者</li>
+</ol>
+<p>包含詳細價目表、單價分析表及資源統計表。</p>
+<p>最容易達成的方式便是透過公共工程經費電腦估價系統(PCCES)進行預算書與契約編制。</p>
+<p>因為大家都使用同一套系統，那麼輸出格式就能夠通用，後續要將契約內容彙整到公司內部所開發的報表系統只需要做一次工就可以了，然而非公共工程的內容會就因為個案不同而需要做細微調整。</p>
+<span id="more"></span>
+<h2 id="預算書範例">📔預算書範例</h2>
+<p>一般在公共工程設計階段，需要製作以下表格</p>
+<ol type="1">
+<li>預算總表</li>
+<li>預算詳細表</li>
+<li>預算單價分析表</li>
+<li>預算資源統計表(一定規模才要)</li>
+</ol>
+<p>承攬廠商得標後，契約項目、數量、單位基本上會按照設計階段內容，僅單價部分會依照標比進行調整。</p>
+<blockquote>
+<p>成立契約後所得到的內容便是後續辦理數量填寫、變更設計、估驗計價等程序的依據。</p>
+</blockquote>
+<h3 id="公共工程">公共工程</h3>
+<p>大多都是採用公共工程經費電腦估價系統(PCCES)進行，以編碼正確率40%為推動目標並加以列管，若是用前人留下來的Excel進行<strong>模仿</strong>，通常都比較會難以達成最低編碼正確率的要求，建議還是學習PCCES如何使用比較好。</p>
+<p>在將項目移轉至內部報表的過程，會遇到欄位名稱比較長的出現<strong>跳列</strong>的情況，此時要將項目搬移至內部報表系統時會需要做先行處理，否則會有項目名稱不完整的狀況，而這通常會在日後會出現一些問題，先行處理雖然麻煩但還是不可免。</p>
+<figure>
+<img src="upload_33eb45717c5bc11304ad3865fbf5d446.png"
+alt="Fig2.契約項目跳列" />
+<figcaption aria-hidden="true">Fig2.契約項目跳列</figcaption>
+</figure>
+<h3 id="非公共工程">非公共工程</h3>
+<p>非公共工程雖然未強制要求編碼正確率，因此所輸出的預算書格式比較會千奇百怪，但通常也是不脫離公共工程的基本概念，有關契約總表、契約詳細表、契約單價分析表通常都會出現。</p>
+<p>在將項目移轉至內部報表的過程，當然也可以用手動的方式把資料PASS到內部報表系統上面，但若像是建築工程有幾百幾千項的，建議透過VBA進行處理會比較理想，只要是Excel應該都有機會找出編製的脈絡進行程式撰寫，這就需要看個案而定，找出契約上的規律，透過迴圈、判別式一一找出脈絡並進行項目萃取。</p>
+<h2 id="契約項目">契約項目</h2>
+<p>在監造報表上要執行數量計算時，為控制報表長度，通常會以<strong>契約詳細表</strong>中的內容為主，其中會有以下幾種型態</p>
+<blockquote>
+<p>可量化型態</p>
+</blockquote>
+<p>鋼筋(Unit=T)、模板(Unit=m2)、混凝土(Unit=m3)...等具備明確單位、可被量化且編列於詳細表上的內容</p>
+<blockquote>
+<p>一式型態</p>
+</blockquote>
+<p>因特定工程項目之價格或數量編列不易，無法以明確單位加以計量，難以估計的內容會以概估的方式給定一式的費用，例如擋抽排水費</p>
+<blockquote>
+<p>百分比型態</p>
+</blockquote>
+<p>環境保護費、職業安全衛生費、品管作業費、廠商管理費、營業稅...等，依據預算編列內容後經換算比例而得到的費用。</p>
+<h2 id="匯入內容">匯入內容</h2>
+<h3 id="xml">XML</h3>
+<p>PCCES可以輸出XML或XLS</p>
+<p>XML是一種半結構化資料，以&lt;...&gt;開始、&lt;/...&gt;結束，中間所夾的內容有屬性(attribute)跟文字(text)，屬性為一健值對，可針對屬性值進行操作，也可針對文字進行使用。</p>
+<blockquote>
+<p>節錄自PCCES產出的XML檔案</p>
+</blockquote>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">PayItem</span> <span class="attr">itemKey</span>=<span class="string">&quot;7&quot;</span> <span class="attr">itemNo</span>=<span class="string">&quot;一&quot;</span> <span class="attr">refItemCode</span>=<span class="string">&quot;       &quot;</span> <span class="attr">itemKind</span>=<span class="string">&quot;mainItem&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Description</span> <span class="attr">language</span>=<span class="string">&quot;zh-TW&quot;</span>&gt;</span>主體工程<span class="tag">&lt;/<span class="name">Description</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Description</span> <span class="attr">language</span>=<span class="string">&quot;en&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">Description</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Unit</span> <span class="attr">language</span>=<span class="string">&quot;zh-TW&quot;</span>&gt;</span>          <span class="tag">&lt;/<span class="name">Unit</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Unit</span> <span class="attr">language</span>=<span class="string">&quot;en&quot;</span>&gt;</span>          <span class="tag">&lt;/<span class="name">Unit</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Quantity</span>&gt;</span>1<span class="tag">&lt;/<span class="name">Quantity</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Price</span> <span class="attr">fixed</span>=<span class="string">&quot;false&quot;</span> <span class="attr">calculateDecimal</span>=<span class="string">&quot;0&quot;</span>&gt;</span>11824021<span class="tag">&lt;/<span class="name">Price</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Amount</span> <span class="attr">fixed</span>=<span class="string">&quot;true&quot;</span> <span class="attr">calculateDecimal</span>=<span class="string">&quot;0&quot;</span>&gt;</span>11824021<span class="tag">&lt;/<span class="name">Amount</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Remark</span>&gt;</span>[發包]<span class="tag">&lt;/<span class="name">Remark</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Percent</span>&gt;</span>0<span class="tag">&lt;/<span class="name">Percent</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">PayItem</span> <span class="attr">itemKey</span>=<span class="string">&quot;15&quot;</span> <span class="attr">itemNo</span>=<span class="string">&quot;1&quot;</span> <span class="attr">refItemCode</span>=<span class="string">&quot;02300C00</span></span></span><br><span class="line"><span class="string"><span class="tag"></span></span></span><br></pre></td></tr></table></figure>
+<h3 id="xls">XLS</h3>
+<p>XLS就是指Excel的活頁簿，大家應該很常見，不多做解釋。</p>
+<h3 id="pcces契約項目後處理">PCCES契約項目後處理</h3>
+<p>跟眾多網友交流下來，發現最多人在使用監造報表VBA或施工日誌VBA時都是卡在契約項目的建立，當契約項目無法正常建立時，確實對於整個報表就會是一大阻礙，因此我針對<strong>公共工程</strong>的預算書有做了一個後處理的轉換工具(XML到XLS)，之後再將轉換所得的資料貼到自訂的VBA工具即可正常使用。</p>
+<p>詳情請參考 <a
+href="https://hankvba.blogspot.com/2024/02/excel-vba-pcces.html">ExcelVBA@PCCES契約項目後處理工具</a></p>
+]]></content>
+      <categories>
+        <category>專案開發</category>
+      </categories>
+      <tags>
+        <tag>Excel VBA</tag>
+        <tag>監造報表</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>監造報表-數量計算-數量填寫</title>
     <url>/posts/2699779571/</url>
     <content><![CDATA[<h2 id="前言">🙌前言</h2>
@@ -2801,80 +2872,6 @@ href="https://www.hanksvba.com/posts/3212778286/">監造報表-數量計算-引�
 <p>程式碼運作上會先把樁號轉成數字再進行區間判斷，節錄自我的Github</p>
 </blockquote>
 <figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">Function</span> TranLoc(<span class="keyword">ByVal</span> Data <span class="keyword">As</span> <span class="type">String</span>) <span class="keyword">As</span> <span class="type">Double</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;樁號型態轉成可計算之樁號</span></span><br><span class="line"></span><br><span class="line">tmp = split(Data, <span class="string">&quot;+&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> UBound(tmp) = -<span class="number">1</span> <span class="built_in">Or</span> Data = <span class="string">&quot;&quot;</span> <span class="keyword">Then</span> <span class="keyword">Exit</span> <span class="keyword">Function</span> <span class="comment">&#x27; TranLoc = CDbl(Data): Exit Function</span></span><br><span class="line"></span><br><span class="line">tloc = tmp(<span class="number">0</span>) <span class="comment">&#x27;千位數</span></span><br><span class="line">dloc = tmp(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> dloc <span class="built_in">Like</span> <span class="string">&quot;*(*&quot;</span> <span class="keyword">Then</span></span><br><span class="line"></span><br><span class="line">    tmp2 = split(dloc, <span class="string">&quot;(&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">If</span> tmp2(<span class="number">0</span>) <span class="built_in">Like</span> <span class="string">&quot;*.*&quot;</span> <span class="keyword">Then</span></span><br><span class="line"></span><br><span class="line">        tmp3 = split(tmp2(<span class="number">0</span>), <span class="string">&quot;.&quot;</span>)</span><br><span class="line">        dloc = tmp3(<span class="number">0</span>) + tmp3(<span class="number">1</span>) / <span class="number">10</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Else</span></span><br><span class="line">    </span><br><span class="line">        dloc = tmp2(<span class="number">0</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> dloc &gt; <span class="number">1000</span> <span class="keyword">Then</span> <span class="keyword">Exit</span> <span class="keyword">Function</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">For</span> i = <span class="number">1</span> <span class="keyword">To</span> Len(tloc)</span><br><span class="line"></span><br><span class="line">    loc_ch = <span class="keyword">mid</span>(tloc, i, <span class="number">1</span>)</span><br><span class="line">    <span class="keyword">If</span> IsNumeric(loc_ch) <span class="keyword">Then</span> ref = ref &amp; loc_ch</span><br><span class="line"></span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line">TranLoc = <span class="built_in">CDbl</span>(ref) * <span class="number">1000</span> + <span class="built_in">CDbl</span>(dloc)</span><br><span class="line">    </span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> IsRecLocPass(<span class="keyword">ByVal</span> rec_loc <span class="keyword">As</span> <span class="type">String</span>, <span class="keyword">ByVal</span> item_loc <span class="keyword">As</span> <span class="type">String</span>) <span class="comment">&#x27;, ByVal r As Integer)</span></span><br><span class="line"></span><br><span class="line">IsRecLocPass = <span class="literal">False</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> myfunc <span class="keyword">As</span> <span class="built_in">New</span> clsMyfunction</span><br><span class="line"></span><br><span class="line">tmp = split(rec_loc, <span class="string">&quot;~&quot;</span>)</span><br><span class="line"></span><br><span class="line">rec_sloc = myfunc.TranLoc(tmp(<span class="number">0</span>))</span><br><span class="line">rec_eloc = myfunc.TranLoc(tmp(<span class="number">1</span>))</span><br><span class="line"></span><br><span class="line">tmp2 = split(item_loc, <span class="string">&quot;~&quot;</span>)</span><br><span class="line"></span><br><span class="line">item_sloc = myfunc.TranLoc(tmp2(<span class="number">0</span>))</span><br><span class="line">item_eloc = myfunc.TranLoc(tmp2(<span class="number">1</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> item_sloc &gt;= rec_sloc <span class="built_in">And</span> item_sloc &lt; rec_eloc <span class="keyword">Then</span></span><br><span class="line"></span><br><span class="line">    err_prompt = <span class="string">&quot;第&quot;</span> &amp; r &amp; <span class="string">&quot;列衝突=&gt;紀錄起點【&quot;</span> &amp; tmp2(<span class="number">0</span>) &amp; <span class="string">&quot;】已包含於本次填報【&quot;</span> &amp; rec_loc &amp; <span class="string">&quot;】&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">If</span> err_prompt &lt;&gt; <span class="string">&quot;&quot;</span> <span class="keyword">Then</span> p = p &amp; err_prompt &amp; vbNewLine</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> item_eloc &gt; rec_sloc <span class="built_in">And</span> item_eloc &lt;= rec_eloc <span class="keyword">Then</span></span><br><span class="line"></span><br><span class="line">    err_prompt = <span class="string">&quot;第&quot;</span> &amp; r &amp; <span class="string">&quot;列衝突=&gt;紀錄終點【&quot;</span> &amp; tmp2(<span class="number">1</span>) &amp; <span class="string">&quot;】已包含於本次填報【&quot;</span> &amp; rec_loc &amp; <span class="string">&quot;】&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">If</span> err_prompt &lt;&gt; <span class="string">&quot;&quot;</span> <span class="keyword">Then</span> p = p &amp; err_prompt &amp; vbNewLine</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> rec_sloc &gt;= item_sloc <span class="built_in">And</span> rec_sloc &lt; item_eloc <span class="keyword">Then</span></span><br><span class="line"></span><br><span class="line">    err_prompt = <span class="string">&quot;第&quot;</span> &amp; r &amp; <span class="string">&quot;列衝突=&gt;填報起點【&quot;</span> &amp; tmp(<span class="number">0</span>) &amp; <span class="string">&quot;】已包含於舊有紀錄【&quot;</span> &amp; item_loc &amp; <span class="string">&quot;】&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">If</span> err_prompt &lt;&gt; <span class="string">&quot;&quot;</span> <span class="keyword">Then</span> p = p &amp; err_prompt &amp; vbNewLine</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> rec_eloc &gt; item_sloc <span class="built_in">And</span> rec_eloc &lt;= item_eloc <span class="keyword">Then</span></span><br><span class="line"></span><br><span class="line">    err_prompt = <span class="string">&quot;第&quot;</span> &amp; r &amp; <span class="string">&quot;列衝突=&gt;填報終點【&quot;</span> &amp; tmp(<span class="number">1</span>) &amp; <span class="string">&quot;】已包含於舊有紀錄【&quot;</span> &amp; item_loc &amp; <span class="string">&quot;】&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">If</span> err_prompt &lt;&gt; <span class="string">&quot;&quot;</span> <span class="keyword">Then</span> p = p &amp; err_prompt &amp; vbNewLine</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> p = <span class="string">&quot;&quot;</span> <span class="keyword">Then</span> IsRecLocPass = <span class="literal">True</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>專案開發</category>
-      </categories>
-      <tags>
-        <tag>Excel VBA</tag>
-        <tag>監造報表</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>監造報表-數量計算-引用來源</title>
-    <url>/posts/3212778286/</url>
-    <content><![CDATA[<h2 id="前言">🙌前言</h2>
-<p>工程價格資料庫作業辦法有明定，新台幣1000萬元以上之<strong>公共工程</strong>於決標日起30日內必須將資料傳輸到主管機關，資料內容:</p>
-<ol type="1">
-<li>得標廠商之契約單價</li>
-<li>經機關核定之預算單價</li>
-<li>其他經主管機關指定者</li>
-</ol>
-<p>包含詳細價目表、單價分析表及資源統計表。</p>
-<p>最容易達成的方式便是透過公共工程經費電腦估價系統(PCCES)進行預算書與契約編制。</p>
-<p>因為大家都使用同一套系統，那麼輸出格式就能夠通用，後續要將契約內容彙整到公司內部所開發的報表系統只需要做一次工就可以了，然而非公共工程的內容會就因為個案不同而需要做細微調整。</p>
-<span id="more"></span>
-<h2 id="預算書範例">📔預算書範例</h2>
-<p>一般在公共工程設計階段，需要製作以下表格</p>
-<ol type="1">
-<li>預算總表</li>
-<li>預算詳細表</li>
-<li>預算單價分析表</li>
-<li>預算資源統計表(一定規模才要)</li>
-</ol>
-<p>承攬廠商得標後，契約項目、數量、單位基本上會按照設計階段內容，僅單價部分會依照標比進行調整。</p>
-<blockquote>
-<p>成立契約後所得到的內容便是後續辦理數量填寫、變更設計、估驗計價等程序的依據。</p>
-</blockquote>
-<h3 id="公共工程">公共工程</h3>
-<p>大多都是採用公共工程經費電腦估價系統(PCCES)進行，以編碼正確率40%為推動目標並加以列管，若是用前人留下來的Excel進行<strong>模仿</strong>，通常都比較會難以達成最低編碼正確率的要求，建議還是學習PCCES如何使用比較好。</p>
-<p>在將項目移轉至內部報表的過程，會遇到欄位名稱比較長的出現<strong>跳列</strong>的情況，此時要將項目搬移至內部報表系統時會需要做先行處理，否則會有項目名稱不完整的狀況，而這通常會在日後會出現一些問題，先行處理雖然麻煩但還是不可免。</p>
-<figure>
-<img src="upload_33eb45717c5bc11304ad3865fbf5d446.png"
-alt="Fig2.契約項目跳列" />
-<figcaption aria-hidden="true">Fig2.契約項目跳列</figcaption>
-</figure>
-<h3 id="非公共工程">非公共工程</h3>
-<p>非公共工程雖然未強制要求編碼正確率，因此所輸出的預算書格式比較會千奇百怪，但通常也是不脫離公共工程的基本概念，有關契約總表、契約詳細表、契約單價分析表通常都會出現。</p>
-<p>在將項目移轉至內部報表的過程，當然也可以用手動的方式把資料PASS到內部報表系統上面，但若像是建築工程有幾百幾千項的，建議透過VBA進行處理會比較理想，只要是Excel應該都有機會找出編製的脈絡進行程式撰寫，這就需要看個案而定，找出契約上的規律，透過迴圈、判別式一一找出脈絡並進行項目萃取。</p>
-<h2 id="契約項目">契約項目</h2>
-<p>在監造報表上要執行數量計算時，為控制報表長度，通常會以<strong>契約詳細表</strong>中的內容為主，其中會有以下幾種型態</p>
-<blockquote>
-<p>可量化型態</p>
-</blockquote>
-<p>鋼筋(Unit=T)、模板(Unit=m2)、混凝土(Unit=m3)...等具備明確單位、可被量化且編列於詳細表上的內容</p>
-<blockquote>
-<p>一式型態</p>
-</blockquote>
-<p>因特定工程項目之價格或數量編列不易，無法以明確單位加以計量，難以估計的內容會以概估的方式給定一式的費用，例如擋抽排水費</p>
-<blockquote>
-<p>百分比型態</p>
-</blockquote>
-<p>環境保護費、職業安全衛生費、品管作業費、廠商管理費、營業稅...等，依據預算編列內容後經換算比例而得到的費用。</p>
-<h2 id="匯入內容">匯入內容</h2>
-<h3 id="xml">XML</h3>
-<p>PCCES可以輸出XML或XLS</p>
-<p>XML是一種半結構化資料，以&lt;...&gt;開始、&lt;/...&gt;結束，中間所夾的內容有屬性(attribute)跟文字(text)，屬性為一健值對，可針對屬性值進行操作，也可針對文字進行使用。</p>
-<blockquote>
-<p>節錄自PCCES產出的XML檔案</p>
-</blockquote>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">PayItem</span> <span class="attr">itemKey</span>=<span class="string">&quot;7&quot;</span> <span class="attr">itemNo</span>=<span class="string">&quot;一&quot;</span> <span class="attr">refItemCode</span>=<span class="string">&quot;       &quot;</span> <span class="attr">itemKind</span>=<span class="string">&quot;mainItem&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Description</span> <span class="attr">language</span>=<span class="string">&quot;zh-TW&quot;</span>&gt;</span>主體工程<span class="tag">&lt;/<span class="name">Description</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Description</span> <span class="attr">language</span>=<span class="string">&quot;en&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">Description</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Unit</span> <span class="attr">language</span>=<span class="string">&quot;zh-TW&quot;</span>&gt;</span>          <span class="tag">&lt;/<span class="name">Unit</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Unit</span> <span class="attr">language</span>=<span class="string">&quot;en&quot;</span>&gt;</span>          <span class="tag">&lt;/<span class="name">Unit</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Quantity</span>&gt;</span>1<span class="tag">&lt;/<span class="name">Quantity</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Price</span> <span class="attr">fixed</span>=<span class="string">&quot;false&quot;</span> <span class="attr">calculateDecimal</span>=<span class="string">&quot;0&quot;</span>&gt;</span>11824021<span class="tag">&lt;/<span class="name">Price</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Amount</span> <span class="attr">fixed</span>=<span class="string">&quot;true&quot;</span> <span class="attr">calculateDecimal</span>=<span class="string">&quot;0&quot;</span>&gt;</span>11824021<span class="tag">&lt;/<span class="name">Amount</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Remark</span>&gt;</span>[發包]<span class="tag">&lt;/<span class="name">Remark</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Percent</span>&gt;</span>0<span class="tag">&lt;/<span class="name">Percent</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">PayItem</span> <span class="attr">itemKey</span>=<span class="string">&quot;15&quot;</span> <span class="attr">itemNo</span>=<span class="string">&quot;1&quot;</span> <span class="attr">refItemCode</span>=<span class="string">&quot;02300C00</span></span></span><br><span class="line"><span class="string"><span class="tag"></span></span></span><br></pre></td></tr></table></figure>
-<h3 id="xls">XLS</h3>
-<p>XLS就是指Excel的活頁簿，大家應該很常見，不多做解釋。</p>
-<h3 id="pcces契約項目後處理">PCCES契約項目後處理</h3>
-<p>跟眾多網友交流下來，發現最多人在使用監造報表VBA或施工日誌VBA時都是卡在契約項目的建立，當契約項目無法正常建立時，確實對於整個報表就會是一大阻礙，因此我針對<strong>公共工程</strong>的預算書有做了一個後處理的轉換工具(XML到XLS)，之後再將轉換所得的資料貼到自訂的VBA工具即可正常使用。</p>
-<p>詳情請參考 <a
-href="https://hankvba.blogspot.com/2024/02/excel-vba-pcces.html">ExcelVBA@PCCES契約項目後處理工具</a></p>
 ]]></content>
       <categories>
         <category>專案開發</category>
@@ -3052,6 +3049,104 @@ alt="Fig2. 監造報表VBA系統架構圖" />
       <tags>
         <tag>Excel VBA</tag>
         <tag>監造報表</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>縱斷面插旗文字重疊問題</title>
+    <url>/posts/2767553795/</url>
+    <content><![CDATA[<h2 id="前言">🙌前言</h2>
+<h3 id="縱斷面發展來源">👉縱斷面發展來源</h3>
+<p><a
+href="https://hankvba.blogspot.com/2018/03/autocad-vba.html">AutoCAD VBA
+縱斷面繪製自動化</a></p>
+<h3 id="開發過程中的小問題">🐞開發過程中的小問題</h3>
+<p>縱斷面繪製時會針對需要文字說明的樁號進行插旗繪製，可能會造成插旗文字出現重疊的原因有兩個</p>
+<ol type="1">
+<li>插旗說明樁號距離太近(0+200、0+205)</li>
+<li>繪製X軸比例太小(1:1000 vs 1:5000)</li>
+</ol>
+<p>繪製過程會考量圖紙輸出的舒適度，最小字高通常會以<strong>3.4.5</strong>為原則，文字說明會固定以30度呈現</p>
+<blockquote>
+<p>當距離太近時可以透過調整X軸比例讓間距拉開，橫向會重疊的時候就進行上下位移，方便讀者觀看。</p>
+</blockquote>
+<p>因此本篇就是要透過VBA抓取說明文字的外框及下線，自動調整文字重疊內容，以下進行說明:</p>
+<span id="more"></span>
+<hr />
+<h2 id="範例說明">📌範例說明</h2>
+<figure>
+<img src="image.png" alt="Fig1. 插旗文字說明" />
+<figcaption aria-hidden="true">Fig1. 插旗文字說明</figcaption>
+</figure>
+<h2 id="流程解說">🔷流程解說</h2>
+<p>一般插旗文字都是屬於旋轉至第一象限的內容(0度~90度)</p>
+<ol type="1">
+<li>透過CAD VBA內建指令GetBoundingBox找到邊界點。</li>
+<li>透過幾何圖形學及三角函數關係進行列式。</li>
+<li>用一元二次聯立方程式解析參數。</li>
+<li>代回原本第一象限的正確點位。</li>
+<li>引入clsACAD進行LINE物件繪製。</li>
+</ol>
+<hr />
+<h2 id="幾何關係">🌟幾何關係</h2>
+<p><span class="math display">\[ Hcos\theta+Lsin\theta=Y_1-Y_0=const.
+\]</span> <span class="math display">\[
+Hsin\theta+Lcos\theta=X_1-X_0=const. \]</span></p>
+<p>正確角點:</p>
+<table>
+<thead>
+<tr class="header">
+<th>點名</th>
+<th>X座標</th>
+<th>Y座標</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>左下</td>
+<td><span class="math display">\[ X_0+Hsin\theta \]</span></td>
+<td><span class="math display">\[ Y_0 \]</span></td>
+</tr>
+<tr class="even">
+<td>右下</td>
+<td><span class="math display">\[ X_1 \]</span></td>
+<td><span class="math display">\[ Y_1-Hcos\theta \]</span></td>
+</tr>
+<tr class="odd">
+<td>左上</td>
+<td><span class="math display">\[ X_0 \]</span></td>
+<td><span class="math display">\[ Y_0+Hcos\theta \]</span></td>
+</tr>
+<tr class="even">
+<td>右上</td>
+<td><span class="math display">\[ X_1-Hsin\theta \]</span></td>
+<td><span class="math display">\[ Y_1 \]</span></td>
+</tr>
+</tbody>
+</table>
+<figure>
+<img src="SAMPLE.JPG" alt="Fig2. 文字外框、點位幾何關係" />
+<figcaption aria-hidden="true">Fig2. 文字外框、點位幾何關係</figcaption>
+</figure>
+<hr />
+<figure>
+<img src="SAMPLE2.JPG" alt="Fig3. 上下底線繪製成果" />
+<figcaption aria-hidden="true">Fig3. 上下底線繪製成果</figcaption>
+</figure>
+<h2 id="程式碼">⚡程式碼</h2>
+<h3 id="模組module">模組(module)</h3>
+<figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">Sub</span> test_getBoundingBox()</span><br><span class="line"></span><br><span class="line">    <span class="comment">&#x27;適用於第一象限</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">Dim</span> CAD <span class="keyword">As</span> <span class="built_in">New</span> clsACAD</span><br><span class="line">    <span class="keyword">Dim</span> L <span class="keyword">As</span> <span class="type">Double</span></span><br><span class="line">    <span class="keyword">Dim</span> H <span class="keyword">As</span> <span class="type">Double</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">Set</span> sset2 = CAD.CreateSSET()</span><br><span class="line">    <span class="keyword">Set</span> entobj = sset2(<span class="number">0</span>)</span><br><span class="line">    </span><br><span class="line">    rotate_degree = entobj.Rotation * <span class="number">180</span> / <span class="number">3.14</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Call</span> entobj.GetBoundingBox(Min, Max)</span><br><span class="line">    </span><br><span class="line">    X0 = Min(<span class="number">0</span>)</span><br><span class="line">    Y0 = Min(<span class="number">1</span>)</span><br><span class="line">    X1 = Max(<span class="number">0</span>)</span><br><span class="line">    Y1 = Max(<span class="number">1</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Call</span> CAD.AddPoint(Min)</span><br><span class="line">    <span class="keyword">Call</span> CAD.AddPoint(Max)</span><br><span class="line">    </span><br><span class="line">    <span class="comment">&#x27;---一元二次聯立方程式---</span></span><br><span class="line">    </span><br><span class="line">    a1 = Sin(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    b1 = Cos(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    c1 = Y1 - Y0</span><br><span class="line">    </span><br><span class="line">    a2 = Cos(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    b2 = Sin(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    c2 = X1 - X0</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Call</span> SolveLinearEquations(a1, b1, c1, a2, b2, c2, L, H)</span><br><span class="line">    </span><br><span class="line">    <span class="comment">&#x27;------底線------</span></span><br><span class="line">    </span><br><span class="line">    Xpt_LD = X0 + H * Sin(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    Ypt_LD = Y0</span><br><span class="line">    </span><br><span class="line">    Xpt_RD = X1</span><br><span class="line">    Ypt_RD = Y1 - H * Cos(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Call</span> CAD.AddLineCO(Xpt_LD, Ypt_LD, Xpt_RD, Ypt_RD)</span><br><span class="line">    </span><br><span class="line">    <span class="comment">&#x27;-------頂線------</span></span><br><span class="line">    </span><br><span class="line">    Xpt_LU = X0</span><br><span class="line">    Ypt_LU = Y0 + H * Cos(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    </span><br><span class="line">    Xpt_RU = X1 - H * Sin(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    Ypt_RU = Y1</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Call</span> CAD.AddLineCO(Xpt_LU, Ypt_LU, Xpt_RU, Ypt_RU)</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> SolveLinearEquations(<span class="keyword">ByVal</span> a1 <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> b1 <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> c1 <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> a2 <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> b2 <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> c2 <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByRef</span> x <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByRef</span> y <span class="keyword">As</span> <span class="type">Double</span>) <span class="keyword">As</span> <span class="type">Boolean</span></span><br><span class="line">    <span class="keyword">Dim</span> determinant <span class="keyword">As</span> <span class="type">Double</span></span><br><span class="line">    </span><br><span class="line">    determinant = a1 * b2 - a2 * b1</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> determinant = <span class="number">0</span> <span class="keyword">Then</span></span><br><span class="line">        SolveLinearEquations = <span class="literal">False</span></span><br><span class="line">    <span class="keyword">Else</span></span><br><span class="line">        x = (c1 * b2 - c2 * b1) / determinant</span><br><span class="line">        y = (a1 * c2 - a2 * c1) / determinant</span><br><span class="line">        SolveLinearEquations = <span class="literal">True</span></span><br><span class="line">        </span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="物件類別模組clsacad">物件類別模組(clsACAD)</h3>
+<figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">Private</span> mo <span class="keyword">As</span> <span class="type">Object</span></span><br><span class="line"><span class="keyword">Private</span> pa <span class="keyword">As</span> <span class="type">Object</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Public</span> acadDoc <span class="keyword">As</span> <span class="type">Object</span></span><br><span class="line"><span class="keyword">Public</span> CADVer <span class="keyword">As</span> <span class="type">String</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Private</span> <span class="keyword">Sub</span> Class_Initialize()</span><br><span class="line"></span><br><span class="line">strCAD = <span class="string">&quot;AutoCAD.application&quot;</span></span><br><span class="line">CADVer = <span class="string">&quot;AUTOCAD&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Call</span> CADInit(strCAD)</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Private</span> <span class="keyword">Sub</span> CADInit(<span class="keyword">ByVal</span> strCAD <span class="keyword">As</span> <span class="type">String</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">On</span> <span class="keyword">Error</span> <span class="keyword">Resume</span> <span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> acadApp = GetObject(, strCAD) <span class="comment">&#x27;查看安裝</span></span><br><span class="line"><span class="keyword">If</span> Err &lt;&gt; <span class="number">0</span> <span class="keyword">Then</span> <span class="keyword">Set</span> acadApp = CreateObject(strCAD)</span><br><span class="line">acadApp.Visible = <span class="literal">True</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">On</span> <span class="keyword">Error</span> <span class="keyword">GoTo</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> mo = acadApp.ActiveDocument.ModelSpace</span><br><span class="line"><span class="keyword">Set</span> pa = acadApp.ActiveDocument.PaperSpace</span><br><span class="line"><span class="keyword">Set</span> acadDoc = acadApp.ActiveDocument</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> CreateSSET(<span class="keyword">Optional</span> <span class="keyword">ByVal</span> sname <span class="keyword">As</span> <span class="type">String</span> = <span class="string">&quot;SS1&quot;</span>, <span class="keyword">Optional</span> <span class="keyword">ByVal</span> ftypetmp <span class="keyword">As</span> Variant = <span class="string">&quot;&quot;</span>, <span class="keyword">Optional</span> <span class="keyword">ByVal</span> fdatatmp <span class="keyword">As</span> Variant = <span class="string">&quot;&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;****PorgeCAD中似乎沒辦法做到過濾的條件?*****</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;0:object type</span></span><br><span class="line"><span class="comment">&#x27;2:object name</span></span><br><span class="line"><span class="comment">&#x27;8:layer name</span></span><br><span class="line"><span class="comment">&#x27;62:color number(0 to 256)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> FilterType() <span class="keyword">As</span> <span class="type">Integer</span></span><br><span class="line"><span class="keyword">Dim</span> FilterData() <span class="keyword">As</span> Variant</span><br><span class="line"></span><br><span class="line"><span class="keyword">On</span> <span class="keyword">Error</span> <span class="keyword">Resume</span> <span class="keyword">Next</span>: acadDoc.SelectionSets(sname).Delete: <span class="keyword">On</span> <span class="keyword">Error</span> <span class="keyword">GoTo</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> sset = acadDoc.SelectionSets.Add(sname)</span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> ftypetmp = <span class="string">&quot;&quot;</span> <span class="keyword">Then</span></span><br><span class="line"></span><br><span class="line">    sset.SelectOnScreen</span><br><span class="line">    </span><br><span class="line"><span class="keyword">Else</span></span><br><span class="line"></span><br><span class="line">    ft = Split(ftypetmp, <span class="string">&quot;,&quot;</span>)</span><br><span class="line">    fd = Split(fdatatmp, <span class="string">&quot;,&quot;</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">ReDim</span> FilterType(<span class="number">0</span> <span class="keyword">To</span> UBound(ft))</span><br><span class="line">    <span class="keyword">ReDim</span> FilterData(<span class="number">0</span> <span class="keyword">To</span> UBound(fd))</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">For</span> i = <span class="number">0</span> <span class="keyword">To</span> UBound(ft)</span><br><span class="line">    </span><br><span class="line">        FilterType(i) = ft(i)</span><br><span class="line">        FilterData(i) = fd(i)</span><br><span class="line">        </span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line">    </span><br><span class="line">    sset.SelectOnScreen FilterType, FilterData</span><br><span class="line">    </span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> CreateSSET = sset</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> AddPoint(pt) <span class="keyword">As</span> <span class="type">Object</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> CADVer = <span class="string">&quot;ICAD&quot;</span> <span class="keyword">Then</span></span><br><span class="line">    <span class="keyword">Set</span> AddPoint = mo.AddPointEntity(tranPoint(pt))</span><br><span class="line"><span class="keyword">Else</span></span><br><span class="line">    <span class="keyword">Set</span> AddPoint = mo.AddPoint(tranPoint(pt))</span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> AddLineCO(X1, Y1, X2, Y2) <span class="keyword">As</span> <span class="type">Object</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> spt(<span class="number">2</span>) <span class="keyword">As</span> <span class="type">Double</span></span><br><span class="line"><span class="keyword">Dim</span> ept(<span class="number">2</span>) <span class="keyword">As</span> <span class="type">Double</span></span><br><span class="line">spt(<span class="number">0</span>) = X1: spt(<span class="number">1</span>) = Y1</span><br><span class="line">ept(<span class="number">0</span>) = X2: ept(<span class="number">1</span>) = Y2</span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> AddLineCO = AddLine(spt, ept)</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> AddLine(spt, ept) <span class="keyword">As</span> <span class="type">Object</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> AddLine = mo.AddLine(tranPoint(spt), tranPoint(ept))</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;=============transform ICAD about point and points======================</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> tranPoint(<span class="keyword">ByVal</span> CADpt)</span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> CADVer &lt;&gt; <span class="string">&quot;ICAD&quot;</span> <span class="keyword">Then</span> tranPoint = CADpt: <span class="keyword">Exit</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> tranPoint = Library.CreatePoint(CADpt(<span class="number">0</span>), CADpt(<span class="number">1</span>), CADpt(<span class="number">2</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="後續利用">👉後續利用</h2>
+<p>確認<strong>下一文字外框點</strong>是否位於這次文字框中，進行重疊文字判識，如不符合則再上下位移即可。</p>
+<figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">Function</span> checkPtFromBorders(midX,midY,BorderPTs) <span class="keyword">as</span> <span class="type">boolean</span></span><br><span class="line"></span><br><span class="line">Border_minX = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">0</span>))</span><br><span class="line">Border_minY = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">1</span>))</span><br><span class="line">Border_maxX = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">2</span>))</span><br><span class="line">Border_maxY = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">3</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> midX &gt;= Border_minX <span class="built_in">And</span> midX &lt;= Border_maxX <span class="built_in">And</span> midY &gt;= Border_minY <span class="built_in">And</span> midY &lt;= Border_maxY <span class="keyword">Then</span></span><br><span class="line">    </span><br><span class="line">    checkPtFromBorders = <span class="literal">true</span></span><br><span class="line">    <span class="keyword">Exit</span> <span class="keyword">For</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>基本概念</category>
+      </categories>
+      <tags>
+        <tag>AutoCAD VBA</tag>
+        <tag>ProgeCAD VBA</tag>
       </tags>
   </entry>
   <entry>
@@ -3234,104 +3329,6 @@ href="https://www.hanksvba.com/posts/391727536/#more">更多細節請參考.Sele
         <tag>Python</tag>
         <tag>SQL</tag>
         <tag>Selenium</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>縱斷面插旗文字重疊問題</title>
-    <url>/posts/2767553795/</url>
-    <content><![CDATA[<h2 id="前言">🙌前言</h2>
-<h3 id="縱斷面發展來源">👉縱斷面發展來源</h3>
-<p><a
-href="https://hankvba.blogspot.com/2018/03/autocad-vba.html">AutoCAD VBA
-縱斷面繪製自動化</a></p>
-<h3 id="開發過程中的小問題">🐞開發過程中的小問題</h3>
-<p>縱斷面繪製時會針對需要文字說明的樁號進行插旗繪製，可能會造成插旗文字出現重疊的原因有兩個</p>
-<ol type="1">
-<li>插旗說明樁號距離太近(0+200、0+205)</li>
-<li>繪製X軸比例太小(1:1000 vs 1:5000)</li>
-</ol>
-<p>繪製過程會考量圖紙輸出的舒適度，最小字高通常會以<strong>3.4.5</strong>為原則，文字說明會固定以30度呈現</p>
-<blockquote>
-<p>當距離太近時可以透過調整X軸比例讓間距拉開，橫向會重疊的時候就進行上下位移，方便讀者觀看。</p>
-</blockquote>
-<p>因此本篇就是要透過VBA抓取說明文字的外框及下線，自動調整文字重疊內容，以下進行說明:</p>
-<span id="more"></span>
-<hr />
-<h2 id="範例說明">📌範例說明</h2>
-<figure>
-<img src="image.png" alt="Fig1. 插旗文字說明" />
-<figcaption aria-hidden="true">Fig1. 插旗文字說明</figcaption>
-</figure>
-<h2 id="流程解說">🔷流程解說</h2>
-<p>一般插旗文字都是屬於旋轉至第一象限的內容(0度~90度)</p>
-<ol type="1">
-<li>透過CAD VBA內建指令GetBoundingBox找到邊界點。</li>
-<li>透過幾何圖形學及三角函數關係進行列式。</li>
-<li>用一元二次聯立方程式解析參數。</li>
-<li>代回原本第一象限的正確點位。</li>
-<li>引入clsACAD進行LINE物件繪製。</li>
-</ol>
-<hr />
-<h2 id="幾何關係">🌟幾何關係</h2>
-<p><span class="math display">\[ Hcos\theta+Lsin\theta=Y_1-Y_0=const.
-\]</span> <span class="math display">\[
-Hsin\theta+Lcos\theta=X_1-X_0=const. \]</span></p>
-<p>正確角點:</p>
-<table>
-<thead>
-<tr class="header">
-<th>點名</th>
-<th>X座標</th>
-<th>Y座標</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>左下</td>
-<td><span class="math display">\[ X_0+Hsin\theta \]</span></td>
-<td><span class="math display">\[ Y_0 \]</span></td>
-</tr>
-<tr class="even">
-<td>右下</td>
-<td><span class="math display">\[ X_1 \]</span></td>
-<td><span class="math display">\[ Y_1-Hcos\theta \]</span></td>
-</tr>
-<tr class="odd">
-<td>左上</td>
-<td><span class="math display">\[ X_0 \]</span></td>
-<td><span class="math display">\[ Y_0+Hcos\theta \]</span></td>
-</tr>
-<tr class="even">
-<td>右上</td>
-<td><span class="math display">\[ X_1-Hsin\theta \]</span></td>
-<td><span class="math display">\[ Y_1 \]</span></td>
-</tr>
-</tbody>
-</table>
-<figure>
-<img src="SAMPLE.JPG" alt="Fig2. 文字外框、點位幾何關係" />
-<figcaption aria-hidden="true">Fig2. 文字外框、點位幾何關係</figcaption>
-</figure>
-<hr />
-<figure>
-<img src="SAMPLE2.JPG" alt="Fig3. 上下底線繪製成果" />
-<figcaption aria-hidden="true">Fig3. 上下底線繪製成果</figcaption>
-</figure>
-<h2 id="程式碼">⚡程式碼</h2>
-<h3 id="模組module">模組(module)</h3>
-<figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">Sub</span> test_getBoundingBox()</span><br><span class="line"></span><br><span class="line">    <span class="comment">&#x27;適用於第一象限</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">Dim</span> CAD <span class="keyword">As</span> <span class="built_in">New</span> clsACAD</span><br><span class="line">    <span class="keyword">Dim</span> L <span class="keyword">As</span> <span class="type">Double</span></span><br><span class="line">    <span class="keyword">Dim</span> H <span class="keyword">As</span> <span class="type">Double</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">Set</span> sset2 = CAD.CreateSSET()</span><br><span class="line">    <span class="keyword">Set</span> entobj = sset2(<span class="number">0</span>)</span><br><span class="line">    </span><br><span class="line">    rotate_degree = entobj.Rotation * <span class="number">180</span> / <span class="number">3.14</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Call</span> entobj.GetBoundingBox(Min, Max)</span><br><span class="line">    </span><br><span class="line">    X0 = Min(<span class="number">0</span>)</span><br><span class="line">    Y0 = Min(<span class="number">1</span>)</span><br><span class="line">    X1 = Max(<span class="number">0</span>)</span><br><span class="line">    Y1 = Max(<span class="number">1</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Call</span> CAD.AddPoint(Min)</span><br><span class="line">    <span class="keyword">Call</span> CAD.AddPoint(Max)</span><br><span class="line">    </span><br><span class="line">    <span class="comment">&#x27;---一元二次聯立方程式---</span></span><br><span class="line">    </span><br><span class="line">    a1 = Sin(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    b1 = Cos(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    c1 = Y1 - Y0</span><br><span class="line">    </span><br><span class="line">    a2 = Cos(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    b2 = Sin(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    c2 = X1 - X0</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Call</span> SolveLinearEquations(a1, b1, c1, a2, b2, c2, L, H)</span><br><span class="line">    </span><br><span class="line">    <span class="comment">&#x27;------底線------</span></span><br><span class="line">    </span><br><span class="line">    Xpt_LD = X0 + H * Sin(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    Ypt_LD = Y0</span><br><span class="line">    </span><br><span class="line">    Xpt_RD = X1</span><br><span class="line">    Ypt_RD = Y1 - H * Cos(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Call</span> CAD.AddLineCO(Xpt_LD, Ypt_LD, Xpt_RD, Ypt_RD)</span><br><span class="line">    </span><br><span class="line">    <span class="comment">&#x27;-------頂線------</span></span><br><span class="line">    </span><br><span class="line">    Xpt_LU = X0</span><br><span class="line">    Ypt_LU = Y0 + H * Cos(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    </span><br><span class="line">    Xpt_RU = X1 - H * Sin(rotate_degree / <span class="number">180</span> * <span class="number">3.14</span>)</span><br><span class="line">    Ypt_RU = Y1</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">Call</span> CAD.AddLineCO(Xpt_LU, Ypt_LU, Xpt_RU, Ypt_RU)</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> SolveLinearEquations(<span class="keyword">ByVal</span> a1 <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> b1 <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> c1 <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> a2 <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> b2 <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByVal</span> c2 <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByRef</span> x <span class="keyword">As</span> <span class="type">Double</span>, <span class="keyword">ByRef</span> y <span class="keyword">As</span> <span class="type">Double</span>) <span class="keyword">As</span> <span class="type">Boolean</span></span><br><span class="line">    <span class="keyword">Dim</span> determinant <span class="keyword">As</span> <span class="type">Double</span></span><br><span class="line">    </span><br><span class="line">    determinant = a1 * b2 - a2 * b1</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">If</span> determinant = <span class="number">0</span> <span class="keyword">Then</span></span><br><span class="line">        SolveLinearEquations = <span class="literal">False</span></span><br><span class="line">    <span class="keyword">Else</span></span><br><span class="line">        x = (c1 * b2 - c2 * b1) / determinant</span><br><span class="line">        y = (a1 * c2 - a2 * c1) / determinant</span><br><span class="line">        SolveLinearEquations = <span class="literal">True</span></span><br><span class="line">        </span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h3 id="物件類別模組clsacad">物件類別模組(clsACAD)</h3>
-<figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">Private</span> mo <span class="keyword">As</span> <span class="type">Object</span></span><br><span class="line"><span class="keyword">Private</span> pa <span class="keyword">As</span> <span class="type">Object</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Public</span> acadDoc <span class="keyword">As</span> <span class="type">Object</span></span><br><span class="line"><span class="keyword">Public</span> CADVer <span class="keyword">As</span> <span class="type">String</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Private</span> <span class="keyword">Sub</span> Class_Initialize()</span><br><span class="line"></span><br><span class="line">strCAD = <span class="string">&quot;AutoCAD.application&quot;</span></span><br><span class="line">CADVer = <span class="string">&quot;AUTOCAD&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Call</span> CADInit(strCAD)</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Private</span> <span class="keyword">Sub</span> CADInit(<span class="keyword">ByVal</span> strCAD <span class="keyword">As</span> <span class="type">String</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">On</span> <span class="keyword">Error</span> <span class="keyword">Resume</span> <span class="keyword">Next</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> acadApp = GetObject(, strCAD) <span class="comment">&#x27;查看安裝</span></span><br><span class="line"><span class="keyword">If</span> Err &lt;&gt; <span class="number">0</span> <span class="keyword">Then</span> <span class="keyword">Set</span> acadApp = CreateObject(strCAD)</span><br><span class="line">acadApp.Visible = <span class="literal">True</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">On</span> <span class="keyword">Error</span> <span class="keyword">GoTo</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> mo = acadApp.ActiveDocument.ModelSpace</span><br><span class="line"><span class="keyword">Set</span> pa = acadApp.ActiveDocument.PaperSpace</span><br><span class="line"><span class="keyword">Set</span> acadDoc = acadApp.ActiveDocument</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> CreateSSET(<span class="keyword">Optional</span> <span class="keyword">ByVal</span> sname <span class="keyword">As</span> <span class="type">String</span> = <span class="string">&quot;SS1&quot;</span>, <span class="keyword">Optional</span> <span class="keyword">ByVal</span> ftypetmp <span class="keyword">As</span> Variant = <span class="string">&quot;&quot;</span>, <span class="keyword">Optional</span> <span class="keyword">ByVal</span> fdatatmp <span class="keyword">As</span> Variant = <span class="string">&quot;&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;****PorgeCAD中似乎沒辦法做到過濾的條件?*****</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;0:object type</span></span><br><span class="line"><span class="comment">&#x27;2:object name</span></span><br><span class="line"><span class="comment">&#x27;8:layer name</span></span><br><span class="line"><span class="comment">&#x27;62:color number(0 to 256)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> FilterType() <span class="keyword">As</span> <span class="type">Integer</span></span><br><span class="line"><span class="keyword">Dim</span> FilterData() <span class="keyword">As</span> Variant</span><br><span class="line"></span><br><span class="line"><span class="keyword">On</span> <span class="keyword">Error</span> <span class="keyword">Resume</span> <span class="keyword">Next</span>: acadDoc.SelectionSets(sname).Delete: <span class="keyword">On</span> <span class="keyword">Error</span> <span class="keyword">GoTo</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> sset = acadDoc.SelectionSets.Add(sname)</span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> ftypetmp = <span class="string">&quot;&quot;</span> <span class="keyword">Then</span></span><br><span class="line"></span><br><span class="line">    sset.SelectOnScreen</span><br><span class="line">    </span><br><span class="line"><span class="keyword">Else</span></span><br><span class="line"></span><br><span class="line">    ft = Split(ftypetmp, <span class="string">&quot;,&quot;</span>)</span><br><span class="line">    fd = Split(fdatatmp, <span class="string">&quot;,&quot;</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">ReDim</span> FilterType(<span class="number">0</span> <span class="keyword">To</span> UBound(ft))</span><br><span class="line">    <span class="keyword">ReDim</span> FilterData(<span class="number">0</span> <span class="keyword">To</span> UBound(fd))</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">For</span> i = <span class="number">0</span> <span class="keyword">To</span> UBound(ft)</span><br><span class="line">    </span><br><span class="line">        FilterType(i) = ft(i)</span><br><span class="line">        FilterData(i) = fd(i)</span><br><span class="line">        </span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line">    </span><br><span class="line">    sset.SelectOnScreen FilterType, FilterData</span><br><span class="line">    </span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> CreateSSET = sset</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> AddPoint(pt) <span class="keyword">As</span> <span class="type">Object</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> CADVer = <span class="string">&quot;ICAD&quot;</span> <span class="keyword">Then</span></span><br><span class="line">    <span class="keyword">Set</span> AddPoint = mo.AddPointEntity(tranPoint(pt))</span><br><span class="line"><span class="keyword">Else</span></span><br><span class="line">    <span class="keyword">Set</span> AddPoint = mo.AddPoint(tranPoint(pt))</span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> AddLineCO(X1, Y1, X2, Y2) <span class="keyword">As</span> <span class="type">Object</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Dim</span> spt(<span class="number">2</span>) <span class="keyword">As</span> <span class="type">Double</span></span><br><span class="line"><span class="keyword">Dim</span> ept(<span class="number">2</span>) <span class="keyword">As</span> <span class="type">Double</span></span><br><span class="line">spt(<span class="number">0</span>) = X1: spt(<span class="number">1</span>) = Y1</span><br><span class="line">ept(<span class="number">0</span>) = X2: ept(<span class="number">1</span>) = Y2</span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> AddLineCO = AddLine(spt, ept)</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> AddLine(spt, ept) <span class="keyword">As</span> <span class="type">Object</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> AddLine = mo.AddLine(tranPoint(spt), tranPoint(ept))</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#x27;=============transform ICAD about point and points======================</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Function</span> tranPoint(<span class="keyword">ByVal</span> CADpt)</span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> CADVer &lt;&gt; <span class="string">&quot;ICAD&quot;</span> <span class="keyword">Then</span> tranPoint = CADpt: <span class="keyword">Exit</span> <span class="keyword">Function</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">Set</span> tranPoint = Library.CreatePoint(CADpt(<span class="number">0</span>), CADpt(<span class="number">1</span>), CADpt(<span class="number">2</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="後續利用">👉後續利用</h2>
-<p>確認<strong>下一文字外框點</strong>是否位於這次文字框中，進行重疊文字判識，如不符合則再上下位移即可。</p>
-<figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">Function</span> checkPtFromBorders(midX,midY,BorderPTs) <span class="keyword">as</span> <span class="type">boolean</span></span><br><span class="line"></span><br><span class="line">Border_minX = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">0</span>))</span><br><span class="line">Border_minY = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">1</span>))</span><br><span class="line">Border_maxX = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">2</span>))</span><br><span class="line">Border_maxY = <span class="built_in">CDbl</span>(BorderPTs(<span class="number">3</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">If</span> midX &gt;= Border_minX <span class="built_in">And</span> midX &lt;= Border_maxX <span class="built_in">And</span> midY &gt;= Border_minY <span class="built_in">And</span> midY &lt;= Border_maxY <span class="keyword">Then</span></span><br><span class="line">    </span><br><span class="line">    checkPtFromBorders = <span class="literal">true</span></span><br><span class="line">    <span class="keyword">Exit</span> <span class="keyword">For</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>基本概念</category>
-      </categories>
-      <tags>
-        <tag>AutoCAD VBA</tag>
-        <tag>ProgeCAD VBA</tag>
       </tags>
   </entry>
   <entry>
